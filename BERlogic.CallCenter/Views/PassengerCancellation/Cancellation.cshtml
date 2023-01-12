@@ -1,0 +1,322 @@
+﻿@model BERlogic.CallCenter.ViewModels.ServiceOperationsViewModel
+@inject IViewLocalizer Localizer
+@{
+    Layout = "_Layout";
+}
+@section Scripts
+    {
+    <script type="text/javascript">
+        function calculateFields(event) {
+            this.value = this.value.replace(',', '.');
+            var total = 0;
+            $('.passanger-fee').each(function() {
+                total += parseFloat($(this).val().replace(',', '.'));
+            });
+
+            var prepaidBerlogicFee = parseFloat($("#PrepaidBerlogicFee").val().replace(',', '.'));
+            var airlineTotalPrice = total+prepaidBerlogicFee;
+            var additionalServicesAndBaggage = parseFloat($("#AdditionalServicesAndBaggage").val().replace(',', '.'));
+            var cancellationAirlineFee = parseFloat($("#CancellationAirlineFee").val().replace(',', '.'));
+            var berlogicFee = parseFloat($("#BerlogicFee").val().replace(',', '.'));
+            var nonRefundableTaxes = parseFloat($("#NonRefundableTaxes").val().replace(',', '.'));
+
+            var credit = airlineTotalPrice -
+                nonRefundableTaxes -
+                additionalServicesAndBaggage -
+                cancellationAirlineFee -
+                berlogicFee -
+                prepaidBerlogicFee;
+
+            document.getElementById('AirlineTotalPrice').value = isNaN(airlineTotalPrice) ? '0' : airlineTotalPrice.toLocaleString('en-US', { maximumFractionDigits: 2 });
+            document.getElementById('BerlogicFee').value = isNaN(berlogicFee) ? '0' : berlogicFee.toLocaleString('en-US', { maximumFractionDigits: 2});
+            document.getElementById('Credit').value = isNaN(credit) ? '0' : credit.toLocaleString('en-US', { maximumFractionDigits: 4, style: 'currency', currency: 'EUR' });
+        }
+
+        $('.passanger-fee').on("blur", calculateFields);
+        $('#PrepaidBerlogicFee').on("blur", calculateFields);
+        $('#AdditionalServicesAndBaggage').on("blur", calculateFields);
+        $('#CancellationAirlineFee').on("blur", calculateFields);
+        $('#BerlogicFee').on("blur", calculateFields);
+        $('#NonRefundableTaxes').on("blur", calculateFields);
+
+    </script>
+}
+
+<a asp-controller="PassengerCancellation" asp-action="Index">
+    <i class="fa fa-backward fa-2x"></i><span style="font-size: 2em"> @Localizer["Back"]</span>
+</a>
+<br />
+<p style="height: 100px; width: 300px;">
+    <img src="~/img/logo.png" alt="BERlogic" style="height: 100px; width: 200px" />
+</p>
+<br />
+
+<form method="post" class="form">
+
+    <table class="table table-bordered">
+        <tr>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px"></td>
+            <td style="text-align: left; min-width: 25px">
+                <input type="text" class="input form-control" readonly="readonly" asp-for="AgencyCode" />
+                <input type="hidden" class="hidden" readonly="readonly" asp-for="AgentName" />
+                <input type="hidden" class="hidden" readonly="readonly" asp-for="Salespoint" />
+                <input type="hidden" class="hidden" readonly="readonly" asp-for="ClearingType" />
+                <input type="hidden" class="hidden" readonly="readonly" asp-for="BookingDate" />
+                <input type="hidden" class="hidden" readonly="readonly" asp-for="ViewModelId" />
+                <input type="hidden" class="hidden" readonly="readonly" asp-for="ServiceOperations"/>
+            </td>
+            <td style="min-width: 25px"></td>
+        </tr>
+        <tr>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px"></td>
+            <td style="text-align: left; min-width: 25px">@Localizer["Kundencenter"]</td>
+            <td style="min-width: 25px"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: left; min-width: 25px">@Localizer["BERlogic GmbH • Lankwitzer Str. 39 • 12107 Berlin"]</td>
+            <td colspan="2" style="text-align: left; min-width: 25px">@Localizer["Bitte wenden Sie sich mit allen Fragen jederzeit an:"]</td>
+        </tr>
+        <tr>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px">@Localizer["Tel:"]</td>
+            <td style="min-width: 25px">+49 30 208981350</td>
+        </tr>
+        <tr>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px">@Localizer["Mo-Fr: 09:00 Uhr - 17:00 Uhr (CET)"]</td>
+        </tr>
+        <tr>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px">@Localizer["EMail:"]</td>
+            <td style="min-width: 25px">bookings@berlogic.de</td>
+        </tr>
+        <tr>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px">@Localizer["Website:"]</td>
+            <td style="min-width: 25px">www.berlogic.de</td>
+        </tr>
+        <tr>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px">USt.-ID Nr.:</td>
+            <td style="min-width: 25px">DE283001723</td>
+        </tr>
+        <tr>
+            <td style="min-width: 25px">@Localizer["Kunde:"]</td>
+            <td style="min-width: 25px">
+                <input type="text" class="input form-control" asp-for="CustomerFullName" />
+            </td>
+            <td style="min-width: 25px">@Localizer["Buchungscode:"]</td>
+            <td style="min-width: 25px">
+                <input type="text" class="input form-control" asp-for="BookingCode" />
+            </td>
+        </tr>
+        <tr>
+            <td style="min-width: 25px">E-mail:</td>
+            <td style="min-width: 25px">
+                <input type="text" class="input form-control" asp-for="CustomerEmail" />
+            </td>
+            <td style="min-width: 25px">@Localizer["Referenznummer:"]</td>
+            <td style="min-width: 25px">
+                <input type="text" class="input form-control" asp-for="BookingNumber" />
+            </td>
+        </tr>
+        <tr>
+            <td style="min-width: 25px">@Localizer["Zahlungsart:"]</td>
+            <td style="min-width: 25px">
+                <input type="text" class="input form-control" asp-for="PaymentMethod" />
+
+            </td>
+            <td style="min-width: 25px">@Localizer["Stornodatum:"]</td>
+            <td style="min-width: 25px">
+                <input type="text" class="input font-weight-bold form-control" asp-for="ChangeServiceDate" placeholder="Please enter" />
+            </td>
+        </tr>
+    </table>
+
+    <h2><u><strong>@Localizer["Stornobestätigung"]</strong></u></h2>
+    <br />
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <td style="min-width: 25px">@Localizer["Datum"]</td>
+                <td style="min-width: 25px">@Localizer["Flug"]</td>
+                <td style="min-width: 25px">@Localizer["FlugNr."]</td>
+                <td style="min-width: 25px">@Localizer["Von"]</td>
+                <td style="min-width: 25px">@Localizer["Abflug"]</td>
+                <td style="min-width: 25px">@Localizer["Nach"]</td>
+                <td style="min-width: 25px">@Localizer["Ortsankunft"]</td>
+                <td style="min-width: 25px"></td>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                for (int i = 0; i < Model.LineRoutes.Count; i++)
+                {
+                    <tr>
+                        <td>
+                            @Html.EditorFor(m => m.LineRoutes[i].DepartureDate, new { htmlAttributes = new { @class = "input form-control", placeholder = "Departure Date" } })
+                        </td>
+                        <td>
+                            @Html.EditorFor(m => m.LineRoutes[i].FlightAirline, new { htmlAttributes = new { @class = "input form-control", placeholder = "Flight Airline" } })
+                        </td>
+                        <td>
+                            @Html.EditorFor(m => m.LineRoutes[i].FlightNumber, new { htmlAttributes = new { @class = "input form-control", type = "text", placeholder = "Flight Number" } })
+                        </td>
+                        <td>
+                            @Html.EditorFor(m => m.LineRoutes[i].DepartureAirport, new { htmlAttributes = new { @class = "input form-control", placeholder = "Departure Airport" } })
+                        </td>
+                        <td>
+                            @Html.EditorFor(m => m.LineRoutes[i].DepartureTime, new { htmlAttributes = new { @class = "input form-control", placeholder = "Departure Time" } })
+                        </td>
+                        <td>
+                            @Html.EditorFor(m => m.LineRoutes[i].ArrivalAirport, new { htmlAttributes = new { @class = "input form-control", placeholder = "Arrival Airport" } })
+                        </td>
+                        <td>
+                            @Html.EditorFor(m => m.LineRoutes[i].ArrivalTime, new { htmlAttributes = new { @class = "input form-control", placeholder = "Arrival Time" } })
+                        </td>
+                        <td>
+                            @if (i < Model.LineRoutes.Count - 1)
+                            {
+                                <button class="btn btn-danger" asp-controller="PassengerCancellation" asp-action="RemoveRoute"
+                                        asp-route-routeId="@i" type="submit">
+                                    <i class="fa fa-minus"></i>
+                                </button>
+                            }
+                            else
+                            {
+                                <button class="btn btn-success" asp-controller="PassengerCancellation"
+                                        asp-action="AddRoute" type="submit">
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                            }
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+
+    <br />
+    <p>
+        @Localizer["Gemäß der Ihnen bekannten Tarifbedingungen berechnen wir folgendes:"]
+    </p>
+
+    <table class="table table-border-0">
+        @{
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><strong>@Localizer["Flugpreis"]</strong></td>
+                <td></td>
+            </tr>
+            for (int i = 0; i < Model.PassangerModels.Count; i++)
+            {
+                <tr>
+                    <td>
+                        @if (i == 0)
+                        {
+                            <span>@Localizer["Passagier(e)"]</span>
+                        }
+                    </td>
+                    <td>
+                        @Html.EditorFor(m => m.PassangerModels[i].Prefix, new { htmlAttributes = new { @class = "input text-align-left form-control", placeholder = "Prefix" } })
+                    </td>
+                    <td>
+                        @Html.EditorFor(m => m.PassangerModels[i].FirstName, new { htmlAttributes = new { @class = "input text-align-left form-control", placeholder = "First Name" } })
+                    </td>
+                    <td>
+                        @Html.EditorFor(m => m.PassangerModels[i].MiddleName, new { htmlAttributes = new { @class = "input text-align-left form-control", placeholder = "Middle Name" } })
+                    </td>
+                    <td>
+                        @Html.EditorFor(m => m.PassangerModels[i].LastName, new { htmlAttributes = new { @class = "input text-align-left form-control", placeholder = "Last Name" } })
+                    </td>
+                    <td>
+                        @Html.EditorFor(m => m.PassangerModels[i].PassangerFee, new {htmlAttributes = new {@class = "input text-align-left form-control passanger-fee", placeholder = "EURO"}})
+                    </td>
+                    <td>
+                        <button class="btn btn-danger" asp-action="RemovePassanger"
+                                asp-route-pnrId="@i" type="submit">
+                            <i class="fa fa-minus"></i>
+                        </button>
+                    </td>
+                </tr>
+            }
+        }
+    </table>
+    <table class="table table-border-0">
+        <tr>
+            <td>@Localizer["Flugpreis inkl. Gebühren:"]</td>
+            <td></td>
+            <td></td>
+            <td>
+                <input type="text" class="input form-control" asp-for="AirlineTotalPrice" readonly="readonly" />
+            </td>
+        </tr>
+        <tr>
+            <td>@Localizer["Nicht erstattbare Taxen:"]</td>
+            <td></td>
+            <td></td>
+            <td>
+                <input type="text" class="input form-control" asp-for="NonRefundableTaxes" />
+            </td>
+        </tr>
+        <tr>
+            <td>@Localizer["Zusatzleistung/Gepäck:"]</td>
+            <td></td>
+            <td></td>
+            <td>
+                <input type="text" class="input form-control" asp-for="AdditionalServicesAndBaggage" />
+            </td>
+        </tr>
+        <tr>
+            <td>@Localizer["Stornogebühren der Airline:"]</td>
+            <td></td>
+            <td></td>
+            <td>
+                <input type="text" class="input form-control" asp-for="CancellationAirlineFee" />
+            </td>
+        </tr>
+        <tr>
+            <td>@Localizer["Bearbeitungsgebühren BERlogic:"]</td>
+            <td></td>
+            <td></td>
+            <td>
+                <input type="text" class="input form-control" asp-for="BerlogicFee" />
+            </td>
+        </tr>
+        <tr>
+            <td>@Localizer["Bereits bezahlte Gebühren-BERlogic:"]</td>
+            <td></td>
+            <td></td>
+            <td>
+                <input type="text" class="input form-control" asp-for="PrepaidBerlogicFee" />
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>@Localizer["Gutschrift:"]</td>
+            <td></td>
+            <td>
+                <input type="text" class="input form-control" readonly="readonly" asp-for="Credit" />
+            </td>
+        </tr>
+    </table>
+
+    <div class="btn-group form-group-lg form-inline">
+        <input type="submit" class="btn btn-primary form-control" value="@Localizer["Save Cancellation"]"
+               asp-controller="PassengerCancellation" asp-action="Cancelling" id="SaveButton"
+               name="SaveButton" />
+    </div>
+</form>

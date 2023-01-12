@@ -1,0 +1,34 @@
+[
+  {
+    "Key": "Reset authenticator key",
+    "Value": {
+      "en-US": "Reset authenticator key",
+      "de-DE": "Authentifizierungsschlüssel zurücksetzen",
+      "ru-RU": "Сбросить ключ аутентификатора"
+    }
+  },
+  {
+    "Key": "If you reset your authenticator key your authenticator app will not work until you reconfigure it.",
+    "Value": {
+      "en-US": "If you reset your authenticator key your authenticator app will not work until you reconfigure it.",
+      "de-DE": "Wenn Sie Ihren Authentifizierungsschlüssel zurücksetzen, funktioniert Ihre Authentifizierungs-App erst, wenn Sie sie neu konfigurieren.",
+      "ru-RU": "Если вы сбросите ключ аутентификатора, ваше приложение-аутентификатор не будет работать, пока вы его не переконфигурируете."
+    }
+  },
+  {
+    "Key": "This process disables 2FA until you verify your authenticator app and will also reset your 2FA recovery codes.",
+    "Value": {
+      "en-US": "This process disables 2FA until you verify your authenticator app and will also reset your 2FA recovery codes.",
+      "de-DE": "Durch diesen Vorgang wird 2FA deaktiviert, bis Sie Ihre Authenticator-App überprüfen. Außerdem werden Ihre 2FA-Wiederherstellungscodes zurückgesetzt.",
+      "ru-RU": "Этот процесс отключает 2FA, пока вы не подтвердите свое приложение-аутентификатор, а также сбросьте коды восстановления 2FA."
+    }
+  },
+  {
+    "Key": "If you do not complete your authenticator app configuration you may lose access to your account.",
+    "Value": {
+      "en-US": "If you do not complete your authenticator app configuration you may lose access to your account.",
+      "de-DE": "Wenn Sie die Konfiguration der Authentifizierungsanwendung nicht abschließen, verlieren Sie möglicherweise den Zugriff auf Ihr Konto.",
+      "ru-RU": "Если вы не заполните свою конфигурацию приложения аутентификатора, вы можете потерять доступ к своей учетной записи."
+    }
+  }
+]

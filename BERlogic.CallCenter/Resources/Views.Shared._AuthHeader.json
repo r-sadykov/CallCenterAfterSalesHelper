@@ -1,0 +1,34 @@
+[
+  {
+    "Key": "Already registered?",
+    "Value": {
+      "en-US": "Already registered?",
+      "de-DE": "Bereits registriert?",
+      "ru-RU": "Уже зарегистрирован?"
+    }
+  },
+  {
+    "Key": "Sign in",
+    "Value": {
+      "en-US": "Sign in",
+      "de-DE": "Einloggen",
+      "ru-RU": "Войти в систему"
+    }
+  },
+  {
+    "Key": "Need an account?",
+    "Value": {
+      "en-US": "Need an account?",
+      "de-DE": "Brauche ein Konto?",
+      "ru-RU": "Нужна учетная запись?"
+    }
+  },
+  {
+    "Key": "Create account",
+    "Value": {
+      "en-US": "Create account",
+      "de-DE": "Benutzerkonto anlegen",
+      "ru-RU": "Создать учетную запись"
+    }
+  }  
+]

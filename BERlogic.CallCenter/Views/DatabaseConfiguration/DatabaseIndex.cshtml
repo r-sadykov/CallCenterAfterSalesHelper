@@ -1,0 +1,69 @@
+﻿@model BERlogic.CallCenter.Models.DatabaseConfiguration
+@inject IViewLocalizer Localizer
+@{
+    Layout = "_Layout";
+}
+
+<div>
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <form class="form" method="post" >
+        @if (Model!=null&&Model.ConfigurationId != 0) {
+            <div>
+                <input type="hidden" asp-for="ConfigurationId" />
+            </div>
+        }
+        <div class="form-group" >
+            <label class="label label-default" asp-for="ConfigurationName" ></label>
+            <div>
+                <span asp-validation-for="ConfigurationName" class="text-danger" ></span>
+            </div>
+            <input class="form-control input bg-color-lighten text-align-left" type="text" asp-for="ConfigurationName" />
+        </div>
+        <div class="form-group" >
+            <label class="label label-default" asp-for="DataSource" ></label>
+            <div>
+                <span asp-validation-for="DataSource" class="text-danger" ></span>
+            </div>
+            <input class="form-control input bg-color-lighten text-align-left" type="text" asp-for="DataSource" />
+        </div>
+        <div class="form-group" >
+            <label class="label label-default" asp-for="LocalPathString" ></label>
+            <div>
+                <span asp-validation-for="LocalPathString" class="text-danger" ></span>
+            </div>
+            <input class="form-control input bg-color-lighten text-align-left" type="text" asp-for="LocalPathString" />
+        </div>
+        <div class="form-group" >
+            <label class="label label-default" asp-for="InitialCatalog" ></label>
+            <div>
+                <span asp-validation-for="InitialCatalog" class="text-danger" ></span>
+            </div>
+            <input class="form-control input bg-color-lighten text-align-left" type="text" asp-for="InitialCatalog" />
+        </div>
+        <div class="form-check" >
+            <label class="label label-default" asp-for="IntegratedSecurity" ></label>
+            <br />
+            <input class="form-check-input" type="checkbox" asp-for="IntegratedSecurity" />
+        </div>
+        <div class="form-group" >
+            <label class="label label-default " asp-for="UserName" ></label>
+            <div>
+                <span asp-validation-for="UserName" class="text-danger" ></span>
+            </div>
+            <input class="form-control input bg-color-lighten text-align-left" type="text" asp-for="UserName" />
+        </div>
+        <div class="form-group" >
+            <label class="label label-default" asp-for="Password" ></label>
+            <div>
+                <span asp-validation-for="Password" class="text-danger" ></span>
+            </div>
+            <input class="form-control input bg-color-lighten text-align-left" type="password" asp-for="Password" />
+        </div>
+        <br />
+        @if (Model!=null&&Model.ConfigurationId != 0) {
+            <button type="submit" class="btn btn-primary" asp-controller="DatabaseConfiguration" asp-action="EditDatabaseConfiguration" >@Localizer["Save"]</button>
+        } else {
+            <button type="submit" class="btn btn-primary" asp-controller="DatabaseConfiguration" asp-action="CreateDatabaseConfiguration" >@Localizer["Create"]</button>
+        }
+    </form>
+</div>

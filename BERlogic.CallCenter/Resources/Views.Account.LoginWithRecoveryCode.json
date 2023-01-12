@@ -1,0 +1,26 @@
+[
+  {
+    "Key": "Recovery code verification",
+    "Value": {
+      "en-US": "Recovery code verification",
+      "de-DE": "Überprüfung des Wiederherstellungscodes",
+      "ru-RU": "Проверка кода восстановления"
+    }
+  },
+    {
+    "Key": "Views.Account.LoginWithRecoveryCode.Message",
+    "Value": {
+      "en-US": "You have requested to login with a recovery code. This login will not be remembered until you provide an authenticator app code at login or disable 2FA and login again.",
+      "de-DE": "Sie haben angefordert, sich mit einem Wiederherstellungscode anzumelden. Diese Anmeldung wird nicht gespeichert, bis Sie bei der Anmeldung einen Authenticator-App-Code angeben oder 2FA deaktivieren und erneut anmelden.",
+      "ru-RU": "Вы запросили логин с кодом восстановления. Этот логин не запомнится, пока вы не укажете код приложения-аутентификатора при входе в систему или не отключите 2FA и войдите в систему снова."
+    }
+  },
+    {
+    "Key": "Log in",
+    "Value": {
+      "en-US": "Log in",
+      "de-DE": "Einloggen",
+      "ru-RU": "Авторизоваться"
+    }
+  }
+]

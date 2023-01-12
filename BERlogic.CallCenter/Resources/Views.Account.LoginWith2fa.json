@@ -1,0 +1,42 @@
+[
+  {
+    "Key": "Two-factor authentication",
+    "Value": {
+      "en-US": "Two-factor authentication",
+      "de-DE": "Zwei-Faktor-Authentifizierung",
+      "ru-RU": "Двухфакторная аутентификация"
+    }
+  },
+    {
+    "Key": "Views.Account.LoginWith2fa.Message",
+    "Value": {
+      "en-US": "Your login is protected with an authenticator app. Enter your authenticator code below.",
+      "de-DE": "Ihr Login ist mit einer Authenticator App geschützt. Geben Sie unten Ihren Authentifizierungscode ein.",
+      "ru-RU": "Ваш логин защищен приложением аутентификации. Введите код аутентификатора ниже."
+    }
+  },
+    {
+    "Key": "Log in",
+    "Value": {
+      "en-US": "Log in",
+      "de-DE": "Einloggen",
+      "ru-RU": "Авторизоваться"
+    }
+  },
+    {
+    "Key": "Don't have access to your authenticator device? You can",
+    "Value": {
+      "en-US": "Don't have access to your authenticator device? You can",
+      "de-DE": "Haben Sie keinen Zugriff auf Ihr Authentifizierungsgerät? Sie können",
+      "ru-RU": "У вас нет доступа к вашему устройству аутентификации? Вы можете"
+    }
+  },
+    {
+    "Key": "log in with a recovery code",
+    "Value": {
+      "en-US": "log in with a recovery code",
+      "de-DE": "einloggen mit einem Wiederherstellungscode",
+      "ru-RU": "войти в систему с кодом восстановления"
+    }
+  }
+]

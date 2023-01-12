@@ -1,0 +1,43 @@
+﻿@inject IViewLocalizer Localizer
+<!DOCTYPE html>
+<html lang="en-us" id="extr-page">
+<head>
+    <meta charset="utf-8" />
+
+    <title>@Localizer["test CallCenter Web Application"]</title>
+    <meta name="description" content="test CallCenter Web Application" />
+    <meta name="author" content="RSS" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Basic Styles -->
+    @{
+        await Html.RenderPartialAsync("_StylesheetsPartial"); 
+    }
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" href="~/img/favicon/favicon_ber.ico" type="image/x-icon" />
+    <link rel="icon" href="~/img/favicon/favicon_ber.ico" type="image/x-icon" />
+
+    <!-- GOOGLE FONT -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,700" />
+</head>
+<body class="animated fadeInDown">
+    @{
+        await Html.RenderPartialAsync("_AuthHeader"); 
+    }
+    <!-- MAIN PANEL -->
+    <div id="main" role="main">
+        <!-- MAIN CONTENT -->
+        <div id="content" class="container">
+            @RenderBody()
+        </div>
+        <!-- END MAIN CONTENT -->
+    </div>
+    <!-- END MAIN PANEL -->
+    @{
+        await Html.RenderPartialAsync("_Scripts"); 
+    }
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

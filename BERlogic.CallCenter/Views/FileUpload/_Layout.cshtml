@@ -1,0 +1,38 @@
+﻿@inject IViewLocalizer Localizer
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <div class="row">
+        <div class="col-sm-6">
+            @RenderBody()
+        </div>
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-12" style="font-size: 1em">
+                    <h3>@Localizer["Failed to Upload:"]</h3>
+                    <hr/>
+                    @await Component.InvokeAsync("FailedToUploadFilesList")
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12" style="font-size: 1em">
+                    <h3>@Localizer["Success to Upload:"]</h3>
+                    <hr/>
+                    @await Component.InvokeAsync("SuccessedToUploadFilesList")
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+           @await Component.InvokeAsync("DatabaseLastPnrAfterUploadList")
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @RenderSection("Scripts", required: false)
+}

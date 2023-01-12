@@ -1,0 +1,42 @@
+[
+  {
+    "Key": "Back",
+    "Value": {
+      "en-US": "Back",
+      "de-DE": "Zurück",
+      "ru-RU": "Назад"
+    }
+  },
+  {
+    "Key": "Booking Info",
+    "Value": {
+      "en-US": "Booking Info",
+      "de-DE": "Buchungsinfo",
+      "ru-RU": "Информация о бронировании"
+    }
+  },
+  {
+    "Key": "System Information",
+    "Value": {
+      "en-US": "System Information",
+      "de-DE": "System Information",
+      "ru-RU": "Системная информация"
+    }
+  },
+  {
+    "Key": "Customer Information",
+    "Value": {
+      "en-US": "Customer Information",
+      "de-DE": "Kundeninformation",
+      "ru-RU": "Информация о клиенте"
+    }
+  },
+  {
+    "Key": "Finance Information",
+    "Value": {
+      "en-US": "Finance Information",
+      "de-DE": "Finanzinformationen",
+      "ru-RU": "Финансовая информация"
+    }
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "Key": "Hello",
+    "Value": {
+      "en-US": "Hello",
+      "de-DE": "Hallo",
+      "ru-RU": "Привет"
+    }
+  }
+]

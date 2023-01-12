@@ -1,0 +1,26 @@
+[
+  {
+    "Key": "Recovery codes",
+    "Value": {
+      "en-US": "Recovery codes",
+      "de-DE": "Wiederherstellungscodes",
+      "ru-RU": "Коды восстановления"
+    }
+  },
+    {
+    "Key": "Put these codes in a safe place.",
+    "Value": {
+      "en-US": "Put these codes in a safe place.",
+      "de-DE": "Bewahren Sie diese Codes an einem sicheren Ort auf.",
+      "ru-RU": "Поместите эти коды в безопасное место."
+    }
+  },
+    {
+    "Key": "If you lose your device and don't have the recovery codes you will lose access to your account.",
+    "Value": {
+      "en-US": "If you lose your device and don't have the recovery codes you will lose access to your account.",
+      "de-DE": "Wenn Sie Ihr Gerät verlieren und die Wiederherstellungscodes nicht haben, verlieren Sie den Zugriff auf Ihr Konto.",
+      "ru-RU": "Если вы потеряете свое устройство и не имеете коды восстановления, вы потеряете доступ к своей учетной записи."
+    }
+  }
+]

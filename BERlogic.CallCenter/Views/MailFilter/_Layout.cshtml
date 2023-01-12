@@ -1,0 +1,32 @@
+﻿@inject IViewLocalizer Localizer
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <div class="row">
+        <div class="col-md-6 panel panel-body panel-default">
+            <h2>@Localizer["Manage your Mail Filters"]</h2>
+            <hr/>
+            @if (TempData["message"] != null) {
+                <div class="alert alert-success">@TempData["message"]</div>
+            }
+            @if (TempData["testConnection"] != null) {
+                <div class="alert alert-success">@TempData["testConnection"]</div>
+            }
+            @if (TempData["testError"] != null) {
+                <div class="alert alert-danger">@Html.Raw(TempData["testError"])</div>
+            }
+            @RenderBody()
+        </div>
+        <div class="col-md-6 panel panel-body panel-darken">
+            <h2>@Localizer["List of Mail Filters"]</h2>
+            <hr/>
+            @await Component.InvokeAsync("MailFilterList")
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @RenderSection("Scripts", required: false)
+}

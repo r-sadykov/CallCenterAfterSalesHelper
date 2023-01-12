@@ -1,0 +1,50 @@
+[
+  {
+    "Key": "Mail",
+    "Value": {
+      "en-US": "Mail",
+      "de-DE": "Post",
+      "ru-RU": "Почта"
+    }
+  },
+  {
+    "Key": "Calendar",
+    "Value": {
+      "en-US": "Calendar",
+      "de-DE": "Kalender",
+      "ru-RU": "Календарь"
+    }
+  },
+  {
+    "Key": "Maps",
+    "Value": {
+      "en-US": "Maps",
+      "de-DE": "Karten",
+      "ru-RU": "Карты"
+    }
+  },
+  {
+    "Key": "Invoice",
+    "Value": {
+      "en-US": "Invoice",
+      "de-DE": "Rechnung",
+      "ru-RU": "Счет-фактура"
+    }
+  },
+  {
+    "Key": "Gallery",
+    "Value": {
+      "en-US": "Gallery",
+      "de-DE": "Galerie",
+      "ru-RU": "Галерея"
+    }
+  },
+  {
+    "Key": "My Profile",
+    "Value": {
+      "en-US": "My Profile",
+      "de-DE": "Mein Profil",
+      "ru-RU": "Мой Профайл"
+    }
+  }
+]

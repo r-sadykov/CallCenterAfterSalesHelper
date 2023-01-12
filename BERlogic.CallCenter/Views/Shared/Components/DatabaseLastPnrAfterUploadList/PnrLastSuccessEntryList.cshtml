@@ -1,0 +1,52 @@
+﻿@model IQueryable<BERlogic.CallCenter.Models.FullReportJournal>
+@inject IViewLocalizer Localizer
+
+@if (Model != null)
+{
+    <div>
+        <table class="table table-condensed">
+            <thead>
+            <tr class="font-weight-bold" style="font-size: 1em">
+                <td>Id</td>
+                <td>@Localizer["Component.FileUpload.DatabaseOperationDate"]</td>
+                <td>@Localizer["Component.FileUpload.InitialPnrEntry"]</td>
+                <td>@Localizer["Component.FileUpload.PnrEntry"]</td>
+                <td>@Localizer["Component.FileUpload.InitialBookingNumber"]</td>
+                <td>@Localizer["Component.FileUpload.BookingNumber"]</td>
+                <td>@Localizer["Component.FileUpload.FullreportFilename"]</td>
+                <td>@Localizer["Component.FileUpload.UploadDate"]</td>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach(var report in Model)
+            {
+                <tr>
+                    <td>@report.Id</td>
+                    <td>@report.RegistrationEventDate.ToString("g")</td>
+                    <td>@report.Pnr_Before</td>
+                    <td>@report.Pnr_After</td>
+                    <td>@report.BookingNumber_Before</td>
+                    <td>@report.BookingNumber_After</td>
+                    <td>
+                        @{
+                            var path = System.IO.Path.GetFileName(report.FileName);
+                            if (path.Contains('/'))
+                            {
+                                var arr = path.Split('/');
+                                path = arr[arr.Length - 1];
+                            }
+                            else
+                            {
+                                var arr = path.Split('\\');
+                                path = arr[arr.Length - 1];
+                            }
+                        }
+                        @path
+                    </td>
+                    <td>@report.FileUploadDate.ToString("g")</td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+}

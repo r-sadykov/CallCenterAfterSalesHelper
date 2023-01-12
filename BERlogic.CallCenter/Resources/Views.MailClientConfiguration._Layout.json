@@ -1,0 +1,18 @@
+[
+  {
+    "Key": "Manage your Mail Client Folders",
+    "Value": {
+      "en-US": "Manage your Mail Client Folders",
+      "de-DE": "Verwalten Sie Ihre Mail-Client-Ordner",
+      "ru-RU": "Управление папками почтовых клиентов"
+    }
+  },
+    {
+    "Key": "List of Folders",
+    "Value": {
+      "en-US": "List of Folders",
+      "de-DE": "Liste der Ordner",
+      "ru-RU": "Список папок"
+    }
+  }
+]

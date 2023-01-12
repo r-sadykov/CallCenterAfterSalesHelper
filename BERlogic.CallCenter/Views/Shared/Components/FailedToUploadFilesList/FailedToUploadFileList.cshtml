@@ -1,0 +1,46 @@
+﻿@model IOrderedEnumerable<BERlogic.CallCenter.Models.FileInFolder>
+@inject IViewLocalizer Localizer
+
+@if (Model != null)
+{
+    <div>
+        <table class="table table-condensed">
+            <thead>
+            <tr class="font-weight-bold" style="font-size: 1em">
+                <td>#</td>
+                <td>@Localizer["Component.FileUpload.FileName"]</td>
+                <td>@Localizer["Component.FileUpload.FileExtension"]</td>
+                <td>@Localizer["Component.FileUpload.UploadDate"]</td>
+                <td>@Localizer["Component.FileUpload.UploadTime"]</td>
+                <td>@Localizer["Component.FileUpload.FileSize"]</td>
+                <td></td>
+                <td></td>
+            </tr>
+            </thead>
+            <tbody>
+            @for (int i = 0; i < Model.Count(); i++)
+            {
+                <tr>
+                    <td>@(i + 1)</td>
+                    <td>
+                        @Model.ToList()[i].FileName
+                        <input type="hidden" asp-for="@Model.ToList()[i].FilePath"/>
+                    </td>
+                    <td>@Model.ToList()[i].FileExtension</td>
+                    <td>@Model.ToList()[i].DateTimeOfUpload.Date.ToShortDateString()</td>
+                    <td>@Model.ToList()[i].DateTimeOfUpload.DateTime.ToShortTimeString()</td>
+                    <td>@Model.ToList()[i].FileSize</td>
+                    <td>
+                        <a asp-controller="FileUpload" asp-action="UploadFileToDatabaseAsync" asp-route-path="@Model.ToList()[i].FilePath" class="txt-color-green">
+                            <i class="fa fa-refresh"></i>
+                        </a></td>
+                    <td>
+                        <a asp-controller="FileUpload" asp-action="DeleteFile" asp-route-path="@Model.ToList()[i].FilePath" class="txt-color-red">
+                            <i class="fa fa-remove"></i>
+                        </a></td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+}

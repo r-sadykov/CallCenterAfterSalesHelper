@@ -1,0 +1,258 @@
+﻿@using System.Globalization
+@model BERlogic.CallCenter.ViewModels.OperationsServiceViewModel
+@inject IViewLocalizer Localizer
+@{
+
+    Layout = "_Layout";
+}
+
+<a asp-controller="PassengerRebooking" asp-action="EditRebookings" asp-route-id="@Model.ServiceOperations.Id">
+    <i class="fa fa-backward fa-2x"></i><span style="font-size: 2em"> @Localizer["Back"]</span>
+</a>
+<br/>
+
+
+<div class="form bg-color-white">
+    <p style="height: 100px; width: 300px;" class="bg-color-white">
+        <img src="~/img/logo_for_PDF.png" alt="BERlogic" style="height: 200px; width: 500px"/>
+    </p>
+<br/>
+    <table class="table table-border-0">
+        <tr>
+            <td style="width: 120px;"></td>
+            <td style="width: 800px"></td>
+            <td style="text-align: left; width: 150px; font-weight: bold">
+                @Model.ServiceOperations.AgencyCode
+                <input type="hidden" class="hidden" readonly="readonly" value="@Model.ServiceOperations.AgentName" />
+                <input type="hidden" class="hidden" readonly="readonly" value="@Model.ServiceOperations.Salespoint" />
+                <input type="hidden" class="hidden" readonly="readonly" value="@Model.ServiceOperations.ClearingType" />
+            </td>
+            <td style="width: 250px"></td>
+        </tr>
+        <tr>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px"></td>
+            <td style="text-align: left; min-width: 25px">@Localizer["Kundencenter"]</td>
+            <td style="min-width: 25px"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: left; min-width: 25px">@Localizer["test GmbH • test Str. 01 • 10000 Berlin"]</td>
+            <td colspan="2" style="text-align: left; min-width: 25px">@Localizer["Bitte wenden Sie sich mit allen Fragen jederzeit an:"]</td>
+        </tr>
+        <tr>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px">@Localizer["Tel:"]</td>
+            <td style="min-width: 25px">+49 30 0000000</td>
+        </tr>
+        <tr>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px">@Localizer["Mo-Fr: 09:00 Uhr - 17:00 Uhr (CET)"]</td>
+        </tr>
+        <tr>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px">@Localizer["EMail:"]</td>
+            <td style="min-width: 25px">test@test.de</td>
+        </tr>
+        <tr>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px">@Localizer["Website:"]</td>
+            <td style="min-width: 25px">www.test.de</td>
+        </tr>
+        <tr>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px">USt.-ID Nr.:</td>
+            <td style="min-width: 25px">DE20000023</td>
+        </tr>
+        <tr>
+            <td style="min-width: 25px">@Localizer["Kunde:"]</td>
+            <td style="min-width: 25px; font-weight: bold">
+                @Model.ServiceOperations.CustomerFullName
+            </td>
+            <td style="min-width: 25px">@Localizer["Buchungsdatum:"]</td>
+            <td style="min-width: 25px; font-weight: bold">
+                @Model.ServiceOperations.BookingDate.ToShortDateString()
+            </td>
+        </tr>
+        <tr>
+            <td style="min-width: 25px">@Localizer["E-mail:"]</td>
+            <td style="min-width: 25px; font-weight: bold">
+                @Model.ServiceOperations.CustomerEmail
+            </td>
+            <td style="min-width: 25px">@Localizer["Referenznummer:"]</td>
+            <td style="min-width: 25px; font-weight: bold">
+                @Model.ServiceOperations.BookingNumber
+            </td>
+        </tr>
+        <tr>
+            <td style="min-width: 25px">@Localizer["Zahlungsart:"]</td>
+            <td style="min-width: 25px; font-weight: bold">
+                @Model.ServiceOperations.PaymentMethod
+            </td>
+            <td style="min-width: 25px">@Localizer["Buchungscode:"]</td>
+            <td style="min-width: 25px; font-weight: bold">
+                @Model.ServiceOperations.BookingCode
+            </td>
+        </tr>
+        <tr>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px"></td>
+            <td style="min-width: 25px">@Localizer["Umbuchungsdatum:"]</td>
+            <td style="min-width: 25px; font-weight: bold">
+                @Model.ServiceOperations.ChangeServiceDate.ToShortDateString()
+            </td>
+        </tr>
+    </table>
+
+    <h2><u><strong>@Localizer["Umbuchungsbestätigung"]</strong></u></h2>
+    <br />
+
+    <table class="table table-border-0 text-align-center" style="width: 800px">
+        <thead>
+            <tr>
+                <td style="width: 150px">@Localizer["Datum"]</td>
+                <td style="width: 75px">@Localizer["Flug"]</td>
+                <td style="width: 100px">@Localizer["FlugNr."]</td>
+                <td style="width: 100px">@Localizer["Von"]</td>
+                <td style="width: 100px">@Localizer["Abflug"]</td>
+                <td style="width: 100px">@Localizer["Nach"]</td>
+                <td style="width: 100px">@Localizer["Ortsankunft"]</td>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+
+                foreach (var item in Model.ServiceOperations.LineRoutes)
+
+                {
+                            <tr>
+                                <td style="width: 150px; font-weight: bold">
+                            @item.DepartureDate.ToShortDateString()
+                                </td>
+                                <td style="width: 75px; font-weight: bold">
+                            @item.FlightAirline
+                                </td>
+                                <td style="width: 100px; font-weight: bold">
+                            @item.FlightNumber
+                                </td>
+                                <td style="width: 100px; font-weight: bold">
+                            @item.DepartureAirport
+                                </td>
+                                <td style="width: 100px; font-weight: bold">
+                            @item.DepartureTime.ToShortTimeString()
+                                </td>
+                                <td style="width: 100px; font-weight: bold">
+                            @item.ArrivalAirport
+                                </td>
+                                <td style="width: 100px; font-weight: bold">
+                            @item.ArrivalTime.ToShortTimeString()
+                                </td>
+                            </tr>
+
+                }
+            }
+        </tbody>
+    </table>
+
+    <br />
+    <p>
+        @Localizer["Gemäß der Ihnen bekannten Tarifbedingungen berechnen wir folgendes:"]
+    </p>
+
+<table class="table table-border-0" style="width: 800px">
+        @{
+            <tr>
+                <td style="width: 100px"></td>
+                <td style="width: 500px"></td>
+                <td style="width: 200px"><strong>@Localizer["Brutto"]</strong></td>
+            </tr>
+
+            for (int i = 0; i < Model.ServiceOperations.PassangerModels.Count; i++)
+
+            {
+                <tr>
+                    <td>
+                        @if (i == 0)
+                        {
+                                <span>@Localizer["Passagier(e)"]</span>
+
+                        }
+                    </td>
+                    <td style="font-weight: bold">
+                        @Model.ServiceOperations.PassangerModels[i].FullName
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+
+            }
+        }   
+</table>
+    <table class="table table-border-0" style="width: 800px">
+        <tr>
+            <td style="width: 300px">@Localizer["Preisdifferenz:"]</td>
+            <td style="width: 300px"></td>
+            <td style="width: 200px; font-weight: bold; text-align: right">
+                @Model.ServiceOperations.PriceDifference.ToString("C", CultureInfo.CreateSpecificCulture("de-DE"))
+            </td>
+        </tr>
+        <tr>
+            <td style="border-bottom:2pt solid black">@Localizer["Umbuchungsgebühren:"]</td>
+            <td style="border-bottom:2pt solid black"></td>
+            <td style="border-bottom: 2pt solid black; font-weight: bold; text-align: right">
+                @Model.ServiceOperations.RebookingFee.ToString("C", CultureInfo.CreateSpecificCulture("de-DE"))
+            </td>
+        </tr>
+        <tr>
+            <td>@Localizer["Zwischensumme Airline:"]</td>
+            <td></td>
+            <td style="font-weight: bold; text-align: right">
+                @Model.ServiceOperations.AirlineFee.ToString("C", CultureInfo.CreateSpecificCulture("de-DE"))
+            </td>
+        </tr>
+        <tr>
+            <td>@Localizer["Bearbeitungsgebühren BERlogic:"]</td>
+            <td></td>
+            <td  style="font-weight: bold; text-align: right; border-bottom: 2pt solid black; height: 50px">
+                @Model.ServiceOperations.BerlogicFee.ToString("C", CultureInfo.CreateSpecificCulture("de-DE"))
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>@Localizer["Rechnungsbetrag EURO"]</td>
+            <td style="font-weight: bold; text-align: right; border-bottom: 4pt solid black;">
+                @Model.ServiceOperations.TotalFee.ToString("C",CultureInfo.CreateSpecificCulture("de-DE"))
+            </td>
+        </tr>
+    </table>
+<br/><br/><br/><br/><br/>
+
+<p style="text-align: center; margin-top: 100px">@Localizer["Die test GmbH ist zum Inkasso berechtigt.Vielen Dank für Ihre Buchung."]</p>
+<br/><br/>
+     <p style="text-align: center">
+        @Localizer["Commercial Registration: Berlin Charlottenburg HRB 10000 - Managing Director: Abra Kadabra"]
+     </p>
+
+
+<div>
+    <a class="btn btn-primary form-control" asp-controller="PassengerRebooking" asp-action="SavePdf" asp-route-id="@Model.ServiceOperations.Id">
+        <i class="fa fa-file-pdf-o"></i><span> @Localizer["Save as PDF"]</span>
+    </a>
+</div>
+<br/><br/>
+<div class="form-group bordered border-info">
+    <form method="post">
+        <select class="select2 select2-active select2-arrow" type="text" asp-for="SelectedItem" asp-items="@(new SelectList(Model.MailServer, "ConfigurationId", "ConfigurationName"))" >
+            <option>@Localizer["Please select one"]</option>
+        </select>
+        <button class="btn btn-info form-control" asp-controller="PassengerRebooking" asp-action="SendRebookingMail" asp-route-id="@Model.ServiceOperations.Id" type="submit" >
+            <i class="fa fa-mail-forward" ></i><span> @Localizer["Send Notice"]</span>
+        </button>
+    </form>
+</div>
+</div>

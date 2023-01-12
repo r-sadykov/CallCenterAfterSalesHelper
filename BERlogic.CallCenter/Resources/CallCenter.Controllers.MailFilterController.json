@@ -1,0 +1,42 @@
+[
+  {
+    "Key": "has been saved",
+    "Value": {
+      "en-US": "has been saved",
+      "de-DE": "wurde gespeichert",
+      "ru-RU": "сохранено"
+    }
+  },
+    {
+    "Key": "has been not saved",
+    "Value": {
+      "en-US": "has been not saved",
+      "de-DE": "wurde nicht gespeichert",
+      "ru-RU": "не было сохранено"
+    }
+  },
+  {
+    "Key": "has been changed",
+    "Value": {
+      "en-US": "has been changed",
+      "de-DE": "wurde geändert",
+      "ru-RU": "было изменено"
+    }
+  },
+    {
+    "Key": "was deleted",
+    "Value": {
+      "en-US": "was deleted",
+      "de-DE": "wurde gelöscht",
+      "ru-RU": "было удалено"
+    }
+  },
+    {
+    "Key": "for",
+    "Value": {
+      "en-US": "for",
+      "de-DE": "zum",
+      "ru-RU": "для"
+    }
+  }
+]

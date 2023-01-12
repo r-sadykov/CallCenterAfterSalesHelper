@@ -1,0 +1,18 @@
+[
+  {
+    "Key": "was successfuly uploaded to the Server.",
+    "Value": {
+      "en-US": "was successfuly uploaded to the Server.",
+      "de-DE": "wurde erfolgreich auf den Server hochgeladen.",
+      "ru-RU": "был успешно загружен на сервер."
+    }
+  },
+    {
+    "Key": "is failed to upload to the Server.",
+    "Value": {
+      "en-US": "is failed to upload to the Server.",
+      "de-DE": "kann nicht auf den Server hochgeladen werden.",
+      "ru-RU": "не удалось загрузить на сервер."
+    }
+  }
+]

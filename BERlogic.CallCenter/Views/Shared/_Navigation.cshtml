@@ -1,0 +1,158 @@
+@using BERlogic.CallCenter.Configuration
+@inject IOptions<SmartSettings> Settings
+@inject IViewLocalizer Localizer
+@using BERlogic.CallCenter.Models
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<!-- Left panel : Navigation area -->
+<!-- Note: This width of the aside area can be adjusted through LESS variables -->
+<aside id="left-panel">
+    <!-- User info -->
+    <div class="login-info">
+        <span>
+            <!-- User image size is adjusted inside CSS, it should stay as it -->
+            <a id="show-shortcut" asp-controller="Manage" asp-action="Index">
+                <img src="~/img/avatars/sunny.png" alt="me" class="online"/>
+                <span>@(User.FindFirst("FirstName").Value) @(User.FindFirst("LastName").Value)</span>
+            </a>
+        </span>
+    </div>
+    <!-- end user info -->
+    <!-- NAVIGATION : This navigation is also responsive-->
+    <nav>
+        <!--
+    NOTE: Notice the gaps after each icon usage <i></i>..
+    Please note that these links work a bit different than
+    traditional href="" links. See documentation for details.
+    -->
+
+        <ul>
+            <li is-active-route asp-controller="Home">
+                <a href="#" title="Dashboard">
+                    <i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">@Localizer["Dashboard"]</span>
+                </a>
+                <ul>
+                    <li is-active-route asp-controller="Home" asp-action="Index">
+                        <a asp-controller="Home" asp-action="Index" title="Empty">
+                            <span class="menu-item-parent">@Localizer["Sales Statistics"]</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li is-active-route asp-controller="Home">
+                <a href="#">
+                    <i class="fa fa-lg fa-fw fa-ambulance"></i> <span class="menu-item-parent">@Localizer["FTC Manager"]</span>
+                </a>
+                <ul>
+                    <li asp-controller="" asp-action="">
+                        <a asp-controller="" asp-action="">EuroWings/GermanWings</a>
+                    </li>
+                    <li asp-controller="" asp-action="">
+                        <a asp-controller="" asp-action="">Alliance Travel @Localizer["Manualy"]</a>
+                    </li>
+                    <li asp-controller="" asp-action="">
+                        <a asp-controller="" asp-action="">Alliance Travel @Localizer["Automated"]</a>
+                    </li>
+                </ul>
+            </li>
+            <li is-active-route asp-controller="Home">
+                <a href="#">
+                    <i class="fa fa-lg fa-fw fa-info-circle"></i> <span class="menu-item-parent">@Localizer["Passenger Management"]</span>
+                </a>
+                <ul>
+                    <li is-active-route asp-controller="PassengerMainInfo" asp-action="Index">
+                        <a asp-controller="PassengerMainInfo" asp-action="Index">@Localizer["Main Info"]</a>
+                    </li>
+                    <li is-active-route asp-controller="PassengerRebooking" asp-action="Index">
+                        <a asp-controller="PassengerRebooking" asp-action="Index">@Localizer["Rebooking"]</a>
+                    </li>
+                    <li is-active-route asp-controller="PassengerCancellation" asp-action="Index">
+                        <a asp-controller="PassengerCancellation" asp-action="Index">@Localizer["Cancellation"]</a>
+                    </li>
+                    <li is-active-route asp-controller="PassengerAddLuggage" asp-action="Index">
+                        <a asp-controller="PassengerAddLuggage" asp-action="Index">@Localizer["Additional Luggage"]</a>
+                    </li>
+                    <li is-active-route asp-controller="OperationServices" asp-action="OperationsList">
+                        <a asp-controller="OperationServices" asp-action="OperationsList">@Localizer["Operations Statistics"]</a>
+                    </li>
+                    <li is-active-route asp-controller="GwiReceiptsClearance" asp-action="Index">
+                        <a asp-controller="GwiReceiptsClearance" asp-action="Index">@Localizer["GWI Receipts Clearance"]</a>
+                    </li>
+                </ul>
+            </li>
+            <li is-active-route asp-controller="Home">
+                <a href="#">
+                    <i class="fa fa-lg fa-fw fa-file"></i> <span class="menu-item-parent">@Localizer["Upload Files"]</span>
+                </a>
+                <ul>
+                    <li is-active-route asp-controller="Home" asp-action="UploadFile">
+                        <a asp-controller="FileUpload" asp-action="UploadFile">Full Report</a>
+                    </li>
+                </ul>
+            </li>
+            <li is-active-route asp-controller="">
+                <a href="#">
+                    <i class="fa fa-lg fa-fw fa-internet-explorer"></i> <span class="menu-item-parent">@Localizer["Web Scraping"]</span>
+                </a>
+                <ul>
+                    <li asp-controller="" asp-action="">
+                        <a asp-controller="" asp-action="">Fluege.de</a>
+                    </li>
+                </ul>
+            </li>
+            <li is-active-route asp-controller="">
+                <a href="#">
+                    <i class="fa fa-lg fa-fw fa-file-pdf-o"></i> <span class="menu-item-parent">@Localizer["Parse PDF"]</span>
+                </a>
+                <ul>
+                    <li asp-controller="" asp-action="">
+                        <a asp-controller="" asp-action="">@Localizer["Parse PDF"]</a>
+                    </li>
+                </ul>
+            </li>
+            @if (User.IsInRole("Admin"))
+            {
+                <li is-active-route asp-controller="">
+                    <a href="#">
+                        <i class="fa fa-lg fa-fw fa-users"></i> <span class="menu-item-parent">@Localizer["Administration"]</span>
+                    </a>
+                    <ul>
+                        <li asp-controller="" asp-action="">
+                            <a asp-controller="" asp-action="">@Localizer["Users"]</a>
+                        </li>
+                        <li asp-controller="UserManager" asp-action="Roles">
+                            <a asp-controller="UserManager" asp-action="Roles">@Localizer["Roles"]</a>
+                        </li>
+                        <li asp-controller="" asp-action="">
+                            <a asp-controller="" asp-action="">@Localizer["Users activity"]</a>
+                        </li>
+                    </ul>
+                </li>
+            }
+            <li is-active-route asp-controller="Home">
+                <a href="#">
+                    <i class="fa fa-lg fa-fw fa-cogs"></i> <span class="menu-item-parent">@Localizer["Configuration"]</span>
+                </a>
+                <ul>
+                    <li is-active-route asp-controller="DatabaseConfiguration" asp-action="CreateDatabaseConfiguration">
+                        <a asp-controller="DatabaseConfiguration" asp-action="CreateDatabaseConfiguration">@Localizer["Database"]</a>
+                    </li>
+                    <li is-active-route asp-controller="MailServerConfiguration" asp-action="CreateMailServerConfiguration">
+                        <a asp-controller="MailServerConfiguration" asp-action="CreateMailServerConfiguration">@Localizer["Mail Server"]</a>
+                    </li>
+                    <li is-active-route asp-controller="MailClientConfiguration" asp-action="CreateMailClientConfiguration">
+                        <a asp-controller="MailClientConfiguration" asp-action="CreateMailClientConfiguration">@Localizer["Mail Client"]</a>
+                    </li>
+                    <li is-active-route asp-controller="MailFilter" asp-action="CreateFilter">
+                        <a asp-controller="MailFilter" asp-action="CreateFilter">@Localizer["Mail Filters"]</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <span class="minifyme" data-action="minifyMenu">
+        <i class="fa fa-arrow-circle-left"></i>
+    </span>
+</aside>
+<!-- END NAVIGATION -->

@@ -1,0 +1,1475 @@
+[
+  {
+    "Key": "ResetPasswordViewModel.Password.ErrorMessage",
+    "Value": {
+      "en-US": "The {0} must be at least {2} and at max {1} characters long.",
+      "de-DE": "Die {0} muss mindestens {2} und maximal {1} Zeichen lang sein.",
+      "ru-RU": "{0} должен быть не менее {2} и с максимальным {1} длиной символов."
+    }
+  },
+    {
+    "Key": "ResetPasswordViewModel.ConfirmPassword.ErrorMessage",
+    "Value": {
+      "en-US": "The password and confirmation password do not match.",
+      "de-DE": "Das Passwort und das Bestätigungspasswort stimmen nicht überein.",
+      "ru-RU": "Пароль и пароль подтверждения не совпадают."
+    }
+  },  
+  {
+    "Key": "ResetPasswordViewModel.ConfirmPassword.DisplayName",
+    "Value": {
+      "en-US": "Confirm password",
+      "de-DE": "Passwort bestätigen",
+      "ru-RU": "Подтвердите Пароль"
+    }
+  },  
+  {
+    "Key": "RegisterViewModel.Email.DisplayName",
+    "Value": {
+      "en-US": "Email",
+      "de-DE": "Email",
+      "ru-RU": "Эл. адрес"
+    }
+  },  
+  {
+    "Key": "RegisterViewModel.Password.DisplayName",
+    "Value": {
+      "en-US": "Password",
+      "de-DE": "Passwort",
+      "ru-RU": "Пароль"
+    }
+  },  
+  {
+    "Key": "RegisterViewModel.Password.ErrorMessage",
+    "Value": {
+      "en-US": "The {0} must be at least {2} and at max {1} characters long.",
+      "de-DE": "Die {0} muss mindestens {2} und maximal {1} Zeichen lang sein.",
+      "ru-RU": "{0} должен быть не менее {2} и с максимальным {1} длиной символов."
+    }
+  },
+  {
+    "Key": "RegisterViewModel.ConfirmPassword.DisplayName",
+    "Value": {
+      "en-US": "Confirm password",
+      "de-DE": "Passwort bestätigen",
+      "ru-RU": "Подтвердите Пароль"
+    }
+  }, 
+  {
+    "Key": "RegisterViewModel.ConfirmPassword.ErrorMessage",
+    "Value": {
+      "en-US": "The password and confirmation password do not match.",
+      "de-DE": "Das Passwort und das Bestätigungspasswort stimmen nicht überein.",
+      "ru-RU": "Пароль и пароль подтверждения не совпадают."
+    }
+  },  
+  {
+    "Key": "RegisterViewModel.Username.ErrorMessage",
+    "Value": {
+      "en-US": "The {0} must be at least {2} and at max {1} characters long.",
+      "de-DE": "Die {0} muss mindestens {2} und maximal {1} Zeichen lang sein.",
+      "ru-RU": "{0} должен быть не менее {2} и с максимальным {1} длиной символов."
+    }
+  },  
+  {
+    "Key": "RegisterViewModel.Username.DisplayName",
+    "Value": {
+      "en-US": "Username",
+      "de-DE": "Nutzername",
+      "ru-RU": "Имя пользователя"
+    }
+  },  {
+    "Key": "RegisterViewModel.FirstName.ErrorMessage",
+    "Value": {
+      "en-US": "The {0} must be at least {2} and at max {1} characters long.",
+      "de-DE": "Die {0} muss mindestens {2} und maximal {1} Zeichen lang sein.",
+      "ru-RU": "{0} должен быть не менее {2} и с максимальным {1} длиной символов."
+    }
+  },  
+  {
+    "Key": "RegisterViewModel.FirstName.DisplayName",
+    "Value": {
+      "en-US": "First Name",
+      "de-DE": "Vorname",
+      "ru-RU": "Имя"
+    }
+  },
+  {
+    "Key": "RegisterViewModel.LastName.ErrorMessage",
+    "Value": {
+      "en-US": "The {0} must be at least {2} and at max {1} characters long.",
+      "de-DE": "Die {0} muss mindestens {2} und maximal {1} Zeichen lang sein.",
+      "ru-RU": "{0} должен быть не менее {2} и с максимальным {1} длиной символов."
+    }
+  },
+  {
+    "Key": "RegisterViewModel.LastName.DisplayName",
+    "Value": {
+      "en-US": "Last Name",
+      "de-DE": "Nachname",
+      "ru-RU": "Фамилия"
+    }
+  },  
+  {
+    "Key": "RegisterViewModel.Gender.DisplayName",
+    "Value": {
+      "en-US": "Gender",
+      "de-DE": "Geschlecht",
+      "ru-RU": "Пол"
+    }
+  },  
+  {
+    "Key": "RegisterViewModel.ActivationDate.DisplayName",
+    "Value": {
+      "en-US": "Request activation on",
+      "de-DE": "Aktivierung beantragen am",
+      "ru-RU": "Запросить активацию"
+    }
+  },  
+  {
+    "Key": "Gender",
+    "Value": {
+      "en-US": "Gender",
+      "de-DE": "Geschlecht",
+      "ru-RU": "Пол"
+    }
+  },
+  {
+    "Key": "Male",
+    "Value": {
+      "en-US": "Male",
+      "de-DE": "Männlich",
+      "ru-RU": "Мужской"
+    }
+  },
+  {
+    "Key": "Female",
+    "Value": {
+      "en-US": "Female",
+      "de-DE": "Weiblich",
+      "ru-RU": "Женский"
+    }
+  },  
+  {
+    "Key": "Prefer not to answer",
+    "Value": {
+      "en-US": "Prefer not to answer",
+      "de-DE": "Ich möchte nicht antworten",
+      "ru-RU": "Предпочитаю не отвечать"
+    }
+  },  
+  {
+    "Key": "LoginWithRecoveryCodeViewModel.RecoveryCode.DisplayName",
+    "Value": {
+      "en-US": "Recovery Code",
+      "de-DE": "Wiederherstellungscode",
+      "ru-RU": "Код восстановления"
+    }
+  },  
+  {
+    "Key": "LoginWith2FaViewModel.TwoFactorCode.DisplayName",
+    "Value": {
+      "en-US": "Authenticator code",
+      "de-DE": "Authentifizierungscode",
+      "ru-RU": "Код аутентификатора"
+    }
+  },  
+  {
+    "Key": "LoginWith2FaViewModel.TwoFactorCode.ErrorMessage",
+    "Value": {
+		"en-US": "The {0} must be at least {2} and at max {1} characters long.",
+		"de-DE": "Die {0} muss mindestens {2} und maximal {1} Zeichen lang sein.",
+		"ru-RU": "{0} должен быть не менее {2} и с максимальным {1} длиной символов."
+    }
+  },  
+  {
+    "Key": "LoginWith2FaViewModel.RememberMachine.DisplayName",
+    "Value": {
+      "en-US": "Remember this machine",
+      "de-DE": "Erinnere dich an diese Maschine",
+      "ru-RU": "Запомнить эту машину"
+    }
+  },  
+  {
+    "Key": "LoginViewModel.RememberMe.DisplayName",
+    "Value": {
+      "en-US": "Remember me?",
+      "de-DE": "Erinnere dich an mich?",
+      "ru-RU": "Запомнить меня?"
+    }
+  }
+  ,  
+  {
+    "Key": "ChangePasswordViewModel.OldPassword.DisplayName",
+    "Value": {
+      "en-US": "Current password",
+      "de-DE": "Derzeitiges Passwort",
+      "ru-RU": "Текущий пароль"
+    }
+  },  
+  {
+    "Key": "ChangePasswordViewModel.NewPassword.DisplayName",
+    "Value": {
+      "en-US": "New password",
+      "de-DE": "Neues Kennwort",
+      "ru-RU": "Новый пароль"
+    }
+  },  
+  {
+    "Key": "ChangePasswordViewModel.NewPassword.ErrorMessage",
+    "Value": {
+      "en-US": "The {0} must be at least {2} and at max {1} characters long.",
+      "de-DE": "Die {0} muss mindestens {2} und maximal {1} Zeichen lang sein.",
+      "ru-RU": "{0} должен быть не менее {2} и с максимальным {1} длиной символов."
+    }
+  },  
+  {
+    "Key": "ChangePasswordViewModel.ConfirmPassword.DisplayName",
+    "Value": {
+      "en-US": "Confirm new password",
+      "de-DE": "Bestätige neues Passwort",
+      "ru-RU": "Подтвердите новый пароль"
+    }
+  },  
+  {
+    "Key": "ChangePasswordViewModel.ConfirmPassword.ErrorMessage",
+    "Value": {
+      "en-US": "The new password and confirmation password do not match.",
+      "de-DE": "Das neue Passwort und das Bestätigungspasswort stimmen nicht überein.",
+      "ru-RU": "Новый пароль и пароль подтверждения не совпадают."
+    }
+  },  
+  {
+    "Key": "EnableAuthenticatorViewModel.Code.DisplayName",
+    "Value": {
+      "en-US": "Verification Code",
+      "de-DE": "Verifizierungs-Schlüssel",
+      "ru-RU": "Код подтверждения"
+    }
+  },  
+  {
+    "Key": "EnableAuthenticatorViewModel.Code.ErrorMessage",
+    "Value": {
+      "en-US": "The {0} must be at least {2} and at max {1} characters long.",
+      "de-DE": "Die {0} muss mindestens {2} und maximal {1} Zeichen lang sein.",
+      "ru-RU": "{0} должен быть не менее {2} и с максимальным {1} длиной символов."
+    }
+  },  
+  {
+    "Key": "IndexViewModel.PhoneNumber.DisplayName",
+    "Value": {
+      "en-US": "Phone number",
+      "de-DE": "Telefonnummer",
+      "ru-RU": "Номер телефона"
+    }
+  },  
+  {
+    "Key": "SetPasswordViewModel.NewPassword.DisplayName",
+    "Value": {
+      "en-US": "New password",
+      "de-DE": "Neues Kennwort",
+      "ru-RU": "Новый пароль"
+    }
+  },  
+  {
+    "Key": "SetPasswordViewModel.NewPassword.ErrorMessage",
+    "Value": {
+	  "en-US": "The {0} must be at least {2} and at max {1} characters long.",
+      "de-DE": "Die {0} muss mindestens {2} und maximal {1} Zeichen lang sein.",
+      "ru-RU": "{0} должен быть не менее {2} и с максимальным {1} длиной символов."
+    }
+  },  
+  {
+    "Key": "SetPasswordViewModel.ConfirmPassword.DisplayName",
+    "Value": {
+      "en-US": "Confirm new password",
+      "de-DE": "Bestätige neues Passwort",
+      "ru-RU": "Подтвердите новый пароль"
+    }
+  },  
+  {
+    "Key": "SetPasswordViewModel.ConfirmPassword.ErrorMessage",
+    "Value": {
+      "en-US": "The new password and confirmation password do not match.",
+      "de-DE": "Das neue Passwort und das Bestätigungspasswort stimmen nicht überein.",
+      "ru-RU": "Новый пароль и пароль подтверждения не совпадают."
+    }
+  },
+    {
+    "Key": "DatabaseConfiguration.ConfigurationName.ErrorMessage",
+    "Value": {
+      "en-US": "We need to know how save this configuration. Please name it!",
+      "de-DE": "Wir müssen wissen, wie diese Konfiguration gespeichert wird. Bitte nennen Sie es!",
+      "ru-RU": "Нам нужно знать, как сохранить эту конфигурацию. Пожалуйста, назовите ее!"
+    }
+  },
+    {
+    "Key": "DatabaseConfiguration.ConfigurationName.DisplayName",
+    "Value": {
+      "en-US": "Database Configuration Name:",
+      "de-DE": "Name der Datenbankkonfiguration:",
+      "ru-RU": "Название конфигурации базы данных:"
+    }
+  },  
+  {
+    "Key": "DatabaseConfiguration.LocalPathString.DisplayName",
+    "Value": {
+      "en-US": "Database Local Path:",
+      "de-DE": "Lokaler Datenbankpfad:",
+      "ru-RU": "Локальный путь базы данных:"
+    }
+  },  
+  {
+    "Key": "DatabaseConfiguration.InitialCatalog.ErrorMessage",
+    "Value": {
+      "en-US": "We must know which database to use. Show it to us!",
+      "de-DE": "Wir müssen wissen, welche Datenbank verwendet werden soll. Zeig es uns!",
+      "ru-RU": "Мы должны знать, какую базу данных использовать. Покажите это нам!"
+    }
+  },  
+  {
+    "Key": "DatabaseConfiguration.InitialCatalog.DisplayName",
+    "Value": {
+      "en-US": "Database Initial Catalog:",
+      "de-DE": "Datenbank-Anfangskatalog:",
+      "ru-RU": "Начальный каталог базы данных:"
+    }
+  },  
+  {
+    "Key": "DatabaseConfiguration.UserName.ErrorMessage",
+    "Value": {
+      "en-US": "I think you have very long name",
+      "de-DE": "Я думаю, у вас очень длинное имя",
+      "ru-RU": "Ich glaube, du hast einen sehr langen Namen"
+    }
+  },
+  {
+    "Key": "DatabaseConfiguration.UserName.DisplayName",
+    "Value": {
+      "en-US": "Database Username:",
+      "de-DE": "Datenbank Benutzername:",
+      "ru-RU": "Имя базы данных:"
+    }
+  }, 
+  {
+    "Key": "DatabaseConfiguration.Password.DisplayName",
+    "Value": {
+      "en-US": "Database Password:",
+      "de-DE": "Datenbank Passwort:",
+      "ru-RU": "Пароль базы данных:"
+    }
+  },  
+  {
+    "Key": "DatabaseConfiguration.Password.ErrorMessage",
+    "Value": {
+      "en-US": "Password is too long!",
+      "de-DE": "Passwort ist zu lang!",
+      "ru-RU": "Пароль слишком длинный!"
+    }
+  },  
+  {
+    "Key": "DatabaseConfiguration.DataSource.DisplayName",
+    "Value": {
+      "en-US": "Database Data Source:",
+      "de-DE": "Datenbankdatenquelle:",
+      "ru-RU": "Источник данных базы данных:"
+    }
+  },  {
+    "Key": "DatabaseConfiguration.IntegratedSecurity.DisplayName",
+    "Value": {
+      "en-US": "Using Integrated Security?",
+      "de-DE": "Integrierte Sicherheit verwenden?",
+      "ru-RU": "Используем интегрированную безопасность?"
+    }
+  },  
+  {
+    "Key": "DatabaseConfiguration.ConnectionString.DisplayName",
+    "Value": {
+      "en-US": "Database Connection String",
+      "de-DE": "Datenbankverbindungszeichenfolge",
+      "ru-RU": "Строка подключения базы данных"
+    }
+  },  
+  {
+    "Key": "MailClientConfiguration.ConfigurationName.DisplayName",
+    "Value": {
+      "en-US": "Configuration Name:",
+      "de-DE": "Konfigurationsname:",
+      "ru-RU": "Имя конфигурации:"
+    }
+  },  {
+    "Key": "MailClientConfiguration.SourceFolder.DisplayName",
+    "Value": {
+      "en-US": "Folder from where we takes mails:",
+      "de-DE": "Ordner, aus dem wir Mails entgegennehmen:",
+      "ru-RU": "Папка, откуда мы берем письма:"
+    }
+  },  
+  {
+    "Key": "MailClientConfiguration.TargetFolder.DisplayName",
+    "Value": {
+      "en-US": "Folder where we put sended mails:",
+      "de-DE": "Ordner, in dem wir gesendete Mails abgelegt haben:",
+      "ru-RU": "Папка, где мы помещаем почтовые письма:"
+    }
+  },  
+  {
+    "Key": "MailServerConfiguration.ConfigurationName.DisplayName",
+    "Value": {
+      "en-US": "Configuration Name:",
+      "de-DE": "Konfigurationsname:",
+      "ru-RU": "Имя конфигурации:"
+    }
+  },  {
+    "Key": "MailServerConfiguration.EmptyField.ErrorMessage",
+    "Value": {
+      "en-US": "This field is required",
+      "de-DE": "Dieses Feld wird benötigt",
+      "ru-RU": "Это поле обязательно к заполнению"
+    }
+  },  
+  {
+    "Key": "MailServerConfiguration.UserName.DisplayName",
+    "Value": {
+      "en-US": "Username:",
+      "de-DE": "Nutzername:",
+      "ru-RU": "Имя пользователя:"
+    }
+  },  
+  {
+    "Key": "MailServerConfiguration.Address.DisplayName",
+    "Value": {
+      "en-US": "E-Mail Address:",
+      "de-DE": "E-Mail-Addresse:",
+      "ru-RU": "Адрес электронной почты:"
+    }
+  },  {
+    "Key": "MailServerConfiguration.Address.ErrorMessage",
+    "Value": {
+      "en-US": "This is not valid E-Mail",
+      "de-DE": "Dies ist keine gültige E-Mail",
+      "ru-RU": "Недействительный E-Mail"
+    }
+  },  
+  {
+    "Key": "MailServerConfiguration.Password.DisplayName",
+    "Value": {
+      "en-US": "Password:",
+      "de-DE": "Passwort:",
+      "ru-RU": "Пароль:"
+    }
+  },  
+  {
+    "Key": "MailServerConfiguration.ServerNameOfIncomeMessages.DisplayName",
+    "Value": {
+      "en-US": "Income Server:",
+      "de-DE": "Eingehender Server:",
+      "ru-RU": "Сервер входящих сообщений:"
+    }
+  },  {
+    "Key": "MailServerConfiguration.UrlLink.ErrorMessage",
+    "Value": {
+      "en-US": "This should be like URL",
+      "de-DE": "Dies sollte wie eine URL sein",
+      "ru-RU": "Это должно быть как URL"
+    }
+  },  
+  {
+    "Key": "MailServerConfiguration.ServerPortOfIncomeMessages.DisplayName",
+    "Value": {
+      "en-US": "Income Server Port:",
+      "de-DE": "Eingehender Serverport:",
+      "ru-RU": "Порт сервера входящих сообщений:"
+    }
+  },  
+  {
+    "Key": "MailServerConfiguration.IsNumeric.ErrorMessage",
+    "Value": {
+      "en-US": "Field should be numeric",
+      "de-DE": "Das Feld sollte numerisch sein",
+      "ru-RU": "Поле должно быть числовым"
+    }
+  },  {
+    "Key": "MailServerConfiguration.ServerNameOfOutcomeMessages.DisplayName",
+    "Value": {
+      "en-US": "Outcome Server:",
+      "de-DE": "Ausgehender Server:",
+      "ru-RU": "Сервер исходящих сообщений:"
+    }
+  },  
+  {
+    "Key": "MailServerConfiguration.ServerPortOfOutcomeMessages.DisplayName",
+    "Value": {
+      "en-US": "Outcome Server Port:",
+      "de-DE": "Ausgangsserverport:",
+      "ru-RU": "Порт сервера исходящих сообщений:"
+    }
+  },  
+  {
+    "Key": "MailServerConfiguration.ServerSecureConnectionParameters.DisplayName",
+    "Value": {
+      "en-US": "Server Secure Connection Parameters:",
+      "de-DE": "Server-sichere Verbindungsparameter:",
+      "ru-RU": "Имя конфигурации:"
+    }
+  },  {
+    "Key": "MailServerConfiguration.UseNameAndPassword.DisplayName",
+    "Value": {
+      "en-US": "Use Username and Password for authentication:",
+      "de-DE": "Verwenden Sie Benutzername und Passwort zur Authentifizierung:",
+      "ru-RU": "Использовать имя пользователя и пароль для аутентификации:"
+    }
+  },  
+  {
+    "Key": "MailServerConfiguration.UsedNameForEmailConnection.DisplayName",
+    "Value": {
+      "en-US": "Authentication username:",
+      "de-DE": "Authentifizierungs-Benutzername:",
+      "ru-RU": "Идентификатор аутентификации:"
+    }
+  },  
+  {
+    "Key": "MailServerConfiguration.UseSecureAuthentication.DisplayName",
+    "Value": {
+      "en-US": "Use secure authentication:",
+      "de-DE": "Verwenden Sie eine sichere Authentifizierung:",
+      "ru-RU": "Использовать безопасную проверку подлинности:"
+    }
+  },  
+  {
+    "Key": "MailFilter.MailAddress.DisplayName",
+    "Value": {
+      "en-US": "Mail address of recepient:",
+      "de-DE": "Postanschrift des Empfängers:",
+      "ru-RU": "Почтовый адрес получателя:"
+    }
+  },  
+  {
+    "Key": "MailFilter.MailThemes.DisplayName",
+    "Value": {
+      "en-US": "Mail subject to identify correct mails:",
+      "de-DE": "Betreff der Mail, um korrekte Mails zu identifizieren:",
+      "ru-RU": "Почта должна идентифицировать правильные письма:"
+    }
+  },  
+  {
+    "Key": "FullReport.BookingNumber.DisplayName",
+    "Value": {
+      "en-US": "Booking Number:",
+      "de-DE": "Buchungsnummer:",
+      "ru-RU": "Номер заказа:"
+    }
+  },
+  {
+    "Key": "FullReport.Status.DisplayName",
+    "Value": {
+      "en-US": "Booking Status:",
+      "de-DE": "Статус бронирования:",
+      "ru-RU": "Buchungsstatus:"
+    }
+  }, 
+  {
+    "Key": "FullReport.SystemAgency.DisplayName",
+    "Value": {
+      "en-US": "Agency:",
+      "de-DE": "Agentur:",
+      "ru-RU": "Агентство:"
+    }
+  },  
+  {
+    "Key": "FullReport.DatevAgencyAccount.DisplayName",
+    "Value": {
+      "en-US": "Datev Account:",
+      "de-DE": "Datev-Konto:",
+      "ru-RU": "Учетная запись Datev:"
+    }
+  },  
+  {
+    "Key": "FullReport.Gds.DisplayName",
+    "Value": {
+      "en-US": "GDS:",
+      "de-DE": "GDS:",
+      "ru-RU": "ГАСБ:"
+    }
+  },  {
+    "Key": "FullReport.PassengerNames.DisplayName",
+    "Value": {
+      "en-US": "Passengers:",
+      "de-DE": "Passagiere:",
+      "ru-RU": "Пассажиры:"
+    }
+  },  
+  {
+    "Key": "FullReport.PassengerCount.DisplayName",
+    "Value": {
+      "en-US": "Passengers Number:",
+      "de-DE": "Fluggastnummer:",
+      "ru-RU": "Количество пассажиров:"
+    }
+  },  
+  {
+    "Key": "FullReport.FirstAirline.DisplayName",
+    "Value": {
+      "en-US": "Validated Airline:",
+      "de-DE": "Validierte Fluggesellschaft:",
+      "ru-RU": "Проверенная авиакомпания:"
+    }
+  },  
+  {
+    "Key": "FullReport.Ticket.DisplayName",
+    "Value": {
+      "en-US": "Ticket Number:",
+      "de-DE": "Ticketnummer:",
+      "ru-RU": "Номер билета:"
+    }
+  },  
+  {
+    "Key": "FullReport.FirstGdsBookingNumber.DisplayName",
+    "Value": {
+      "en-US": "PNR:",
+      "de-DE": "PNR:",
+      "ru-RU": "PNR:"
+    }
+  },  
+  {
+    "Key": "FullReport.FirstGdsBookingAlias.DisplayName",
+    "Value": {
+      "en-US": "PNR Alias:",
+      "de-DE": "PNR-Alias:",
+      "ru-RU": "PNR Псевдоним:"
+    }
+  },  
+  {
+    "Key": "FullReport.BookingDate.DisplayName",
+    "Value": {
+      "en-US": "Booking Date:",
+      "de-DE": "Buchungsdatum:",
+      "ru-RU": "Дата бронирования:"
+    }
+  },  
+  {
+    "Key": "FullReport.FirstRoute.DisplayName",
+    "Value": {
+      "en-US": "First Route:",
+      "de-DE": "Erste Route:",
+      "ru-RU": "Первый маршрут:"
+    }
+  },  
+  {
+    "Key": "FullReport.DepartureDate.DisplayName",
+    "Value": {
+      "en-US": "Departure Date:",
+      "de-DE": "Abreisedatum:",
+      "ru-RU": "Дата отбытия:"
+    }
+  },  
+  {
+    "Key": "FullReport.ReturnDate.DisplayName",
+    "Value": {
+      "en-US": "Return Date:",
+      "de-DE": "Rückflugdatum:",
+      "ru-RU": "Дата возвращения:"
+    }
+  },  
+  {
+    "Key": "FullReport.Tariff.DisplayName",
+    "Value": {
+      "en-US": "Tariff:",
+      "de-DE": "Tarif:",
+      "ru-RU": "Тариф:"
+    }
+  }, 
+  {
+    "Key": "FullReport.Tax.DisplayName",
+    "Value": {
+      "en-US": "Taxes:",
+      "de-DE": "Steuern:",
+      "ru-RU": "Налоги:"
+    }
+  },  
+  {
+    "Key": "FullReport.FullScFlex.DisplayName",
+    "Value": {
+      "en-US": "FullScFlex:",
+      "de-DE": "Voll ScFlex:",
+      "ru-RU": "Полный ScFlex:"
+    }
+  },  
+  {
+    "Key": "FullReport.BloPartScFlex.DisplayName",
+    "Value": {
+      "en-US": "BloPartScFlex:",
+      "de-DE": "Berlogics Teil ScFlex:",
+      "ru-RU": "Часть Berlogic ScFlex:"
+    }
+  },  
+  {
+    "Key": "FullReport.PartnerPartScFlex.DisplayName",
+    "Value": {
+      "en-US": "PartnerPartScFlex:",
+      "de-DE": "Partnerpart ScFlex:",
+      "ru-RU": "Часть Партнера ScFlex:"
+    }
+  },  
+  {
+    "Key": "FullReport.BloFixSc.DisplayName",
+    "Value": {
+      "en-US": "BloFixSc:",
+      "de-DE": "Berlogic FixSc:",
+      "ru-RU": "Berlogic FixSc:"
+    }
+  },  
+  {
+    "Key": "FullReport.PartnerFixSc.DisplayName",
+    "Value": {
+      "en-US": "PartnerFixSc:",
+      "de-DE": "Partner FixSc:",
+      "ru-RU": "Партнер FixSc:"
+    }
+  },  
+  {
+    "Key": "FullReport.TotalPrice.DisplayName",
+    "Value": {
+      "en-US": "Total Price:",
+      "de-DE": "Gesamtpreis:",
+      "ru-RU": "Итоговая цена:"
+    }
+  },  
+  {
+    "Key": "FullReport.SellingCurrency.DisplayName",
+    "Value": {
+      "en-US": "Selling Currency:",
+      "de-DE": "Verkaufswährung:",
+      "ru-RU": "Валюта продажи:"
+    }
+  },  
+  {
+    "Key": "FullReport.ExchangeRateToEuro.DisplayName",
+    "Value": {
+      "en-US": "Exchange Rate To Euro:",
+      "de-DE": "Wechselkurs zum Euro:",
+      "ru-RU": "Курс обмена евро:"
+    }
+  },  
+  {
+    "Key": "FullReport.PaymentMethod.DisplayName",
+    "Value": {
+      "en-US": "Payment Method:",
+      "de-DE": "Zahlungsmethode:",
+      "ru-RU": "Способ оплаты:"
+    }
+  },  
+  {
+    "Key": "FullReport.SalesPoint.DisplayName",
+    "Value": {
+      "en-US": "Sales Point:",
+      "de-DE": "Verkaufsstelle:",
+      "ru-RU": "Пункт продажи:"
+    }
+  },  
+  {
+    "Key": "FullReport.Agent.DisplayName",
+    "Value": {
+      "en-US": "Agent:",
+      "de-DE": "Agent:",
+      "ru-RU": "Агент:"
+    }
+  },  
+  {
+    "Key": "FullReport.CardType.DisplayName",
+    "Value": {
+      "en-US": "Card Type:",
+      "de-DE": "Kartentyp:",
+      "ru-RU": "Тип карты:"
+    }
+  },  
+  {
+    "Key": "FullReport.CardHolder.DisplayName",
+    "Value": {
+      "en-US": "Card Holder:",
+      "de-DE": "Kartenhalter:",
+      "ru-RU": "Держатель карты:"
+    }
+  },  
+  {
+    "Key": "FullReport.CustomerFirstName.DisplayName",
+    "Value": {
+      "en-US": "Customer First Name:",
+      "de-DE": "Vorname des Kunden:",
+      "ru-RU": "Имя клиента:"
+    }
+  },  
+  {
+    "Key": "FullReport.CustomerLastName.DisplayName",
+    "Value": {
+      "en-US": "Customer Last Name:",
+      "de-DE": "Nachname des Kunden:",
+      "ru-RU": "Фамилия клиента:"
+    }
+  },  {
+    "Key": "FullReport.CustomerGender.DisplayName",
+    "Value": {
+      "en-US": "Customer Gender:",
+      "de-DE": "Kunden Geschlecht:",
+      "ru-RU": "Пол пользователя:"
+    }
+  },  
+  {
+    "Key": "FullReport.CustomerCountry.DisplayName",
+    "Value": {
+      "en-US": "Customer Country:",
+      "de-DE": "Kundenland:",
+      "ru-RU": "Страна клиента:"
+    }
+  },  
+  {
+    "Key": "FullReport.CustomerCity.DisplayName",
+    "Value": {
+      "en-US": "Customer City:",
+      "de-DE": "Kundenstadt:",
+      "ru-RU": "Город клиента:"
+    }
+  },  
+  {
+    "Key": "FullReport.CustomerAddress.DisplayName",
+    "Value": {
+      "en-US": "Customer Address:",
+      "de-DE": "Kundenadresse:",
+      "ru-RU": "Адрес клиента:"
+    }
+  },  
+  {
+    "Key": "FullReport.CustomerEmail.DisplayName",
+    "Value": {
+      "en-US": "Customer Email:",
+      "de-DE": "Kunden-eMail:",
+      "ru-RU": "Электронная почта клиента:"
+    }
+  },  
+  {
+    "Key": "FullReport.CustomerPhone.DisplayName",
+    "Value": {
+      "en-US": "Customer Phone:",
+      "de-DE": "Kundentelefon:",
+      "ru-RU": "Телефон клиента:"
+    }
+  },  
+  {
+    "Key": "FullReport.CustomerFullName.DisplayName",
+    "Value": {
+      "en-US": "Customer Full Name:",
+      "de-DE": "Kundenname:",
+      "ru-RU": "Полное имя клиента:"
+    }
+  },  
+  {
+    "Key": "FullReport.NumberOfSegments.DisplayName",
+    "Value": {
+      "en-US": "Number Of Segments:",
+      "de-DE": "Anzahl der Segmente:",
+      "ru-RU": "Количество сегментов:"
+    }
+  },  
+  {
+    "Key": "FullReport.ClearingType.DisplayName",
+    "Value": {
+      "en-US": "Clearing Type:",
+      "de-DE": "Clearing-Typ:",
+      "ru-RU": "Тип клиринга:"
+    }
+  },  
+  {
+    "Key": "FullReport.BookingClass.DisplayName",
+    "Value": {
+      "en-US": "Booking Class:",
+      "de-DE": "Buchungsklasse:",
+      "ru-RU": "Класс бронирования:"
+    }
+  },  
+  {
+    "Key": "FullReport.FareBasis.DisplayName",
+    "Value": {
+      "en-US": "Fare Basis:",
+      "de-DE": "Tarifbasis:",
+      "ru-RU": "Тариф основой:"
+    }
+  },  
+  {
+    "Key": "FullReport.Commission.DisplayName",
+    "Value": {
+      "en-US": "Commission:",
+      "de-DE": "Kommission:",
+      "ru-RU": "Комиссия:"
+    }
+  },  
+  {
+    "Key": "LineRoute.DepartureDate.DisplayName",
+    "Value": {
+      "en-US": "Departure date",
+      "de-DE": "Abflugsdatum",
+      "ru-RU": "Дата отправления"
+    }
+  },  
+  {
+    "Key": "LineRoute.FlightAirline.DisplayName",
+    "Value": {
+      "en-US": "Flight",
+      "de-DE": "Flug",
+      "ru-RU": "Рейс"
+    }
+  },  
+  {
+    "Key": "LineRoute.FlightNumber.DisplayName",
+    "Value": {
+      "en-US": "Flight number",
+      "de-DE": "FlugNr.",
+      "ru-RU": "Рейс №"
+    }
+  },  
+  {
+    "Key": "LineRoute.DepartureAirport.DisplayName",
+    "Value": {
+      "en-US": "From",
+      "de-DE": "Von",
+      "ru-RU": "Из"
+    }
+  },  
+  {
+    "Key": "LineRoute.ArrivalAirport.DisplayName",
+    "Value": {
+      "en-US": "To",
+      "de-DE": "Nach",
+      "ru-RU": "В"
+    }
+  },  
+  {
+    "Key": "LineRoute.DepartureTime.DisplayName",
+    "Value": {
+      "en-US": "Departure",
+      "de-DE": "Abflug",
+      "ru-RU": "Отправление"
+    }
+  },  
+  {
+    "Key": "LineRoute.ArrivalDate.DisplayName",
+    "Value": {
+      "en-US": "Arrivals date",
+      "de-DE": "Ankuftsdatum",
+      "ru-RU": "Дата прибытия"
+    }
+  },  
+  {
+    "Key": "LineRoute.ArrivalTime.DisplayName",
+    "Value": {
+      "en-US": "Arrival",
+      "de-DE": "Ortsankunft",
+      "ru-RU": "Прибытие"
+    }
+  },  
+  {
+    "Key": "LineRoute.Baggage.DisplayName",
+    "Value": {
+      "en-US": "Baggage",
+      "de-DE": "Gepäck",
+      "ru-RU": "Багаж"
+    }
+  },  
+  {
+    "Key": "PassangerModel.Prefix.DisplayName",
+    "Value": {
+      "en-US": "Prefix",
+      "de-DE": "Präfix",
+      "ru-RU": "Префикс"
+    }
+  },  
+  {
+    "Key": "PassangerModel.FirstName.DisplayName",
+    "Value": {
+      "en-US": "First Name",
+      "de-DE": "Vorname",
+      "ru-RU": "Имя"
+    }
+  },  
+  {
+    "Key": "PassangerModel.LastName.DisplayName",
+    "Value": {
+      "en-US": "Surname",
+      "de-DE": "Nachname",
+      "ru-RU": "Фамилия"
+    }
+  },  
+  {
+    "Key": "PassangerModel.MiddleName.DisplayName",
+    "Value": {
+      "en-US": "Middle name",
+      "de-DE": "Mittelname",
+      "ru-RU": "Отчество"
+    }
+  },  
+  {
+    "Key": "PassangerModel.FullName.DisplayName",
+    "Value": {
+      "en-US": "Full name",
+      "de-DE": "Name",
+      "ru-RU": "ФИО"
+    }
+  },  
+  {
+    "Key": "PassangerModel.PassangerFee.DisplayName",
+    "Value": {
+      "en-US": "Fee per passenger",
+      "de-DE": "Fee pro Passagier",
+      "ru-RU": "Плата за пассажира"
+    }
+  },  
+  {
+    "Key": "Rebooking",
+    "Value": {
+      "en-US": "Rebooking",
+      "de-DE": "Umbuchung",
+      "ru-RU": "Перебронирование"
+    }
+  },  
+  {
+    "Key": "Сancellation",
+    "Value": {
+      "en-US": "Cancellation",
+      "de-DE": "Storno",
+      "ru-RU": "Отмена"
+    }
+  },  
+  {
+    "Key": "Baggage",
+    "Value": {
+      "en-US": "Baggage",
+      "de-DE": "Gepäck",
+      "ru-RU": "Багаж"
+    }
+  },  
+  {
+    "Key": "All services",
+    "Value": {
+      "en-US": "All services",
+      "de-DE": "Alle Dienstleistungen",
+      "ru-RU": "Все услуги"
+    }
+  },  
+  {
+    "Key": "GetPassengerDataViewModel.InputField.DisplayName",
+    "Value": {
+      "en-US": "Please enter the search value:",
+      "de-DE": "Bitte geben Sie den Suchwert ein:",
+      "ru-RU": "Введите значение поиска:"
+    }
+  },  
+  {
+    "Key": "GetPassengerDataViewModel.InputField.ErrorMessage",
+    "Value": {
+      "en-US": "We do not have object to search",
+      "de-DE": "Wir haben keinen Gegenstand zu suchen",
+      "ru-RU": "У нас нет объекта для поиска"
+    }
+  },  
+  {
+    "Key": "by PNR",
+    "Value": {
+      "en-US": "by PNR",
+      "de-DE": "von PNR",
+      "ru-RU": "по PNR"
+    }
+  },  
+  {
+    "Key": "by Booking Number",
+    "Value": {
+      "en-US": "by Booking Number",
+      "de-DE": "nach Buchungsnummer",
+      "ru-RU": "по номеру бронирования"
+    }
+  },  
+  {
+    "Key": "GetPassengerDataViewModel.SelectedItem.ErrorMessage",
+    "Value": {
+      "en-US": "We do not have any criteria of search",
+      "de-DE": "Wir haben keine Suchkriterien",
+      "ru-RU": "У нас нет критериев поиска"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.BookingDate.DisplayName",
+    "Value": {
+      "en-US": "Booking date",
+      "de-DE": "Buchungsdatum",
+      "ru-RU": "Дата бронирования"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.BookingNumber.DisplayName",
+    "Value": {
+      "en-US": "Reference",
+      "de-DE": "Referenznummer",
+      "ru-RU": "Ссылка"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.BookingCode.DisplayName",
+    "Value": {
+      "en-US": "Booking code",
+      "de-DE": "Buchungscode",
+      "ru-RU": "Код бронирования"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.ChangeServiceDate.DisplayName",
+    "Value": {
+      "en-US": "Modification date",
+      "de-DE": "Ändrerungdatum",
+      "ru-RU": "Дата изменения"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.CustomerFullName.DisplayName",
+    "Value": {
+      "en-US": "Customer",
+      "de-DE": "Kunde",
+      "ru-RU": "Клиент"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.CustomerEmail.DisplayName",
+    "Value": {
+      "en-US": "E-mail",
+      "de-DE": "E-mail",
+      "ru-RU": "Электронная почта"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.PaymentMethod.DisplayName",
+    "Value": {
+      "en-US": "Payment",
+      "de-DE": "Zahlungsart",
+      "ru-RU": "Оплата"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.ClearingType.DisplayName",
+    "Value": {
+      "en-US": "Clearing Type",
+      "de-DE": "Art löschen",
+      "ru-RU": "Тип Клиринга"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.AgencyCode.DisplayName",
+    "Value": {
+      "en-US": "Agency code",
+      "de-DE": "Agenturcode",
+      "ru-RU": "Код агентства"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.Salespoint.DisplayName",
+    "Value": {
+      "en-US": "Salespoint",
+      "de-DE": "Verkaufspunkt",
+      "ru-RU": "Пункт продажи"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.AgentName.DisplayName",
+    "Value": {
+      "en-US": "Agent name",
+      "de-DE": "Agentenname",
+      "ru-RU": "Имя агента"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.PaymentLink.DisplayName",
+    "Value": {
+      "en-US": "Payment link",
+      "de-DE": "Zahlungslink",
+      "ru-RU": "Платежная ссылка"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.LineRoutes.DisplayName",
+    "Value": {
+      "en-US": "Air route",
+      "de-DE": "Flugroute",
+      "ru-RU": "Маршрут"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.PassangerModels.DisplayName",
+    "Value": {
+      "en-US": "Passenger(s)",
+      "de-DE": "Passagier(e)",
+      "ru-RU": "Пассажир(ы)"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.PriceDifference.DisplayName",
+    "Value": {
+      "en-US": "Price difference",
+      "de-DE": "Preisdifferenz",
+      "ru-RU": "Разница в цене"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.RebookingFee.DisplayName",
+    "Value": {
+      "en-US": "Rebooking fees",
+      "de-DE": "Umbuchungsgebühren",
+      "ru-RU": "Сборы за изменение"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.AirlineFee.DisplayName",
+    "Value": {
+      "en-US": "Subtotal Airline",
+      "de-DE": "Zwischensumme Airline",
+      "ru-RU": "Итого по авиакомпании"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.BerlogicFee.DisplayName",
+    "Value": {
+      "en-US": "Processing fees BERlogic",
+      "de-DE": "Bearbeitungsgebühren BERlogic",
+      "ru-RU": "Плата за обработку заявки BERlogic"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.TotalFee.DisplayName",
+    "Value": {
+      "en-US": "Invoice amount EURO",
+      "de-DE": "Rechnungsbetrag EURO",
+      "ru-RU": "Сумма счета EURO"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.ServiceOperations.DisplayName",
+    "Value": {
+      "en-US": "Type of Operation",
+      "de-DE": "Art des Vorgangs",
+      "ru-RU": "Тип Операции"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.AirlineTotalPrice.DisplayName",
+    "Value": {
+      "en-US": "Airfare incl. Fees",
+      "de-DE": "Flugpreis inkl. Gebühren",
+      "ru-RU": "Стоимость авиабилетов, включая сборы"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.NonRefundableTaxes.DisplayName",
+    "Value": {
+      "en-US": "Non-refundable taxes",
+      "de-DE": "Nicht erstattbare Taxen",
+      "ru-RU": "Невозвращаемые налоги"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.AdditionalServicesAndBaggage.DisplayName",
+    "Value": {
+      "en-US": "Additional Services/Luggage",
+      "de-DE": "Zusatzleistung/Gepäck",
+      "ru-RU": "Дополнительные услуги/Багаж"
+    }
+  },    
+  {
+    "Key": "ServiceOperationsViewModel.CancellationAirlineFee.DisplayName",
+    "Value": {
+      "en-US": "Cancellation fees of the airline",
+      "de-DE": "Stornogebühren der Airline",
+      "ru-RU": "Сбор за Аннулирование от авиакомпании"
+    }
+  },  
+  {
+    "Key": "ServiceOperationsViewModel.PrepaidBerlogicFee.DisplayName",
+    "Value": {
+      "en-US": "Already paid fees BERlogic",
+      "de-DE": "Bereits bezahlte Gebühren-BERlogic",
+      "ru-RU": "Предоплаченные сборы BERlogic"
+    }
+  },    
+  {
+    "Key": "ServiceOperationsViewModel.Credit.DisplayName",
+    "Value": {
+      "en-US": "Credit",
+      "de-DE": "Gutschrift",
+      "ru-RU": "Кредит"
+    }
+  },    
+  {
+    "Key": "OperationServicesListViewModel.Operations.DisplayName",
+    "Value": {
+      "en-US": "Operations list:",
+      "de-DE": "Operationsliste:",
+      "ru-RU": "Список операций:"
+    }
+  },    
+  {
+    "Key": "OperationServicesListViewModel.StartSearchDate.DisplayName",
+    "Value": {
+      "en-US": "Start Date:",
+      "de-DE": "Anfangsdatum:",
+      "ru-RU": "Дата начала:"
+    }
+  }
+  ,    
+  {
+    "Key": "OperationServicesListViewModel.EndSearchDate.DisplayName",
+    "Value": {
+      "en-US": "End Date:",
+      "de-DE": "Endtermin:",
+      "ru-RU": "Дата окончания:"
+    }
+  },    
+  {
+    "Key": "OperationServicesListViewModel.PageSizeList.DisplayName",
+    "Value": {
+      "en-US": "Elements on page:",
+      "de-DE": "Elemente auf der Seite:",
+      "ru-RU": "Кол-во эл-в на странице:"
+    }
+  },    
+  {
+    "Key": "IndexViewModel.Username.DisplayName",
+    "Value": {
+      "en-US": "Username",
+      "de-DE": "Nutzername",
+      "ru-RU": "Имя пользователя"
+    }
+  },    
+  {
+    "Key": "IndexViewModel.UserRole.DisplayName",
+    "Value": {
+      "en-US": "User Role",
+      "de-DE": "Benutzer-Rolle",
+      "ru-RU": "Роль пользователя"
+    }
+  },    
+  {
+    "Key": "IndexViewModel.Email.DisplayName",
+    "Value": {
+      "en-US": "Email",
+      "de-DE": "Email",
+      "ru-RU": "Эл. адрес"
+    }
+  },    
+  {
+    "Key": "IndexViewModel.FirstName.DisplayName",
+    "Value": {
+      "en-US": "First Name",
+      "de-DE": "Vorname",
+      "ru-RU": "Имя"
+    }
+  },    
+  {
+    "Key": "IndexViewModel.LastName.DisplayName",
+    "Value": {
+      "en-US": "Last Name",
+      "de-DE": "Nachname",
+      "ru-RU": "Фамилия"
+    }
+  },
+  {
+    "Key": "FullReportJournal.RegistrationEventDate.DisplayName",
+    "Value": {
+      "en-US": "Database Operation Date:",
+      "de-DE": "Datenbankbetriebsdatum:",
+      "ru-RU": "Дата работы базы данных:"
+    }
+  },    
+  {
+    "Key": "FullReportJournal.FileName.DisplayName",
+    "Value": {
+      "en-US": "Fullreport Filename:",
+      "de-DE": "Fullreport Dateiname:",
+      "ru-RU": "Имя файла:"
+    }
+  },    
+  {
+    "Key": "FullReportJournal.Pnr_Before.DisplayName",
+    "Value": {
+      "en-US": "Initial PNR entry:",
+      "de-DE": "Anfänglicher PNR-Eintrag:",
+      "ru-RU": "Начальная запись PNR:"
+    }
+  },    
+  {
+    "Key": "FullReportJournal.Pnr_After.DisplayName",
+    "Value": {
+      "en-US": "PNR entry:",
+      "de-DE": "PNR-Eintrag:",
+      "ru-RU": "Запись PNR:"
+    }
+  }
+  ,    
+  {
+    "Key": "FullReportJournal.BookingNumber_Before.DisplayName",
+    "Value": {
+      "en-US": "Initial Booking Number:",
+      "de-DE": "Anfangsbuchungsnummer:",
+      "ru-RU": "Начальный номер бронирования:"
+    }
+  },    
+  {
+    "Key": "FullReportJournal.BookingNumber_After.DisplayName",
+    "Value": {
+      "en-US": "Booking Number:",
+      "de-DE": "Buchungsnummer:",
+      "ru-RU": "Номер заказа:"
+    }
+  },    
+  {
+    "Key": "FullReportJournal.FileUploadDate.DisplayName",
+    "Value": {
+      "en-US": "Upload Date:",
+      "de-DE": "Hochladedatum:",
+      "ru-RU": "Дата загрузки:"
+    }
+  },    
+  {
+    "Key": "FileInFolder.FilePath.DisplayName",
+    "Value": {
+      "en-US": "File Path:",
+      "de-DE": "Dateipfad:",
+      "ru-RU": "Путь к файлу:"
+    }
+  },    
+  {
+    "Key": "FileInFolder.FileName.DisplayName",
+    "Value": {
+      "en-US": "File Name:",
+      "de-DE": "Dateiname:",
+      "ru-RU": "Имя файла:"
+    }
+  },    
+  {
+    "Key": "FileInFolder.DateTimeOfUpload.DisplayName",
+    "Value": {
+      "en-US": "Uploaded date and time:",
+      "de-DE": "Datum und Uhrzeit hochgeladen:",
+      "ru-RU": "Дата и время загрузки:"
+    }
+  },    
+  {
+    "Key": "FileInFolder.FileSize.DisplayName",
+    "Value": {
+      "en-US": "File Size:",
+      "de-DE": "Dateigröße:",
+      "ru-RU": "Размер файла:"
+    }
+  },  
+  {
+    "Key": "FileInFolder.FileExtension.DisplayName",
+    "Value": {
+      "en-US": "File Extension:",
+      "de-DE": "Dateierweiterung:",
+      "ru-RU": "Расширение файла:"
+    }
+  }  
+]

@@ -1,0 +1,17 @@
+﻿@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    @if (TempData["message"] != null) {
+    <div class="alert alert-success">@TempData["message"]</div>
+    }
+    @if (TempData["error"] != null) {
+    <div class="alert alert-danger">@Html.Raw(TempData["error"])</div>
+    }
+    @RenderBody()
+</div>
+
+@section Scripts {
+    @RenderSection("Scripts", required: false)
+}

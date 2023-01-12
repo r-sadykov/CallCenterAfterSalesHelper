@@ -1,0 +1,18 @@
+[
+  {
+    "Key": "Manage your database connections",
+    "Value": {
+      "en-US": "Manage your database connections",
+      "de-DE": "Verwalten Sie Ihre Datenbankverbindungen",
+      "ru-RU": "Управление соединениями с базой данных"
+    }
+  },
+    {
+    "Key": "List of Connections",
+    "Value": {
+      "en-US": "List of Connections",
+      "de-DE": "Liste der Verbindungen",
+      "ru-RU": "Список подключений"
+    }
+  }
+]

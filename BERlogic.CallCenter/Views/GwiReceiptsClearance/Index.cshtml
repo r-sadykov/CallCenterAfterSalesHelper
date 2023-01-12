@@ -1,0 +1,50 @@
+﻿@model BERlogic.CallCenter.ViewModels.GwiReceiptViewModel
+
+@{
+    Layout = "_Layout";
+}
+
+<h2>GermanWings / EuroWings Receipts Clearance</h2>
+<hr/>
+
+<form class="form form-check" method="post" asp-controller="GwiReceiptsClearance">
+<div class="row align-items-sm-center align-content-sm-center">
+    <div class="col col-sm-1">
+        <a class="btn btn-primary" style="margin-top: 25px" asp-action="RefreshResults">Refresh</a>
+    </div>
+    <div class="col col-sm-2">
+        <div>
+            <label class="label label-primary" asp-for="StartDate"></label>
+            <input type="datetime-local" class="datepicker" asp-for="StartDate" />
+        </div>
+        <div>
+            <label class="label label-primary" asp-for="EndDate"></label>
+            <input type="datetime-local" class="datepicker" asp-for="EndDate" />
+        </div>
+    </div>
+    <div class="col col-sm-2">
+        <div class="form-check-inline form-group">
+            @{
+                for (int i = 0; i < Model.CheckOptionList.Count; i++)
+                {
+                    <div class="custom-radio">
+                        <input type="radio" asp-for="SelectedOption" value="@i">
+                        <label class="label label-default" asp-for="@i">@Model.CheckOptionList[i]</label>
+                        <input asp-for="@i" type="hidden"/>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+    <div class="col col-sm-1">
+        <a class="btn btn-default" asp-controller="GwiReceiptsClearance" asp-action="AcceptFilterData"  style="margin-top: 25px">Accept</a>
+    </div>
+    <div class="col col-sm-1">
+        <a class="btn btn-default"  style="margin-top: 25px" asp-action="SaveResultsInExcel">
+            <i class="fa fa-file-excel-o">
+                <span  style="margin-left: 5px">Save in Excel</span>
+            </i>
+        </a>
+    </div>
+</div>
+</form>

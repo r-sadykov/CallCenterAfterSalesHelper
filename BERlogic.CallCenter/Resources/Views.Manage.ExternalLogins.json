@@ -1,0 +1,66 @@
+[
+  {
+    "Key": "Manage your external logins",
+    "Value": {
+      "en-US": "Manage your external logins",
+      "de-DE": "Verwalten Sie Ihre externen Logins",
+      "ru-RU": "Управление внешними входами"
+    }
+  },
+    {
+    "Key": "Registered Login",
+    "Value": {
+      "en-US": "Registered Login",
+      "de-DE": "Registrierter Login",
+      "ru-RU": "Зарегистрированный вход"
+    }
+  },
+    {
+    "Key": "Remove this",
+    "Value": {
+      "en-US": "Remove this",
+      "de-DE": "Entferne das",
+      "ru-RU": "Удали этот"
+    }
+  },
+    {
+    "Key": "login from your account",
+    "Value": {
+      "en-US": "login from your account",
+      "de-DE": "anmelden von Ihrem Konto",
+      "ru-RU": "логин со своего аккаунта"
+    }
+  },
+    {
+    "Key": "Remove",
+    "Value": {
+      "en-US": "Remove",
+      "de-DE": "Löschen",
+      "ru-RU": "Удалить"
+    }
+  },
+    {
+    "Key": "Add another service to log in.",
+    "Value": {
+      "en-US": "Add another service to log in.",
+      "de-DE": "Fügen Sie einen weiteren Dienst hinzu, um sich anzumelden.",
+      "ru-RU": "Добавьте еще один сервис для входа в систему."
+    }
+  },
+    {
+    "Key": "Log in using your",
+    "Value": {
+      "en-US": "Log in using your",
+      "de-DE": "Loggen Sie sich mit Ihrem ein",
+      "ru-RU": "Войдите в систему, используя свою"
+    }
+  },
+    {
+    "Key": "account",
+    "Value": {
+      "en-US": "account",
+      "de-DE": "Konto",
+      "ru-RU": "учетную запись"
+    }
+  }
+]

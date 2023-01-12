@@ -1,0 +1,18 @@
+[
+  {
+    "Key": "Manage your Mail Filters",
+    "Value": {
+      "en-US": "Manage your Mail Filters",
+      "de-DE": "Verwalten Sie Ihre Mail-Filter",
+      "ru-RU": "Управление почтовыми фильтрами"
+    }
+  },
+    {
+    "Key": "List of Mail Filters",
+    "Value": {
+      "en-US": "List of Mail Filters",
+      "de-DE": "Liste der Mail-Filter",
+      "ru-RU": "Список почтовых фильтров"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "Key": "Signed out",
+    "Value": {
+      "en-US": "Signed out",
+      "de-DE": "Abgemeldet",
+      "ru-RU": "Вышел"
+    }
+  },
+    {
+    "Key": "You have successfully signed out.",
+    "Value": {
+      "en-US": "You have successfully signed out.",
+      "de-DE": "Sie haben sich erfolgreich abgemeldet.",
+      "ru-RU": "Вы успешно вышли из системы."
+    }
+  }
+]

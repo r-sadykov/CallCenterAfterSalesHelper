@@ -1,0 +1,18 @@
+[
+  {
+    "Key": "Manage your Mail Server connections",
+    "Value": {
+      "en-US": "Manage your Mail Server connections",
+      "de-DE": "Verwalten Sie Ihre Mail Server-Verbindungen",
+      "ru-RU": "Управление подключениями к почтовому серверу"
+    }
+  },
+    {
+    "Key": "List of Connections",
+    "Value": {
+      "en-US": "List of Connections",
+      "de-DE": "Liste der Verbindungen",
+      "ru-RU": "Список подключений"
+    }
+  }
+]

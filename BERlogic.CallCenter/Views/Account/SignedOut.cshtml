@@ -1,0 +1,9 @@
+﻿@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = Localizer["Signed out"];
+}
+
+<h2>@ViewData["Title"]</h2>
+<p>
+    @Localizer["You have successfully signed out."]
+</p>

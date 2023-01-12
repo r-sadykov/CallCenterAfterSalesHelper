@@ -1,0 +1,18 @@
+[
+  {
+    "Key": "Failed to Upload:",
+    "Value": {
+      "en-US": "Failed to Upload:",
+      "de-DE": "Upload fehlgeschlagen:",
+      "ru-RU": "Не удалось загрузить:"
+    }
+  },
+    {
+    "Key": "Success to Upload:",
+    "Value": {
+      "en-US": "Success to Upload:",
+      "de-DE": "Erfolgreicher Upload:",
+      "ru-RU": "Успешно загружены:"
+    }
+  }
+]

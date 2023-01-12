@@ -1,0 +1,31 @@
+﻿@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+<div class="row align-items-start">
+    @if (TempData["messageMailFolderRefreshed"] != null)
+    {
+        <div class="alert alert-success">@TempData["messageMailFolderRefreshed"]</div>
+    }
+    @if (TempData["messageIsSaved"] != null)
+    {
+        <div class="alert alert-success">@TempData["messageIsSaved"]</div>
+    }
+    @if (TempData["errorMailFolderRefreshed"] != null)
+    {
+        <div class="alert alert-danger">@Html.Raw(TempData["errorMailFolderRefreshed"])</div>
+    }
+    @if (TempData["errorIsSaved"] != null)
+    {
+        <div class="alert alert-danger">@Html.Raw(TempData["errorIsSaved"])</div>
+    }
+    @RenderBody()
+</div>
+<div class="row">
+    @await Component.InvokeAsync("GwiReceiptsClearanceList")
+</div>
+</div>
+@section Scripts {
+    @RenderSection("Scripts", required: false)
+}

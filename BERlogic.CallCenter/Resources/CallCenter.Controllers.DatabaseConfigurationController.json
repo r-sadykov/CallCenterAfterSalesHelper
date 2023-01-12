@@ -1,0 +1,50 @@
+[
+  {
+    "Key": "has been saved",
+    "Value": {
+      "en-US": "has been saved",
+      "de-DE": "wurde gespeichert",
+      "ru-RU": "сохранено"
+    }
+  },
+    {
+    "Key": "has been not saved",
+    "Value": {
+      "en-US": "has been not saved",
+      "de-DE": "wurde nicht gespeichert",
+      "ru-RU": "не было сохранено"
+    }
+  },
+    {
+    "Key": "Connection opened successful",
+    "Value": {
+      "en-US": "Connection opened successful",
+      "de-DE": "Verbindung wurde erfolgreich geöffnet",
+      "ru-RU": "Соединение успешно завершено"
+    }
+  },
+    {
+    "Key": "Connection failed.<br/>Error is",
+    "Value": {
+      "en-US": "Connection failed.<br/>Error is",
+      "de-DE": "Verbindung fehlgeschlagen. <br/> Fehler ist",
+      "ru-RU": "Ошибка подключения. <br/> Ошибка: "
+    }
+  },
+    {
+    "Key": "has been changed",
+    "Value": {
+      "en-US": "has been changed",
+      "de-DE": "wurde geändert",
+      "ru-RU": "было изменено"
+    }
+  },
+    {
+    "Key": "was deleted",
+    "Value": {
+      "en-US": "was deleted",
+      "de-DE": "wurde gelöscht",
+      "ru-RU": "было удалено"
+    }
+  }
+]

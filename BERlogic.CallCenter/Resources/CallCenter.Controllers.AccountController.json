@@ -1,0 +1,106 @@
+[
+  {
+    "Key": "Invalid login attempt.",
+    "Value": {
+      "en-US": "Invalid login attempt.",
+      "de-DE": "Ungültiger Anmeldeversuch",
+      "ru-RU": "Неверная попытка входа в систему."
+    }
+  },
+  {
+    "Key": "Unable to load two-factor authentication user.",
+    "Value": {
+      "en-US": "Unable to load two-factor authentication user.",
+      "de-DE": "Der Zwei-Faktor-Authentifizierungsbenutzer konnte nicht geladen werden.",
+      "ru-RU": "Не удалось загрузить двухфакторную аутентификацию."
+    }
+  },
+  {
+    "Key": "Unable to load user with ID",
+    "Value": {
+      "en-US": "Unable to load user with ID",
+      "de-DE": "Benutzer konnte nicht mit ID geladen werden",
+      "ru-RU": "Не удалось загрузить пользователя с идентификатором"
+    }
+  },
+  {
+    "Key": "Invalid authenticator code.",
+    "Value": {
+      "en-US": "Invalid authenticator code.",
+      "de-DE": "Ungültiger Authentifizierungscode",
+      "ru-RU": "Недопустимый код аутентификатора."
+    }
+  },
+  {
+    "Key": "Invalid recovery code entered.",
+    "Value": {
+      "en-US": "Invalid recovery code entered.",
+      "de-DE": "Ungültiger Wiederherstellungscode eingegeben",
+      "ru-RU": "Введен неверный код восстановления."
+    }
+  },
+  {
+    "Key": "The user with this email is already exist.",
+    "Value": {
+      "en-US": "The user with this email is already exist.",
+      "de-DE": "Der Benutzer mit dieser E-Mail ist bereits vorhanden.",
+      "ru-RU": "Пользователь с этим адресом эл. почты уже существует."
+    }
+  },
+  {
+    "Key": "User succesful added.",
+    "Value": {
+      "en-US": "User succesful added.",
+      "de-DE": "Benutzer erfolgreich hinzugefügt.",
+      "ru-RU": "Пользователь успешно добавлен."
+    }
+  },
+  {
+    "Key": "Error from external provider:",
+    "Value": {
+      "en-US": "Error from external provider:",
+      "de-DE": "Fehler von externem Anbieter:",
+      "ru-RU": "Ошибка внешнего поставщика:"
+    }
+  },
+  {
+    "Key": "Error loading external login information during confirmation.",
+    "Value": {
+      "en-US": "Error loading external login information during confirmation.",
+      "de-DE": "Fehler beim Laden der externen Anmeldeinformationen während der Bestätigung.",
+      "ru-RU": "Ошибка при загрузке внешней информации входа во время подтверждения."
+    }
+  },
+  {
+    "Key": "Reset Password",
+    "Value": {
+      "en-US": "Reset Password",
+      "de-DE": "Passwort zurücksetzen",
+      "ru-RU": "Сброс пароля"
+    }
+  },
+  {
+    "Key": "Please reset your password by clicking here:",
+    "Value": {
+      "en-US": "Please reset your password by clicking here:",
+      "de-DE": "Bitte setze dein Passwort zurück, indem du hier klickst:",
+      "ru-RU": "Сбросьте свой пароль, нажав здесь:"
+    }
+  },
+  {
+    "Key": "User is not exist.",
+    "Value": {
+      "en-US": "User is not exist.",
+      "de-DE": "Benutzer ist nicht vorhanden.",
+      "ru-RU": "Пользователь не существует."
+    }
+  },
+  {
+    "Key": "A code must be supplied for password reset.",
+    "Value": {
+      "en-US": "A code must be supplied for password reset.",
+      "de-DE": "Zum Zurücksetzen des Kennworts muss ein Code angegeben werden.",
+      "ru-RU": "Для сброса пароля должен быть указан код."
+    }
+  }
+]

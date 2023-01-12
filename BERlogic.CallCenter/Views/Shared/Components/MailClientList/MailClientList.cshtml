@@ -1,0 +1,23 @@
+﻿@model IEnumerable<BERlogic.CallCenter.Models.MailClientConfiguration>
+@inject IViewLocalizer Localizer
+
+<div class="panel" >
+    @foreach (var db in Model)
+    {
+        <input type="hidden" value="@db.ConfigurationId" />
+        <table class="table table-condensed">
+            <thead>
+            <tr class="font-weight-bold font-lg">
+                <td colspan="3">@db.ConfigurationName</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><a asp-controller="MailClientConfiguration" asp-action="EditMailClientConfiguration" asp-route-configurationId="@db.ConfigurationId"><u>@Localizer["Component.DatabaseConfiguration.E"]</u>@Localizer["Component.DatabaseConfiguration.Dit"]</a></td>
+                <td></td>
+                <td><a asp-controller="MailClientConfiguration" asp-action="RemoveMailClientConfiguration" asp-route-configurationId="@db.ConfigurationId"><u>@Localizer["Component.DatabaseConfiguration.R"]</u>@Localizer["Component.DatabaseConfiguration.Emove"]</a></td>
+            </tr>
+            </tbody>
+        </table>
+    }
+</div>

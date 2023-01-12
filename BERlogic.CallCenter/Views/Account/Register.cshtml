@@ -1,0 +1,426 @@
+@using BERlogic.CallCenter.Models.Enums
+@model BERlogic.CallCenter.Models.AccountViewModels.RegisterViewModel
+@inject IViewLocalizer Localizer
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 hidden-xs hidden-sm">
+        <h1 class="txt-color-red login-header-big">@Localizer["BERlogic CallCenter Web Application"]</h1>
+        <div class="hero">
+            <div class="pull-left login-desc-box-l">
+                <h4 class="paragraph-header">@Localizer["Simplify the process is way of progress"]</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+        <div class="well no-padding">
+
+            <form asp-controller="Account" asp-action="Register" id="smart-form-register" class="smart-form client-form">
+                <header>
+                    @Localizer["Registration"]
+                </header>
+                <fieldset>
+                    <section>
+                        <div asp-validation-summary="All" class="alert alert-danger"></div>
+                        <div class="txt-color-red font-weight-bold">@ViewData["Status"]</div>
+                    </section>
+                    <section>
+                        <label class="input">
+                            <i class="icon-append fa fa-user"></i>
+                            <input type="text" name="username" placeholder="@Localizer["Username"]" asp-for="Username">
+                            <b class="tooltip tooltip-bottom-right">@Localizer["Needed to enter the website (valid email address)"]</b>
+                        </label>
+                    </section>
+
+                    <section>
+                        <label class="input">
+                            <i class="icon-append fa fa-envelope"></i>
+                            <input type="email" name="email" placeholder="@Localizer["Email address"]" asp-for="Email">
+                            <b class="tooltip tooltip-bottom-right">@Localizer["Needed to verify your account"]</b>
+                        </label>
+                    </section>
+
+                    <section>
+                        <label class="input">
+                            <i class="icon-append fa fa-lock"></i>
+                            <input type="password" name="password" placeholder="@Localizer["Password"]" id="password" asp-for="Password">
+                            <b class="tooltip tooltip-bottom-right">@Localizer["Don't forget your password"]</b>
+                        </label>
+                    </section>
+
+                    <section>
+                        <label class="input">
+                            <i class="icon-append fa fa-lock"></i>
+                            <input type="password" name="confirmpassword" placeholder="@Localizer["Confirm password"]" asp-for="ConfirmPassword">
+                            <b class="tooltip tooltip-bottom-right">@Localizer["Don't forget your password"]</b>
+                        </label>
+                    </section>
+                </fieldset>
+
+                <fieldset>
+                    <div class="row">
+                        <section class="col col-6">
+                            <label class="input">
+                                <input type="text" name="firstname" placeholder="@Localizer["First name"]" asp-for="FirstName">
+                            </label>
+                        </section>
+                        <section class="col col-6">
+                            <label class="input">
+                                <input type="text" name="lastname" placeholder="@Localizer["Last name"]" asp-for="LastName">
+                            </label>
+                        </section>
+                    </div>
+
+                    <div class="row">
+                        <section class="col col-6">
+                            <label class="select">
+                                <select name="gender" asp-for="Gender" asp-items="Html.GetEnumSelectList<Gender>()">
+                                </select> <i></i>
+                            </label>
+                        </section>
+                        <section class="col col-6">
+                            <label class="input">
+                                <i class="icon-append fa fa-calendar"></i>
+                                <input type="text" name="request" placeholder="@Localizer["Request activation on"]" class="datepicker" data-dateformat="dd/mm/yy" asp-for="ActivationDate">
+                            </label>
+                        </section>
+                    </div>
+
+                    <section>
+                        <label class="checkbox">
+                            <input type="checkbox" name="terms" id="terms">
+                            <i></i>@Localizer["I agree with the"] <a href="#" data-toggle="modal" data-target="#myModal"> @Localizer["Terms and Conditions"] </a>
+                        </label>
+                    </section>
+                </fieldset>
+                <footer>
+                    <button type="submit" class="btn btn-primary">
+                        @Localizer["Register"]
+                    </button>
+                </footer>
+
+                <div class="message">
+                    <i class="fa fa-check"></i>
+                    <p>
+                        @Localizer["Thank you for your registration!"]
+                    </p>
+                </div>
+            </form>
+
+        </div>       
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title" id="myModalLabel">@Localizer["Terms.Title"]</h4>
+            </div>
+            <div class="modal-body custom-scroll terms-body">
+
+                <div id="left">
+
+
+                    <h1>@Localizer["Terms.Header"]</h1>
+
+
+                    <h2>@Localizer["Terms.ChapterOne"]</h2>
+
+                    <p>@Localizer["Terms.SentenceOne"]</p>
+
+                    <p>@Localizer["Terms.SentenceTwo"]</p>
+
+
+                    <h2>@Localizer["Terms.ChapterTwo"]</h2>
+                    <p>@Localizer["Terms.SentenceThree"]</p>
+
+                    <p>@Localizer["Terms.SentenceFour"]</p>
+
+                    <p>@Localizer["Terms.SentenceFive"]</p>
+                    <ul>
+                        <li>@Localizer["Terms.SentenceSix"]</li>
+                        <li>@Localizer["Terms.SentenceSeven"]</li>
+                        <li>@Localizer["Terms.SentenceEight"]</li>
+                        <li>@Localizer["Terms.SentenceNine"]</li>
+                        <li>@Localizer["Terms.SentenceTen"]</li>
+                        <li>@Localizer["Terms.SentenceEleven"]</li>
+                    </ul>
+                    <p>@Localizer["Terms.SentenceTwelve"]</p>
+
+                    <h2>@Localizer["Terms.ChapterThree"]</h2>
+
+                    <p>@Localizer["Terms.SentenceThirteen"]</p>
+
+                    <p>@Localizer["Terms.SentenceFourteen"]</p>
+
+                    <p>@Localizer["Terms.SentenceFivteen"]</p>
+
+                    <p>@Localizer["Terms.SentenceSixteen"]</p>
+
+                    <p>@Localizer["Terms.SentenceSeventeen"]</p>
+
+                    <h2>@Localizer["Terms.ChapterFour"]</h2>
+
+                    <p>@Localizer["Terms.SentenceEightteen"]</p>
+
+                    <p>@Localizer["Terms.SentenceNineteen"]</p>
+
+                    <p>@Localizer["Terms.SentenceTwenty"]</p>
+
+                    <h2>@Localizer["Terms.ChapterFour"]</h2>
+
+                    <p>@Localizer["Terms.SentenceTwentyOne"]</p>
+
+                    <p>@Localizer["Terms.SentenceTwentyTwo"]</p>
+
+                    <p>@Localizer["Terms.SentenceTwentyThree"]</p>
+
+                    <p>@Localizer["Terms.SentenceTwentyFour"]</p>
+
+                    <p>@Localizer["Terms.SentenceTwentyFive"]</p>
+
+                    <p>@Localizer["Terms.SentenceTwentySix"]</p>
+
+                    <h2>@Localizer["Terms.ChapterFive"]</h2>
+
+                    <p>@Localizer["Terms.SentenceTwentySeven"]</p>
+
+                    <p>@Localizer["Terms.SentenceTwentyEight"]</p>
+                    <ul>
+                        <li>@Localizer["Terms.SentenceTwentyNine"]</li>
+                        <li>@Localizer["Terms.SentenceThirty"]</li>
+                    </ul>
+                    <p>@Localizer["Terms.SentenceThirtyOne"]</p>
+
+                    <h2>@Localizer["Terms.ChapterSix"]</h2>
+
+                    <p>@Localizer["Terms.SentenceThirtyTwo"]</p>
+                    <ul>
+                        <li>@Localizer["Terms.SentenceThirtyThree"]</li>
+                        <li>@Localizer["Terms.SentenceThirtyFour"]</li>
+                        <li>@Localizer["Terms.SentenceThirtyFive"]</li>
+                    </ul>
+                    <p>@Localizer["Terms.SentenceThirtySix"]</p>
+
+                    <h2>@Localizer["Terms.ChapterSeven"]</h2>
+
+                    <p>@Localizer["Terms.SentenceThirtySeven"]</p>
+                    <ul>
+                        <li>@Localizer["Terms.SentenceThirtyEight"]</li>
+                        <li>@Localizer["Terms.SentenceThirtyNine"]</li>
+                        <li>@Localizer["Terms.SentenceFourty"]</li>
+                    </ul>
+                    <h2>@Localizer["Terms.ChapterEight"]</h2>
+
+                    <p>@Localizer["Terms.SentenceFourtyOne"]</p>
+
+                    <p>@Localizer["Terms.SentenceFourtyTwo"]</p>
+
+                    <h2>@Localizer["Terms.ChapterNine"]</h2>
+
+                    <p>@Localizer["Terms.SentenceFourtyThree"]</p>
+
+                    <p>@Localizer["Terms.SentenceFourtyFour"]</p>
+
+                    <h2>@Localizer["Terms.ChapterTen"]</h2>
+
+                    <p>@Localizer["Terms.SentenceFourtyFive"]</p>
+
+                    <h2>@Localizer["Terms.ChapterEleven"]</h2>
+
+                    <p>@Localizer["Terms.SentenceFourtySix"]</p>
+
+                    <h2>@Localizer["Terms.ChapterTwelve"]</h2>
+
+                    <p>@Localizer["Terms.SentenceFourtySeven"]</p>
+
+                    <h2>@Localizer["Terms.ChapterThirteen"]</h2>
+
+                    <p>@Localizer["Terms.SentenceFourtyEight"]</p>
+
+                    <h2>@Localizer["Terms.ChapterFourteen"]</h2>
+
+                    <p>@Localizer["Terms.SentenceFourtyNine"]</p>
+
+                    <p>@Localizer["Terms.SentenceFifty"]</p>
+
+                    <h2>@Localizer["Terms.ChapterFiveteen"]</h2>
+
+                    <p>@Localizer["Terms.SentenceFiftyOne"]</p>
+
+                    <h2>@Localizer["Terms.ChapterSixteen"]</h2>
+
+                    <p>@Localizer["Terms.SentenceFiftyTwo"]</p>
+
+                    <h2>@Localizer["Terms.ChapterSeventeen"]</h2>
+
+                    <p>@Localizer["Terms.SentenceFiftyThree"]</p>
+
+                    <h2>@Localizer["Terms.ChapterEightteen"]</h2>
+                    <p>
+                        @Localizer["Terms.SentenceFiftyFour"].
+                        @Localizer["Terms.SentenceFiftyFive"] <a href="#">@Localizer["Terms.SentenceFiftySix"]</a>.
+                    </p>
+                    <h2>@Localizer["Terms.ChapterNineteen"]</h2>
+
+                    <p>@Localizer["Terms.SentenceFiftySeven"]</p>
+
+                    <p>@Localizer["Terms.SentenceFiftyEight"]</p>
+
+                    <p>@Localizer["Terms.SentenceFiftyNine"]</p>
+
+                    <!--<p>@Localizer["Terms.SentenceFiftyThree"]</p>-->
+
+                    <p>@Localizer["Terms.SentenceSixtyOne"]</p>
+
+                    <h2>@Localizer["Terms.ChapterTwenty"]</h2>
+
+                    <p>@Localizer["Terms.SentenceSixtyTwo"]</p>
+
+                    <p>@Localizer["Terms.SentenceSixtyThree"]</p>
+
+                    <p>@Localizer["Terms.SentenceSixtyFour"]</p>
+
+                    <p>@Localizer["Terms.SentenceSixtyFive"]</p>
+
+
+                </div>
+
+                <br><br>
+
+                <p>
+                    <strong>
+                        @Localizer["By using this WEBSITE TERMS AND CONDITIONS template document, you agree to the"]
+                        <a href="#">@Localizer["terms and conditions"]</a> @Localizer["set out on"]
+                        <a href="#">https://test.de/</a>. @Localizer["You must retain the credit"]
+                        @Localizer["set out in the section headed \"ABOUT THESE WEBSITE TERMS AND CONDITIONS\". Subject to the licensing restrictions, you should"]
+                        @Localizer["edit the document, adapting it to the requirements of your jurisdiction, your business and your"]
+                        @Localizer["website. If you are not a lawyer, we recommend that you take professional legal advice in relation to the editing and"]
+                        @Localizer["use of the template."]
+                    </strong>
+                </p>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">
+                    @Localizer["Cancel"]
+                </button>
+                <button type="button" class="btn btn-primary" id="i-agree">
+                    <i class="fa fa-check"></i> @Localizer["I Agree"]
+                </button>
+
+                <button type="button" class="btn btn-danger pull-left" id="print">
+                    <i class="fa fa-print"></i> @Localizer["Print"]
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+    <script type="text/javascript">
+        runAllForms();
+
+        // Model i agree button
+        $("#i-agree").click(function () {
+            var $this = $("#terms");
+            if ($this.checked) {
+                $('#myModal').modal('toggle');
+            } else {
+                $this.prop('checked', true);
+                $('#myModal').modal('toggle');
+            }
+        });
+
+        // Validation
+        $(function () {
+            // Validation
+            $("#smart-form-register").validate({
+
+                // Rules for form validation
+                rules: {
+                    username: {
+                        required: true
+                    },
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    password: {
+                        required: true,
+                        minlength: 3,
+                        maxlength: 20
+                    },
+                    confirmpassword: {
+                        required: true,
+                        minlength: 3,
+                        maxlength: 20,
+                        equalTo: '#password'
+                    },
+                    firstname: {
+                        required: true
+                    },
+                    lastname: {
+                        required: true
+                    },
+                    gender: {
+                        required: false
+                    },
+                    terms: {
+                        required: true
+                    }
+                },
+
+                // Messages for form validation
+                messages: {
+                    login: {
+                        required: '@Localizer["Please enter your login"]'
+                    },
+                    email: {
+                        required: '@Localizer["Please enter your email address"]',
+                        email: '@Localizer["Please enter a VALID email address"]'
+                    },
+                    password: {
+                        required: '@Localizer["Please enter your password"]'
+                    },
+                    confirmpassword: {
+                        required: '@Localizer["Please enter your password one more time"]',
+                        equalTo: '@Localizer["Please enter the same password as above"]'
+                    },
+                    firstname: {
+                        required: '@Localizer["Please select your first name"]'
+                    },
+                    lastname: {
+                        required: '@Localizer["Please select your last name"]'
+                    },
+                    gender: {
+                        required: '@Localizer["Please select your gender"]'
+                    },
+                    terms: {
+                        required: '@Localizer["You must agree with Terms and Conditions"]'
+                    }
+                },
+
+                // Ajax form submition
+                submitHandler: function (form) {
+                    $(form).ajaxSubmit({
+                        success: function () {
+                            $("#smart-form-register").addClass('submited');
+                        }
+                    });
+                },
+
+                // Do not change code below
+                errorPlacement: function (error, element) {
+                    error.insertAfter(element.parent());
+                }
+            });
+
+        });
+    </script>
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "Key": "Save",
+    "Value": {
+      "en-US": "Save",
+      "de-DE": "Speichern",
+      "ru-RU": "Сохранить"
+    }
+  },
+    {
+    "Key": "Create",
+    "Value": {
+      "en-US": "Create",
+      "de-DE": "Erstellen",
+      "ru-RU": "Создать"
+    }
+  },
+    {
+    "Key": "Test",
+    "Value": {
+      "en-US": "Test",
+      "de-DE": "Prüfung",
+      "ru-RU": "Тест"
+    }
+  },
+    {
+    "Key": "Please enter mail for test message",
+    "Value": {
+      "en-US": "Please enter mail for test message",
+      "de-DE": "Bitte geben Sie eine Mail für die Testnachricht ein",
+      "ru-RU": "Введите адрес электронной почты для тестового сообщения"
+    }
+  }
+]

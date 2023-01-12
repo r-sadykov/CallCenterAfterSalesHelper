@@ -1,0 +1,26 @@
+﻿@model IEnumerable<BERlogic.CallCenter.Models.MailFilter>
+@inject IViewLocalizer Localizer
+
+<div class="panel">
+    <table class="table table-condensed">
+        <thead>
+        <tr class="font-weight-bold font-lg">
+            <td>@Localizer["Component.MailFilterConfiguration.EMail"]</td>
+            <td>@Localizer["Component.MailFilterConfiguration.Subject"]</td>
+            <td></td>
+            <td></td>
+        </tr>
+        </thead>
+        @foreach (var db in Model)
+        {
+            <tbody>
+            <tr>
+                <td>@db.MailAddress</td>
+                <td>@db.MailThemes</td>
+                <td><a asp-controller="MailFilter" asp-action="EditFilter" asp-route-filterId="@db.MailFiltersId"><u>@Localizer["Component.DatabaseConfiguration.E"]</u>@Localizer["Component.DatabaseConfiguration.Dit"]</a></td>
+                <td><a asp-controller="MailFilter" asp-action="RemoveFilter" asp-route-filterId="@db.MailFiltersId"><u>@Localizer["Component.DatabaseConfiguration.R"]</u>@Localizer["Component.DatabaseConfiguration.Emove"]</a></td>
+            </tr>
+            </tbody>
+        }
+    </table>
+</div>

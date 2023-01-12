@@ -1,0 +1,146 @@
+[
+  {
+    "Key": "Two-factor authentication",
+    "Value": {
+      "en-US": "Two-factor authentication",
+      "de-DE": "Zwei-Faktor-Authentifizierung",
+      "ru-RU": "Двухфакторная аутентификация"
+    }
+  },
+    {
+    "Key": "You have no recovery codes left.",
+    "Value": {
+      "en-US": "You have no recovery codes left.",
+      "de-DE": "Sie haben keine Wiederherstellungscodes übrig.",
+      "ru-RU": "У вас нет кодов восстановления."
+    }
+  },
+    {
+    "Key": "You must",
+    "Value": {
+      "en-US": "You must",
+      "de-DE": "Du musst",
+      "ru-RU": "Вы должны"
+    }
+  },
+    {
+    "Key": "generate a new set of recovery codes",
+    "Value": {
+      "en-US": "generate a new set of recovery codes",
+      "de-DE": "Generieren Sie einen neuen Satz Wiederherstellungscodes",
+      "ru-RU": "генерировать новый набор кодов восстановления"
+    }
+  },
+    {
+    "Key": "before you can log in with a recovery code.",
+    "Value": {
+      "en-US": "before you can log in with a recovery code.",
+      "de-DE": "bevor Sie sich mit einem Wiederherstellungscode anmelden können.",
+      "ru-RU": "прежде чем вы сможете войти в систему с кодом восстановления."
+    }
+  },
+    {
+    "Key": "You have 1 recovery code left.",
+    "Value": {
+      "en-US": "You have 1 recovery code left.",
+      "de-DE": "Sie haben noch 1 Wiederherstellungscode.",
+      "ru-RU": "У вас осталось 1 код восстановления."
+    }
+  },
+    {
+    "Key": "You can",
+    "Value": {
+      "en-US": "You can",
+      "de-DE": "Sie können",
+      "ru-RU": "Вы можете"
+    }
+  },
+    {
+    "Key": "generate a new set of recovery codes",
+    "Value": {
+      "en-US": "generate a new set of recovery codes",
+      "de-DE": "generieren Sie einen neuen Satz Wiederherstellungscodes",
+      "ru-RU": "генерировать новый набор кодов восстановления"
+    }
+  },
+    {
+    "Key": "You have",
+    "Value": {
+      "en-US": "You have",
+      "de-DE": "Du hast",
+      "ru-RU": "У тебя есть"
+    }
+  },
+    {
+    "Key": "recovery codes left.",
+    "Value": {
+      "en-US": "recovery codes left.",
+      "de-DE": "Wiederherstellungscodes übrig.",
+      "ru-RU": "коды восстановления остались."
+    }
+  },
+    {
+    "Key": "You should",
+    "Value": {
+      "en-US": "You should",
+      "de-DE": "Du solltest",
+      "ru-RU": "Вам следует"
+    }
+  },
+    {
+    "Key": "generate a new set of recovery codes",
+    "Value": {
+      "en-US": "generate a new set of recovery codes",
+      "de-DE": "Generieren Sie einen neuen Satz Wiederherstellungscodes",
+      "ru-RU": "генерировать новый набор кодов восстановления"
+    }
+  },
+    {
+    "Key": "Disable 2FA",
+    "Value": {
+      "en-US": "Disable 2FA",
+      "de-DE": "Deaktivieren Sie 2FA",
+      "ru-RU": "Отключить 2FA"
+    }
+  },
+    {
+    "Key": "Reset recovery codes",
+    "Value": {
+      "en-US": "Reset recovery codes",
+      "de-DE": "Wiederherstellungscodes zurücksetzen",
+      "ru-RU": "Сбросить коды восстановления"
+    }
+  },
+    {
+    "Key": "Authenticator app",
+    "Value": {
+      "en-US": "Authenticator app",
+      "de-DE": "Authenticator App",
+      "ru-RU": "Приложение для аутентификации"
+    }
+  },
+    {
+    "Key": "Add authenticator app",
+    "Value": {
+      "en-US": "Add authenticator app",
+      "de-DE": "Authentifizierungs-App hinzufügen",
+      "ru-RU": "Добавить приложение аутентификации"
+    }
+  },
+    {
+    "Key": "Configure authenticator app",
+    "Value": {
+      "en-US": "Configure authenticator app",
+      "de-DE": "Authenticator-App konfigurieren",
+      "ru-RU": "Настроить приложение-аутентификатор"
+    }
+  },
+    {
+    "Key": "Reset authenticator key",
+    "Value": {
+      "en-US": "Reset authenticator key",
+      "de-DE": "Authentifizierungsschlüssel zurücksetzen",
+      "ru-RU": "Сбросить ключ аутентификатора"
+    }
+  }
+]

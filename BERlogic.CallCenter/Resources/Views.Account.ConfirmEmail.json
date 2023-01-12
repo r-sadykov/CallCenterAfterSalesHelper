@@ -1,0 +1,18 @@
+[
+  {
+    "Key": "Confirm email",
+    "Value": {
+      "en-US": "Confirm email",
+      "de-DE": "Bestätigungs-E-Mail",
+      "ru-RU": "Подтвердите адрес электронной почты"
+    }
+  },
+    {
+    "Key": "Thank you for confirming your email.",
+    "Value": {
+      "en-US": "Thank you for confirming your email.",
+      "de-DE": "Vielen Dank für die Bestätigung Ihrer E-Mail.",
+      "ru-RU": "Благодарим вас за подтверждение вашей электронной почты."
+    }
+  }
+]

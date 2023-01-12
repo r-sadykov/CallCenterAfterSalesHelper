@@ -1,0 +1,186 @@
+[
+  {
+    "Key": "Hello",
+    "Value": {
+      "en-US": "Hello",
+      "de-DE": "Hallo",
+      "ru-RU": "Привет"
+    }
+  },
+  {
+    "Key": "Component.DatabaseConfiguration.E",
+    "Value": {
+      "en-US": "E",
+      "de-DE": "B",
+      "ru-RU": "Р"
+    }
+  },
+    {
+    "Key": "Component.DatabaseConfiguration.Dit",
+    "Value": {
+      "en-US": "dit",
+      "de-DE": "earbeiten",
+      "ru-RU": "едактировать"
+    }
+  },
+    {
+    "Key": "Component.DatabaseConfiguration.R",
+    "Value": {
+      "en-US": "R",
+      "de-DE": "L",
+      "ru-RU": "У"
+    }
+  },
+    {
+    "Key": "Component.DatabaseConfiguration.Emove",
+    "Value": {
+      "en-US": "emove",
+      "de-DE": "öschen",
+      "ru-RU": "далить"
+    }
+  },
+    {
+    "Key": "Component.DatabaseConfiguration.T",
+    "Value": {
+      "en-US": "T",
+      "de-DE": "T",
+      "ru-RU": "Т"
+    }
+  },
+    {
+    "Key": "Component.DatabaseConfiguration.Est",
+    "Value": {
+      "en-US": "est",
+      "de-DE": "est",
+      "ru-RU": "ест"
+    }
+  },
+    {
+    "Key": "Component.DatabaseConfiguration.Address",
+    "Value": {
+      "en-US": "Address:",
+      "de-DE": "Adresse:",
+      "ru-RU": "Адрес:"
+    }
+  },
+    {
+    "Key": "Component.DatabaseConfiguration.User",
+    "Value": {
+      "en-US": "User:",
+      "de-DE": "Benutzer:",
+      "ru-RU": "Пользователь:"
+    }
+  },
+    {
+    "Key": "Component.MailFilterConfiguration.EMail",
+    "Value": {
+      "en-US": "EMail",
+      "de-DE": "Email",
+      "ru-RU": "Эл. адрес"
+    }
+  },
+    {
+    "Key": "Component.MailFilterConfiguration.Subject",
+    "Value": {
+      "en-US": "Subject",
+      "de-DE": "Betreff",
+      "ru-RU": "Тема"
+    }
+  },
+    {
+    "Key": "Component.FileUpload.FileName",
+    "Value": {
+      "en-US": "File Name",
+      "de-DE": "Dateiname",
+      "ru-RU": "Имя файла"
+    }
+  },
+    {
+    "Key": "Component.FileUpload.FileExtension",
+    "Value": {
+      "en-US": "File Extension",
+      "de-DE": "Dateierweiterung",
+      "ru-RU": "Расширение файла"
+    }
+  },
+    {
+    "Key": "Component.FileUpload.UploadDate",
+    "Value": {
+      "en-US": "Upload Date",
+      "de-DE": "Hochladedatum",
+      "ru-RU": "Дата загрузки"
+    }
+  },
+    {
+    "Key": "Component.FileUpload.UploadTime",
+    "Value": {
+      "en-US": "Upload Time",
+      "de-DE": "Zeit hochladen",
+      "ru-RU": "Время загрузки"
+    }
+  },
+    {
+    "Key": "Component.FileUpload.FileSize",
+    "Value": {
+      "en-US": "File Size",
+      "de-DE": "Dateigröße",
+      "ru-RU": "Размер файла"
+    }
+  },
+  {
+    "Key": "Component.FileUpload.DatabaseOperationDate",
+    "Value": {
+      "en-US": "Database Operation Date:",
+      "de-DE": "Datenbankbetriebsdatum:",
+      "ru-RU": "Дата работы базы данных:"
+    }
+  },
+    {
+    "Key": "Component.FileUpload.InitialPnrEntry",
+    "Value": {
+      "en-US": "Initial PNR entry:",
+      "de-DE": "Anfänglicher PNR-Eintrag:",
+      "ru-RU": "Начальная запись PNR:"
+    }
+  },
+    {
+    "Key": "Component.FileUpload.PnrEntry",
+    "Value": {
+      "en-US": "PNR entry:",
+      "de-DE": "PNR-Eintrag:",
+      "ru-RU": "Запись PNR:"
+    }
+  },
+    {
+    "Key": "Component.FileUpload.InitialBookingNumber",
+    "Value": {
+      "en-US": "Initial Booking Number:",
+      "de-DE": "Anfangsbuchungsnummer:",
+      "ru-RU": "Начальный номер бронирования:"
+    }
+  },
+    {
+    "Key": "Component.FileUpload.BookingNumber",
+    "Value": {
+      "en-US": "Booking Number:",
+      "de-DE": "Buchungsnummer:",
+      "ru-RU": "Номер заказа:"
+    }
+  },
+    {
+    "Key": "Component.FileUpload.FullreportFilename",
+    "Value": {
+      "en-US": "Fullreport Filename:",
+      "de-DE": "Fullreport Dateiname:",
+      "ru-RU": "Имя файла Fullreport:"
+    }
+  },
+    {
+    "Key": "Component.FileUpload.UploadDate",
+    "Value": {
+      "en-US": "Upload Date:",
+      "de-DE": "Hochladedatum:",
+      "ru-RU": "Дата загрузки:"
+    }
+  }  
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "Key": "Disable two-factor authentication (2FA)",
+    "Value": {
+      "en-US": "Disable two-factor authentication (2FA)",
+      "de-DE": "Zwei-Faktor-Authentifizierung deaktivieren (2FA)",
+      "ru-RU": "Отключить двухфакторную аутентификацию (2FA)"
+    }
+  },
+  {
+    "Key": "This action only disables 2FA.",
+    "Value": {
+      "en-US": "This action only disables 2FA.",
+      "de-DE": "Diese Aktion deaktiviert nur 2FA.",
+      "ru-RU": "Это действие отключает только 2FA."
+    }
+  },
+  {
+    "Key": "Disabling 2FA does not change the keys used in authenticator apps. If you wish to change the key",
+    "Value": {
+      "en-US": "Disabling 2FA does not change the keys used in authenticator apps. If you wish to change the key",
+      "de-DE": "Durch die Deaktivierung von 2FA werden die in Authenticator-Apps verwendeten Schlüssel nicht geändert. Wenn Sie den Schlüssel ändern möchten",
+      "ru-RU": "Отключение 2FA не изменяет ключи, используемые в приложениях аутентификации. Если вы хотите изменить ключ"
+    }
+  },
+  {
+    "Key": "used in an authenticator app you should",
+    "Value": {
+      "en-US": "used in an authenticator app you should",
+      "de-DE": "in einer Authentifizierungs-App sollten Sie verwendet werden",
+      "ru-RU": ", который используется в приложении аутентификатора."
+    }
+  },
+  {
+    "Key": "reset your",
+    "Value": {
+      "en-US": "reset your",
+      "de-DE": "setze Ihre zurück",
+      "ru-RU": "сбросьте ваш"
+    }
+  },
+  {
+    "Key": "authenticator keys.",
+    "Value": {
+      "en-US": "authenticator keys.",
+      "de-DE": "Authentifizierungsschlüssel.",
+      "ru-RU": "ключи аутентификатора."
+    }
+  },
+  {
+    "Key": "Disable 2FA",
+    "Value": {
+      "en-US": "Disable 2FA",
+      "de-DE": "Deaktivieren Sie 2FA",
+      "ru-RU": "Отключить 2FA"
+    }
+  }
+]

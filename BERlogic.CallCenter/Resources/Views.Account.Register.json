@@ -1,0 +1,1010 @@
+[
+  {
+    "Key": "BERlogic CallCenter Web Application",
+    "Value": {
+      "en-US": "BERlogic CallCenter Web Application",
+      "de-DE": "BERlogic CallCenter-Webanwendung",
+      "ru-RU": "Веб-приложение BERlogic CallCenter"
+    }
+  },
+    {
+    "Key": "Simplify the process is way of progress",
+    "Value": {
+      "en-US": "Simplify the process is way of progress",
+      "de-DE": "Vereinfachen Sie den Prozess ist der Weg des Fortschritts",
+      "ru-RU": "Упрощение процесса - это путь прогресса"
+    }
+  },
+    {
+    "Key": "Registration",
+    "Value": {
+      "en-US": "Registration",
+      "de-DE": "Anmeldung",
+      "ru-RU": "Регистрация"
+    }
+  },
+    {
+    "Key": "Needed to enter the website (valid email address)",
+    "Value": {
+      "en-US": "Needed to enter the website (valid email address)",
+      "de-DE": "Benötigt, um die Website (gültige E-Mail-Adresse) eingeben",
+      "ru-RU": "Необходимо ввести веб-сайт (действительный адрес электронной почты)"
+    }
+  },
+    {
+    "Key": "Username",
+    "Value": {
+      "en-US": "Username",
+      "de-DE": "Nutzername",
+      "ru-RU": "имя пользователя"
+    }
+  },
+    {
+    "Key": "Email address",
+    "Value": {
+      "en-US": "Email address",
+      "de-DE": "E-Mail-Addresse",
+      "ru-RU": "Адрес электронной почты"
+    }
+  },
+    {
+    "Key": "Needed to verify your account",
+    "Value": {
+      "en-US": "Needed to verify your account",
+      "de-DE": "Wird benötigt, um Ihr Konto zu bestätigen",
+      "ru-RU": "Необходимо проверить свою учетную запись"
+    }
+  },
+    {
+    "Key": "Password",
+    "Value": {
+      "en-US": "Password",
+      "de-DE": "Kennwort",
+      "ru-RU": "Пароль"
+    }
+  },
+    {
+    "Key": "Confirm password",
+    "Value": {
+      "en-US": "Confirm password",
+      "de-DE": "Passwort bestätigen",
+      "ru-RU": "Подтвердите Пароль"
+    }
+  },
+    {
+    "Key": "Don't forget your password",
+    "Value": {
+      "en-US": "Don't forget your password",
+      "de-DE": "Vergiss dein Passwort nicht",
+      "ru-RU": "Не забудьте пароль"
+    }
+  },
+    {
+    "Key": "First name",
+    "Value": {
+      "en-US": "First name",
+      "de-DE": "Vorname",
+      "ru-RU": "Имя"
+    }
+  },
+    {
+    "Key": "Last name",
+    "Value": {
+      "en-US": "Last name",
+      "de-DE": "Nachname",
+      "ru-RU": "Фамилия"
+    }
+  },
+    {
+    "Key": "Request activation on",
+    "Value": {
+      "en-US": "Request activation on",
+      "de-DE": "Aktivierung anfordern bei",
+      "ru-RU": "Запросить активацию"
+    }
+  },
+    {
+    "Key": "I agree with the",
+    "Value": {
+      "en-US": "I agree with the",
+      "de-DE": "Ich stimme dem zu",
+      "ru-RU": "Я согласен с"
+    }
+  },
+    {
+    "Key": "Terms and Conditions",
+    "Value": {
+      "en-US": "Terms and Conditions",
+      "de-DE": "Geschäftsbedingungen",
+      "ru-RU": "Условиями и Положениями"
+    }
+  },
+    {
+    "Key": "Register",
+    "Value": {
+      "en-US": "Register",
+      "de-DE": "Registrieren",
+      "ru-RU": "Регистрация"
+    }
+  },
+    {
+    "Key": "Thank you for your registration!",
+    "Value": {
+      "en-US": "Thank you for your registration!",
+      "de-DE": "Danke für ihre Registrierung!",
+      "ru-RU": "Благодарим за регистрацию!"
+    }
+  },
+    {
+    "Key": "Terms.Title",
+    "Value": {
+      "en-US": "Terms & Conditions",
+      "de-DE": "Allgemeine Geschäftsbedingungen",
+      "ru-RU": "Условия и Положения"
+    }
+  },
+    {
+    "Key": "Terms.Header",
+    "Value": {
+      "en-US": "BERlogic TERMS & CONDITIONS",
+      "de-DE": "BERlogic BEDINGUNGEN",
+      "ru-RU": "Условия и Положения BERlogic GmbH"
+    }
+  },
+    {
+    "Key": "Terms.ChapterOne",
+    "Value": {
+      "en-US": "Introduction",
+      "de-DE": "Einführung",
+      "ru-RU": "Вступление"
+    }
+  },
+    {
+    "Key": "Terms.SentenceOne",
+    "Value": {
+      "en-US": "These terms and conditions govern your use of this website; by using this website, you accept these terms and conditions in full. If you disagree with these terms and conditions or any part of these terms and conditions, you must not use this website.",
+      "de-DE": "Diese Nutzungsbedingungen regeln Ihre Nutzung dieser Website; Durch die Nutzung dieser Website akzeptieren Sie diese Allgemeinen Geschäftsbedingungen vollständig. Wenn Sie mit diesen Allgemeinen Geschäftsbedingungen oder einem Teil dieser Allgemeinen Geschäftsbedingungen nicht einverstanden sind, dürfen Sie diese Website nicht nutzen.",
+      "ru-RU": "Эти условия регулируют использование вами этого веб-сайта; используя этот веб-сайт, вы полностью соглашаетесь с этими условиями. Если вы не согласны с этими положениями и условиями или какой-либо частью этих условий, вы не должны использовать этот веб-сайт."
+    }
+  },
+    {
+    "Key": "Terms.SentenceTwo",
+    "Value": {
+      "en-US": "You must be at least 16 years of age to use this website. By using this website and by agreeing to these terms and conditions you warrant and represent that you are at least 16 years of age.",
+      "de-DE": "Sie müssen mindestens 16 Jahre alt sein, um diese Website zu nutzen. Indem Sie diese Website nutzen und diesen Bedingungen zustimmen, garantieren Sie, dass Sie mindestens 16 Jahre alt sind.",
+      "ru-RU": "Для использования этого веб-сайта вам должно быть не менее 16 лет. Используя этот веб-сайт и соглашаясь с этими условиями, вы гарантируете и представляете, что вам не менее 16 лет."
+    }
+  },
+    {
+    "Key": "Terms.ChapterTwo",
+    "Value": {
+      "en-US": "License to use website",
+      "de-DE": "Lizenz zur Nutzung der Website",
+      "ru-RU": "Лицензия на использование веб-сайта"
+    }
+  },
+    {
+    "Key": "Terms.SentenceThree",
+    "Value": {
+      "en-US": "Unless otherwise stated, BERlogic GmbH and/or its licensors own the intellectual property rights in the website and material on the website. Subject to the license below, all these intellectual property rights are reserved.",
+      "de-DE": "Sofern nicht anders angegeben, besitzen die BERlogic GmbH und / oder ihre Lizenzgeber die Rechte an geistigem Eigentum an der Website und an den Inhalten der Website. Vorbehaltlich der nachstehenden Lizenz sind alle diese Rechte an geistigem Eigentum vorbehalten.",
+      "ru-RU": "Если не указано иное, BERlogic GmbH и / или ее лицензиары владеют правами на интеллектуальную собственность на веб-сайте и материалами на веб-сайте. В соответствии с лицензией, приведенной ниже, все эти права интеллектуальной собственности зарезервированы."
+    }
+  },
+    {
+    "Key": "Terms.SentenceFour",
+    "Value": {
+      "en-US": "You may view, download for caching purposes only, and print pages from the website for your own personal use, subject to the restrictions set out below and elsewhere in these terms and conditions.",
+      "de-DE": "Sie dürfen die Daten nur für Zwecke des Cachings anzeigen, herunterladen und Seiten von der Website für Ihren eigenen persönlichen Gebrauch ausdrucken, vorbehaltlich der Einschränkungen, die unten und an anderer Stelle in diesen Allgemeinen Geschäftsbedingungen aufgeführt sind.",
+      "ru-RU": "Вы можете просматривать, загружать только в целях кэширования и печатать страницы с веб-сайта для личного использования, с учетом ограничений, изложенных ниже, и в других местах настоящих условий."
+    }
+  },
+    {
+    "Key": "Terms.SentenceFive",
+    "Value": {
+      "en-US": "You must not:",
+      "de-DE": "Du darfst nicht:",
+      "ru-RU": "Ты не должен:"
+    }
+  },
+    {
+    "Key": "Terms.SentenceSix",
+    "Value": {
+      "en-US": "republish material from this website (including republication on another website);",
+      "de-DE": "Materialien von dieser Website erneut veröffentlichen (einschließlich Wiederveröffentlichung auf einer anderen Website);",
+      "ru-RU": "переиздавать материалы с этого сайта (включая переиздание на другом веб-сайте);"
+    }
+  },
+    {
+    "Key": "Terms.SentenceSeven",
+    "Value": {
+      "en-US": "sell, rent or sub-license material from the website",
+      "de-DE": "Material von der Website verkaufen, vermieten oder unterlizensieren",
+      "ru-RU": "продавать, сдавать в аренду или сублицензировать материалы с веб-сайта"
+    }
+  },
+    {
+    "Key": "Terms.SentenceEight",
+    "Value": {
+      "en-US": "show any material from the website in public",
+      "de-DE": "Zeigen Sie Material von der Website in der Öffentlichkeit",
+      "ru-RU": "показывать любые материалы с веб-сайта на публике"
+    }
+  },
+    {
+    "Key": "Terms.SentenceNine",
+    "Value": {
+      "en-US": "reproduce, duplicate, copy or otherwise exploit material on this website for a commercial purpose;",
+      "de-DE": "das Material auf dieser Website zu kommerziellen Zwecken reproduzieren, duplizieren, kopieren oder anderweitig nutzen;",
+      "ru-RU": "воспроизводить, дублировать, копировать или иным образом использовать материалы на этом веб-сайте в коммерческих целях;"
+    }
+  },
+    {
+    "Key": "Terms.SentenceTen",
+    "Value": {
+      "en-US": "edit or otherwise modify any material on the website; or",
+      "de-DE": "bearbeiten oder anderweitig ändern Material auf der Website; oder",
+      "ru-RU": "редактировать или иным образом изменять любые материалы на веб-сайте; или же"
+    }
+  },
+    {
+    "Key": "Terms.SentenceEleven",
+    "Value": {
+      "en-US": "redistribute material from this website except for content specifically and expressly made available for redistribution.",
+      "de-DE": "Materialien von dieser Website neu zu verteilen, mit Ausnahme von Inhalten, die speziell für die Weiterverbreitung zur Verfügung gestellt werden.",
+      "ru-RU": "перераспределять материал с этого веб-сайта, за исключением содержимого, специально и явно предоставляемого для перераспределения."
+    }
+  },
+    {
+    "Key": "Terms.SentenceTwelve",
+    "Value": {
+      "en-US": "Where content is specifically made available for redistribution, it may only be redistributed within your organisation.",
+      "de-DE": "Wenn Inhalte speziell für die Weiterverbreitung zur Verfügung gestellt werden, dürfen sie nur innerhalb Ihrer Organisation weiterverbreitet werden.",
+      "ru-RU": "Если контент специально предназначен для перераспределения, он может быть перераспределен только внутри вашей организации."
+    }
+  },
+    {
+    "Key": "Terms.ChapterThree",
+    "Value": {
+      "en-US": "Acceptable use",
+      "de-DE": "Annehmbare Verwendung",
+      "ru-RU": "Приемлемое использование"
+    }
+  },
+    {
+    "Key": "Terms.SentenceThirteen",
+    "Value": {
+      "en-US": "You must not use this website in any way that causes, or may cause, damage to the website or impairment of the availability or accessibility of the website; or in any way which is unlawful, illegal, fraudulent or harmful, or in connection with any unlawful, illegal, fraudulent or harmful purpose or activity.",
+      "de-DE": "Sie dürfen diese Website nicht in einer Weise nutzen, die Schäden an der Website oder eine Beeinträchtigung der Verfügbarkeit oder Zugänglichkeit der Website verursacht oder verursachen könnte; oder in irgendeiner Weise, die rechtswidrig, illegal, betrügerisch oder schädlich ist, oder in Verbindung mit einem rechtswidrigen, illegalen, betrügerischen oder schädlichen Zweck oder einer Aktivität.",
+      "ru-RU": "Вы не должны использовать этот сайт каким-либо образом, который вызывает или может нанести ущерб веб-сайту или ухудшение доступности или доступности веб-сайта; или каким-либо образом незаконным, незаконным, мошенническим или вредным или в связи с любой незаконной, незаконной, мошеннической или вредной целью или деятельностью."
+    }
+  },
+    {
+    "Key": "Terms.SentenceFourteen",
+    "Value": {
+      "en-US": "You must not use this website to copy, store, host, transmit, send, use, publish or distribute any material which consists of (or is linked to) any spyware, computer virus, Trojan horse, worm, keystroke logger, rootkit or other malicious computer software.",
+      "de-DE": "Sie dürfen diese Website nicht zum Kopieren, Speichern, Hosten, Übertragen, Senden, Verwenden, Veröffentlichen oder Verbreiten von Material verwenden, das aus Spyware, Computerviren, Trojanern, Würmern, Keyloggern, Rootkits oder anderen besteht bösartige Computersoftware.",
+      "ru-RU": "Вы не должны использовать этот веб-сайт для копирования, хранения, передачи, передачи, отправки, использования, публикации или распространения любого материала, который состоит из (или связан) с любым шпионским ПО, компьютерным вирусом, троянским конем, червяком, регистратором нажатия клавиш, руткитом или другим вредоносное программное обеспечение."
+    }
+  },
+    {
+    "Key": "Terms.SentenceFivteen",
+    "Value": {
+      "en-US": "You must not conduct any systematic or automated data collection activities (including without limitation scraping, data mining, data extraction and data harvesting) on or in relation to this website without BERlogic express written consent.",
+      "de-DE": "Sie dürfen keine systematischen oder automatisierten Datenerfassungsaktivitäten (einschließlich Scraping, Data Mining, Datenextraktion und Datenerhebung) auf oder in Bezug auf diese Website ohne ausdrückliche schriftliche Zustimmung von BERlogic durchführen.",
+      "ru-RU": "Вы не должны проводить каких-либо систематических или автоматизированных мероприятий по сбору данных (включая, без ограничения, соскабливание, добычу данных, извлечение данных и сбор данных) на или в отношении этого веб-сайта без письменного согласия BERlogic."
+    }
+  },
+    {
+    "Key": "Terms.SentenceSixteen",
+    "Value": {
+      "en-US": "You must not use this website to transmit or send unsolicited commercial communications.",
+      "de-DE": "Sie dürfen diese Website nicht zum Senden oder Senden unerwünschter kommerzieller Kommunikation verwenden.",
+      "ru-RU": "Вы не должны использовать этот веб-сайт для передачи или отправки незапрошенных коммерческих сообщений."
+    }
+  },
+    {
+    "Key": "Terms.SentenceSeventeen",
+    "Value": {
+      "en-US": "You must not use this website for any purposes related to marketing without BERlogic GmbH express written consent.",
+      "de-DE": "Sie dürfen diese Website für keinerlei Marketingzwecke ohne ausdrückliche schriftliche Zustimmung der BERlogic GmbH nutzen.",
+      "ru-RU": "Вы не должны использовать этот сайт для любых целей, связанных с маркетингом, без письменного согласия BERlogic GmbH."
+    }
+  },
+    {
+    "Key": "Terms.ChapterFour",
+    "Value": {
+      "en-US": "Restricted access",
+      "de-DE": "Eingeschränkter Zugang",
+      "ru-RU": "Ограниченный доступ"
+    }
+  },
+    {
+    "Key": "Terms.SentenceEightteen",
+    "Value": {
+      "en-US": "Access to certain areas of this website is restricted. BERlogic GmbH reserves the right to restrict access to other areas of this website, or indeed this entire website, at BERlogic GmbH discretion.",
+      "de-DE": "Der Zugang zu bestimmten Bereichen dieser Website ist eingeschränkt. BERlogic GmbH behält sich das Recht vor, den Zugriff auf andere Bereiche dieser Website oder auf die gesamte Website nach Ermessen der BERlogic GmbH zu beschränken.",
+      "ru-RU": "Доступ к определенным областям этого веб-сайта ограничен. BERlogic GmbH оставляет за собой право ограничить доступ к другим областям этого веб-сайта или даже всего этого веб-сайта по усмотрению BERlogic GmbH."
+    }
+  },
+    {
+    "Key": "Terms.SentenceNineteen",
+    "Value": {
+      "en-US": "If BERlogic GmbH provides you with a user ID and password to enable you to access restricted areas of this website or other content or services, you must ensure that the user ID and password are kept confidential.",
+      "de-DE": "Wenn Ihnen die BERlogic GmbH eine Benutzerkennung und ein Passwort zur Verfügung stellt, mit denen Sie auf eingeschränkte Bereiche dieser Website oder andere Inhalte oder Dienste zugreifen können, müssen Sie sicherstellen, dass die Benutzerkennung und das Passwort vertraulich behandelt werden.",
+      "ru-RU": "Если BERlogic GmbH предоставляет вам идентификатор пользователя и пароль для доступа к запрещенным областям этого веб-сайта или другого контента или услуг, вы должны убедиться, что идентификатор и пароль пользователя остаются конфиденциальными."
+    }
+  },
+    {
+    "Key": "Terms.SentenceTwenty",
+    "Value": {
+      "en-US": "BERlogic GmbH may disable your user ID and password in BERlogic GmbH sole discretion without notice or explanation.",
+      "de-DE": "BERlogic GmbH kann Ihre Benutzerkennung und Ihr Passwort in der Berlogic GmbH nach eigenem Ermessen ohne Vorankündigung oder Erklärung deaktivieren.",
+      "ru-RU": "BERlogic GmbH может отключить ваш идентификатор пользователя и пароль в BERlogic GmbH по собственному усмотрению без уведомления или объяснения."
+    }
+  },
+    {
+    "Key": "Terms.ChapterFour",
+    "Value": {
+      "en-US": "User content",
+      "de-DE": "Benutzerinhalt",
+      "ru-RU": "Пользовательский контент"
+    }
+  },
+    {
+    "Key": "Terms.SentenceTwentyOne",
+    "Value": {
+      "en-US": "In these terms and conditions, “your user content” means material (including without limitation text, images, audio material, video material and audio-visual material) that you submit to this website, for whatever purpose.",
+      "de-DE": "In diesen Allgemeinen Geschäftsbedingungen bedeutet \"Ihr Nutzerinhalt\" Material (einschließlich Text, Bildmaterial, Audiomaterial, Videomaterial und audiovisuelles Material), das Sie an diese Website zu beliebigen Zwecken übermitteln.",
+      "ru-RU": "В этих условиях «контент пользователя» означает материал (в том числе текст, изображения, аудиоматериалы, видеоматериалы и аудиовизуальные материалы), которые вы отправляете на этот веб-сайт, в любых целях."
+    }
+  },
+    {
+    "Key": "Terms.SentenceTwentyTwo",
+    "Value": {
+      "en-US": "You grant to BERlogic GmbH a worldwide, irrevocable, non-exclusive, royalty-free license to use, reproduce, adapt, publish, translate and distribute your user content in any existing or future media. You also grant to BERlogic GmbH the right to sub-license these rights, and the right to bring an action for infringement of these rights.",
+      "de-DE": "Sie gewähren der BERlogic GmbH eine weltweite, unwiderrufliche, nicht ausschließliche, gebührenfreie Lizenz zur Nutzung, Reproduktion, Anpassung, Veröffentlichung, Übersetzung und Verbreitung Ihrer Benutzerinhalte in vorhandenen oder zukünftigen Medien. Sie gewähren der BERlogic GmbH auch das Recht zur Unterlizenzierung dieser Rechte und das Recht, Klage wegen Verletzung dieser Rechte zu erheben.",
+      "ru-RU": "Вы предоставляете BERlogic GmbH всемирную, безотзывную, неисключительную лицензию без лицензионных платежей на использование, воспроизведение, адаптацию, публикацию, перевод и распространение вашего пользовательского контента на любых существующих или будущих носителях. Вы также предоставляете BERlogic GmbH право сублицензировать эти права и право возбуждать иск о нарушении этих прав."
+    }
+  },
+    {
+    "Key": "Terms.SentenceTwentyThree",
+    "Value": {
+      "en-US": "Your user content must not be illegal or unlawful, must not infringe any third party's legal rights, and must not be capable of giving rise to legal action whether against you or BERlogic GmbH or a third party (in each case under any applicable law).",
+      "de-DE": "Ihre Nutzerinhalte dürfen nicht rechtswidrig sein, dürfen keine Rechtsansprüche Dritter verletzen und dürfen nicht zu Rechtsstreitigkeiten gegen Sie, die BERlogic GmbH oder einen Dritten (in jedem Fall nach geltendem Recht) führen.",
+      "ru-RU": "Содержимое вашего пользователя не должно быть незаконным, не должно нарушать юридические права третьих лиц и не должно возбуждать судебные иски против вас или BERlogic GmbH или третьей стороны (в каждом случае в соответствии с любым применимым законодательством)."
+    }
+  },
+    {
+    "Key": "Terms.SentenceTwentyFour",
+    "Value": {
+      "en-US": "You must not submit any user content to the website that is or has ever been the subject of any threatened or actual legal proceedings or other similar complaint.",
+      "de-DE": "Sie dürfen keine Benutzerinhalte auf der Website einreichen, die Gegenstand eines drohenden oder tatsächlichen Gerichtsverfahrens oder einer ähnlichen Beschwerde waren oder waren.",
+      "ru-RU": "Вы не должны представлять контент пользователя на веб-сайт, который был или когда-либо был предметом любого угрожающего или фактического судебного разбирательства или другой подобной жалобы."
+    }
+  },
+    {
+    "Key": "Terms.SentenceTwentyFive",
+    "Value": {
+      "en-US": "BERlogic GmbH reserves the right to edit or remove any material submitted to this website, or stored on BERlogic's GmbH servers, or hosted or published upon this website.",
+      "de-DE": "Die BERlogic GmbH behält sich das Recht vor, auf dieser Website eingereichtes Material oder auf Servern der BERlogic GmbH gespeicherte Materialien zu bearbeiten oder zu entfernen oder sie auf dieser Website zu hosten oder zu veröffentlichen.",
+      "ru-RU": "BERlogic GmbH оставляет за собой право редактировать или удалять любые материалы, представленные на этом веб-сайте, или храниться на серверах BERlogic GmbH, размещаться или публиковаться на этом веб-сайте."
+    }
+  },
+    {
+    "Key": "Terms.SentenceTwentySix",
+    "Value": {
+      "en-US": "Notwithstanding BERlogic's GmbH rights under these terms and conditions in relation to user content, BERlogic GmbH does not undertake to monitor the submission of such content to, or the publication of such content on, this website.",
+      "de-DE": "Ungeachtet der Rechte der BERlogic GmbH unter diesen Bedingungen in Bezug auf Benutzerinhalte verpflichtet sich die BERlogic GmbH nicht, die Übermittlung dieser Inhalte an diese Website oder deren Veröffentlichung auf dieser Website zu überwachen.",
+      "ru-RU": "Несмотря на права BERlogic's GmbH в соответствии с этими положениями и условиями в отношении пользовательского контента, BERlogic GmbH не берет на себя обязательство следить за представлением такого контента или публикацией такого контента на этом веб-сайте."
+    }
+  },
+    {
+    "Key": "Terms.ChapterFive",
+    "Value": {
+      "en-US": "No warranties",
+      "de-DE": "Keine Garantien",
+      "ru-RU": "Нет гарантий"
+    }
+  },
+    {
+    "Key": "Terms.SentenceTwentySeven",
+    "Value": {
+      "en-US": "This website is provided “as is” without any representations or warranties, express or implied. BERlogic GmbH makes no representations or warranties in relation to this website or the information and materials provided on this website.",
+      "de-DE": "Diese Website wird \"wie besehen\" ohne ausdrückliche oder stillschweigende Zusicherungen oder Garantien bereitgestellt. Die BERlogic GmbH gibt keine Zusicherungen oder Garantien in Bezug auf diese Website oder die auf dieser Website bereitgestellten Informationen und Materialien.",
+      "ru-RU": "Этот веб-сайт предоставляется «как есть» без каких-либо заявлений или гарантий, явных или подразумеваемых. BERlogic GmbH не делает никаких заявлений или гарантий в отношении этого веб-сайта или информации и материалов, представленных на этом веб-сайте."
+    }
+  },
+    {
+    "Key": "Terms.SentenceTwentyEight",
+    "Value": {
+      "en-US": "Without prejudice to the generality of the foregoing paragraph, BERlogic GmbH does not warrant that:",
+      "de-DE": "Unbeschadet der Allgemeingültigkeit des vorstehenden Absatzes übernimmt die BERlogic GmbH keine Gewähr dafür, dass",
+      "ru-RU": "Без ущерба для общности вышеуказанного пункта BERlogic GmbH не гарантирует, что:"
+    }
+  },
+    {
+    "Key": "Terms.SentenceTwentyNine",
+    "Value": {
+      "en-US": "this website will be constantly available, or available at all; or",
+      "de-DE": "Diese Website ist ständig verfügbar oder überhaupt verfügbar. oder",
+      "ru-RU": "этот веб-сайт будет постоянно доступен или доступен вообще; или же"
+    }
+  },
+    {
+    "Key": "Terms.SentenceThirty",
+    "Value": {
+      "en-US": "the information on this website is complete, true, accurate or non-misleading.",
+      "de-DE": "Die Informationen auf dieser Website sind vollständig, wahr, richtig oder nicht irreführend.",
+      "ru-RU": "информация на этом веб-сайте является полной, достоверной, точной или не вводящей в заблуждение."
+    }
+  },
+    {
+    "Key": "Terms.SentenceThirtyOne",
+    "Value": {
+      "en-US": "Nothing on this website constitutes, or is meant to constitute, advice of any kind. If you require advice in relation to any legal, financial or medical matter you should consult an appropriate professional.",
+      "de-DE": "Nichts auf dieser Website stellt Beratung jeglicher Art dar oder soll diese darstellen. Wenn Sie Beratung in Bezug auf rechtliche, finanzielle oder medizinische Angelegenheiten benötigen, sollten Sie einen geeigneten Fachmann konsultieren.",
+      "ru-RU": "Ничто на этом веб-сайте не является или не предназначено для каких-либо советов. Если вам требуется консультация в отношении любого юридического, финансового или медицинского вопроса, вы должны обратиться к соответствующему специалисту."
+    }
+  },
+    {
+    "Key": "Terms.ChapterSix",
+    "Value": {
+      "en-US": "Limitations of liability",
+      "de-DE": "Haftungsbeschränkungen",
+      "ru-RU": "Ограничения ответственности"
+    }
+  },
+    {
+    "Key": "Terms.SentenceThirtyTwo",
+    "Value": {
+      "en-US": "BERlogic GmbH will not be liable to you (whether under the law of contact, the law of torts or otherwise) in relation to the contents of, or use of, or otherwise in connection with, this website:",
+      "de-DE": "Die BERlogic GmbH haftet Ihnen gegenüber weder in Bezug auf den Inhalt dieser Website noch auf deren Nutzung (ob aufgrund des Kontaktgesetzes, des Rechtsmittels oder anderweitig), oder in Verbindung mit dieser Website",
+      "ru-RU": "BERlogic GmbH не несет ответственности перед вами (будь то в соответствии с законом о контакте, законом о правонарушениях или иным образом) в отношении содержания или использования или иным образом в связи с этим веб-сайтом"
+    }
+  },
+    {
+    "Key": "Terms.SentenceThirtyThree",
+    "Value": {
+      "en-US": "to the extent that the website is provided free-of-charge, for any direct loss;",
+      "de-DE": "soweit die Website kostenlos für jeden direkten Verlust zur Verfügung gestellt wird;",
+      "ru-RU": "в той мере, в какой веб-сайт предоставляется бесплатно, за любые прямые потери;"
+    }
+  },
+    {
+    "Key": "Terms.SentenceThirtyFour",
+    "Value": {
+      "en-US": "for any indirect, special or consequential loss; or",
+      "de-DE": "für jeden indirekten, besonderen oder Folgeschaden; oder",
+      "ru-RU": "за любые косвенные, специальные или косвенные убытки; или же"
+    }
+  },
+    {
+    "Key": "Terms.SentenceThirtyFive",
+    "Value": {
+      "en-US": "for any business losses, loss of revenue, income, profits or anticipated savings, loss of contracts or business relationships, loss of reputation or goodwill, or loss or corruption of information or data.",
+      "de-DE": "für Geschäftsverluste, Ertragsverluste, Erträge, Gewinne oder erwartete Einsparungen, Verlust von Verträgen oder Geschäftsbeziehungen, Reputationsverlust oder Goodwill oder Verlust oder Korruption von Informationen oder Daten.",
+      "ru-RU": "убытки, доходы, прибыль или ожидаемые сбережения, потерю контрактов или деловых отношений, потерю репутации или деловой репутации или потерю или порчу информации или данных."
+    }
+  },
+    {
+    "Key": "Terms.SentenceThirtySix",
+    "Value": {
+      "en-US": "These limitations of liability apply even if BERlogic GmbH has been expressly advised of the potential loss.",
+      "de-DE": "Diese Haftungsbeschränkungen gelten auch, wenn die BERlogic GmbH ausdrücklich auf den möglichen Schaden hingewiesen wurde.",
+      "ru-RU": "Эти ограничения ответственности применяются даже в том случае, если BERlogic GmbH прямо предупреждает о возможной потере."
+    }
+  },
+    {
+    "Key": "Terms.ChapterSeven",
+    "Value": {
+      "en-US": "Exceptions",
+      "de-DE": "Ausnahmen",
+      "ru-RU": "Исключения"
+    }
+  },
+    {
+    "Key": "Terms.SentenceThirtySeven",
+    "Value": {
+      "en-US": "Nothing in this website disclaimer will exclude or limit any warranty implied by law that it would be unlawful to exclude or limit; and nothing in this website disclaimer will exclude or limit BERlogic's GmbH liability in respect of any:",
+      "de-DE": "Nichts in diesem Website-Haftungsausschluss wird jegliche gesetzlich implizierte Garantie ausschließen oder einschränken, deren Ausschluss oder Beschränkung rechtswidrig wäre; und nichts in diesem Website-Haftungsausschluss wird die Haftung der BERlogic GmbH in Bezug auf Folgendes ausschließen oder einschränken:",
+      "ru-RU": "Ничто в этом заявлении на сайте не будет исключать или ограничивать любые гарантии, предусмотренные законом, что было бы незаконным исключать или ограничивать; и ничто в этом отказе от ответственности на сайте не будет исключать или ограничивать ответственность BERlogic GmbH в отношении любого:"
+    }
+  },
+    {
+    "Key": "Terms.SentenceThirtyEight",
+    "Value": {
+      "en-US": "death or personal injury caused by BERlogic's GmbH negligence;",
+      "de-DE": "Tod oder Körperverletzung durch Fahrlässigkeit der BERlogic GmbH;",
+      "ru-RU": "смерти или телесных повреждений, вызванных небрежностью BERlogic's GmbH;"
+    }
+  },
+    {
+    "Key": "Terms.SentenceThirtyNine",
+    "Value": {
+      "en-US": "fraud or fraudulent misrepresentation on the part of BERlogic GmbH; or",
+      "de-DE": "Betrug oder betrügerische Falschdarstellung der BERlogic GmbH; oder",
+      "ru-RU": "мошенничество или обманное искажение со стороны BERlogic GmbH; или же"
+    }
+  },
+    {
+    "Key": "Terms.SentenceFourty",
+    "Value": {
+      "en-US": "matter which it would be illegal or unlawful for BERlogic GmbH to exclude or limit, or to attempt or purport to exclude or limit, its liability.",
+      "de-DE": "Angelegenheit, bei der es für die BERlogic GmbH gesetzeswidrig oder rechtswidrig wäre, ihre Haftung auszuschließen oder einzuschränken oder zu versuchen oder zu behaupten, diese auszuschließen oder zu beschränken.",
+      "ru-RU": "что было бы незаконным или незаконным для BERlogic GmbH исключать или ограничивать или пытаться или не допускать или ограничивать его ответственность."
+    }
+  },
+    {
+    "Key": "Terms.ChapterEight",
+    "Value": {
+      "en-US": "Reasonableness",
+      "de-DE": "Angemessenheit",
+      "ru-RU": "Разумность"
+    }
+  },
+    {
+    "Key": "Terms.SentenceFourtyOne",
+    "Value": {
+      "en-US": "By using this website, you agree that the exclusions and limitations of liability set out in this website disclaimer are reasonable.",
+      "de-DE": "Durch die Nutzung dieser Website stimmen Sie zu, dass die in diesem Website-Haftungsausschluss angegebenen Haftungsausschlüsse und -beschränkungen angemessen sind.",
+      "ru-RU": "Используя этот веб-сайт, вы соглашаетесь с тем, что исключения и ограничения ответственности, изложенные на этом сайте, являются обоснованными."
+    }
+  },
+    {
+    "Key": "Terms.SentenceFourtyTwo",
+    "Value": {
+      "en-US": "If you do not think they are reasonable, you must not use this website.",
+      "de-DE": "Wenn Sie der Meinung sind, dass dies nicht zumutbar ist, dürfen Sie diese Website nicht verwenden.",
+      "ru-RU": "Если вы не считаете их разумными, вы не должны использовать этот сайт."
+    }
+  },
+    {
+    "Key": "Terms.ChapterNine",
+    "Value": {
+      "en-US": "Other parties",
+      "de-DE": "Andere Parties",
+      "ru-RU": "Другие партии"
+    }
+  },
+    {
+    "Key": "Terms.SentenceFourtyThree",
+    "Value": {
+      "en-US": "You accept that, as a limited liability entity, BERlogic GmbH has an interest in limiting the personal liability of its officers and employees. You agree that you will not bring any claim personally against BERlogic's GmbH officers or employees in respect of any losses you suffer in connection with the website.",
+      "de-DE": "Sie erkennen an, dass die BERlogic GmbH als Gesellschaft mit beschränkter Haftung ein Interesse daran hat, die persönliche Haftung ihrer leitenden Angestellten und Mitarbeiter zu beschränken. Sie erklären sich damit einverstanden, dass Sie gegenüber den leitenden Angestellten oder Mitarbeitern der BERlogic GmbH keine persönlichen Ansprüche in Bezug auf Verluste erheben, die Sie im Zusammenhang mit der Website erleiden.",
+      "ru-RU": "Вы соглашаетесь с тем, что в качестве лица с ограниченной ответственностью BERlogic GmbH заинтересована в ограничении личной ответственности своих должностных лиц и сотрудников. Вы соглашаетесь с тем, что вы не будете предъявлять никаких претензий лично к сотрудникам или сотрудникам BERlogic GmbH в отношении любых убытков, которые вы испытываете в связи с веб-сайтом."
+    }
+  },
+    {
+    "Key": "Terms.SentenceFourtyFour",
+    "Value": {
+      "en-US": "Without prejudice to the foregoing paragraph, you agree that the limitations of warranties and liability set out in this website disclaimer will protect BERlogic's GmbH officers, employees, agents, subsidiaries, successors, assigns and sub-contractors as well as BERlogic GmbH.",
+      "de-DE": "Unbeschadet des vorstehenden Absatzes erklären Sie sich damit einverstanden, dass die in diesem Website-Haftungsausschluss festgelegten Beschränkungen der Gewährleistung und Haftung die leitenden Angestellten, Mitarbeiter, Vertreter, Tochtergesellschaften, Nachfolger, Abtretungs- und Unterauftragnehmer von BERlogic GmbH sowie die BERlogic GmbH schützen.",
+      "ru-RU": "Без ущерба для вышесказанного, вы соглашаетесь с тем, что ограничения гарантий и ответственности, изложенные на этом сайте, будут защищать сотрудников, сотрудников, агентов, дочерних компаний, преемников, правопреемников и субподрядчиков BERlogic GmbH, а также BERlogic GmbH."
+    }
+  },
+    {
+    "Key": "Terms.ChapterTen",
+    "Value": {
+      "en-US": "Unenforceable provisions",
+      "de-DE": "Nicht durchsetzbare Bestimmungen",
+      "ru-RU": "Недействительные положения"
+    }
+  },
+    {
+    "Key": "Terms.SentenceFourtyFive",
+    "Value": {
+      "en-US": "If any provision of this website disclaimer is, or is found to be, unenforceable under applicable law, that will not affect the enforceability of the other provisions of this website disclaimer.",
+      "de-DE": "Wenn eine Bestimmung dieses Website-Haftungsausschlusses nach geltendem Recht nicht durchsetzbar ist oder wird, hat dies keinen Einfluss auf die Durchsetzbarkeit der anderen Bestimmungen dieses Website-Haftungsausschlusses.",
+      "ru-RU": "Если какое-либо положение об отказе от данного веб-сайта признано или признано недействительным в соответствии с применимым законодательством, это не повлияет на правоприменение других положений этого сайта."
+    }
+  },
+    {
+    "Key": "Terms.ChapterEleven",
+    "Value": {
+      "en-US": "Indemnity",
+      "de-DE": "Entschädigung",
+      "ru-RU": "Возмещение"
+    }
+  },
+    {
+    "Key": "Terms.SentenceFourtySix",
+    "Value": {
+      "en-US": "You hereby indemnify BERlogic GmbH and undertake to keep BERlogic GmbH indemnified against any losses, damages, costs, liabilities and expenses (including without limitation legal expenses and any amounts paid by BERlogic GmbH to a third party in settlement of a claim or dispute on the advice of BERlogic's GmbH legal advisers) incurred or suffered by BERlogic GmbH arising out of any breach by you of any provision of these terms and conditions, or arising out of any claim that you have breached any provision of these terms and conditions.",
+      "de-DE": "Hiermit stellen Sie die BERlogic GmbH frei und verpflichten sich, die BERlogic GmbH von jeglichen Verlusten, Schäden, Kosten, Verbindlichkeiten und Aufwendungen (einschließlich der Rechtskosten und etwaiger Beträge, die die BERlogic GmbH an einen Dritten zur Begleichung eines Anspruchs oder einer Streitigkeit über die Beratung gezahlt hat, freizustellen Rechtsberater der BERlogic's GmbH), die der BERlogic GmbH aufgrund eines Verstoßes von Ihnen gegen eine Bestimmung dieser Bedingungen oder aufgrund eines Anspruchs, dass Sie gegen eine Bestimmung dieser Bedingungen und Bedingungen verstoßen haben, entstanden oder gelitten hat.",
+      "ru-RU": "Настоящим вы обязываете BERlogic GmbH и обязуетесь удерживать BERlogic GmbH в ущерб любым убыткам, убыткам, расходам, обязательствам и расходам (включая, без ограничений, судебные издержки и любые суммы, уплаченные BERlogic GmbH третьей стороне при урегулировании иска или спора по рекомендации юридических консультантов BERlogic's GmbH), понесенных или понесенных BERlogic GmbH, возникших в результате любого нарушения вами какого-либо положения настоящих условий и вытекающих из любых требований, что вы нарушили какое-либо положение этих условий."
+    }
+  },
+    {
+    "Key": "Terms.ChapterTwelve",
+    "Value": {
+      "en-US": "Breaches of these terms and conditions",
+      "de-DE": "Verstöße gegen diese Bedingungen",
+      "ru-RU": "Нарушения данных условий"
+    }
+  },
+    {
+    "Key": "Terms.SentenceFourtySeven",
+    "Value": {
+      "en-US": "Without prejudice to BERlogic's GmbH other rights under these terms and conditions, if you breach these terms and conditions in any way, BERlogic GmbH may take such action as BERlogic GmbH deems appropriate to deal with the breach, including suspending your access to the website, prohibiting you from accessing the website, blocking computers using your IP address from accessing the website, contacting your internet service provider to request that they block your access to the website and/or bringing court proceedings against you.",
+      "de-DE": "Unbeschadet der sonstigen Rechte der BERlogic GmbH unter diesen Bedingungen kann die BERlogic GmbH, wenn Sie gegen diese Bedingungen in irgendeiner Weise verstoßen, Maßnahmen ergreifen, die die BERlogic GmbH für angemessen hält, um den Verstoß zu behandeln, einschließlich der Sperrung Ihres Zugriffs auf die Website Sie können nicht auf die Website zugreifen, Computer mit Ihrer IP-Adresse daran hindern, auf die Website zuzugreifen, Ihren Internetanbieter zu kontaktieren, um die Sperrung Ihres Zugriffs auf die Website zu fordern und / oder ein Gerichtsverfahren gegen Sie einzuleiten.",
+      "ru-RU": "Без ущерба для других прав BERlogic's GmbH в соответствии с настоящими положениями и условиями, если вы нарушите эти условия в любом случае, BERlogic GmbH может предпринять такие действия, как BERlogic GmbH, считает целесообразным бороться с нарушением, в том числе приостановить ваш доступ к веб-сайту, запрещая вы получаете доступ к веб-сайту, блокируя компьютеры, используя ваш IP-адрес, от доступа к веб-сайту, обращаясь к вашему интернет-провайдеру, чтобы попросить заблокировать ваш доступ к веб-сайту и / или возбудить судебное разбирательство против вас."
+    }
+  },
+    {
+    "Key": "Terms.ChapterThirteen",
+    "Value": {
+      "en-US": "Variation",
+      "de-DE": "Variation",
+      "ru-RU": "Изменение"
+    }
+  },
+    {
+    "Key": "Terms.SentenceFourtyEight",
+    "Value": {
+      "en-US": "BERlogic GmbH may revise these terms and conditions from time-to-time. Revised terms and conditions will apply to the use of this website from the date of the publication of the revised terms and conditions on this website. Please check this page regularly to ensure you are familiar with the current version.",
+      "de-DE": "Die BERlogic GmbH kann diese Bedingungen von Zeit zu Zeit ändern. Überarbeitete Bedingungen gelten für die Nutzung dieser Website ab dem Datum der Veröffentlichung der überarbeiteten Bedingungen auf dieser Website. Bitte überprüfen Sie diese Seite regelmäßig, um sicherzustellen, dass Sie mit der aktuellen Version vertraut sind.",
+      "ru-RU": "BERlogic GmbH может время от времени пересматривать эти условия. Пересмотренные условия будут применяться к использованию этого веб-сайта с даты публикации пересмотренных условий на этом веб-сайте. Регулярно проверяйте эту страницу, чтобы убедиться, что вы знакомы с текущей версией."
+    }
+  },
+    {
+    "Key": "Terms.ChapterFourteen",
+    "Value": {
+      "en-US": "Assignment",
+      "de-DE": "Zuordnung",
+      "ru-RU": "Назначение"
+    }
+  },
+    {
+    "Key": "Terms.SentenceFourtyNine",
+    "Value": {
+      "en-US": "BERlogic GmbH may transfer, sub-contract or otherwise deal with BERlogic's GmbH rights and/or obligations under these terms and conditions without notifying you or obtaining your consent.",
+      "de-DE": "Die BERlogic GmbH ist berechtigt, die Rechte und / oder Pflichten der BERlogic GmbH im Rahmen dieser Geschäftsbedingungen zu übertragen, zu unterschreiben oder anderweitig zu handeln, ohne Sie darüber zu informieren oder Ihre Zustimmung einzuholen.",
+      "ru-RU": "BERlogic GmbH может передавать, заключать субподряды или иным образом обращаться с правами и / или обязательствами BERlogic GmbH в соответствии с настоящими условиями, не уведомляя вас или не получая ваше согласие."
+    }
+  },
+    {
+    "Key": "Terms.SentenceFifty",
+    "Value": {
+      "en-US": "You may not transfer, sub-contract or otherwise deal with your rights and/or obligations under these terms and conditions.",
+      "de-DE": "Hallo",
+      "ru-RU": "Привет"
+    }
+  },
+    {
+    "Key": "Terms.ChapterFiveteen",
+    "Value": {
+      "en-US": "Severability",
+      "de-DE": "Hallo",
+      "ru-RU": "Привет"
+    }
+  },
+    {
+    "Key": "Terms.SentenceFiftyOne",
+    "Value": {
+      "en-US": "If a provision of these terms and conditions is determined by any court or other competent authority to be unlawful and/or unenforceable, the other provisions will continue in effect. If any unlawful and/or unenforceable provision would be lawful or enforceable if part of it were deleted, that part will be deemed to be deleted, and the rest of the provision will continue in effect.",
+      "de-DE": "Wenn eine Bestimmung dieser Bedingungen von einem Gericht oder einer anderen zuständigen Behörde für rechtswidrig und / oder nicht durchsetzbar erklärt wird, bleiben die anderen Bestimmungen in Kraft. Wenn eine rechtswidrige und / oder undurchsetzbare Bestimmung rechtmäßig oder durchsetzbar wäre, wenn ein Teil davon gelöscht würde, gilt dieser Teil als gelöscht und der Rest der Bestimmung bleibt in Kraft.",
+      "ru-RU": "Если какое-либо положение этих условий определяется любым судом или другим компетентным органом как незаконное и / или не имеющее законной силы, то другие положения будут действовать по-прежнему. Если какое-либо незаконное и / или неисполнимое положение будет законным или подлежащим исполнению, если его часть будет удалена, эта часть будет считаться удаленной, а остальная часть этого положения будет действовать."
+    }
+  },
+    {
+    "Key": "Terms.ChapterSixteen",
+    "Value": {
+      "en-US": "Entire agreement",
+      "de-DE": "Ganze Vereinbarung",
+      "ru-RU": "Полное согласие"
+    }
+  },
+    {
+    "Key": "Terms.SentenceFiftyTwo",
+    "Value": {
+      "en-US": "These terms and conditions, constitute the entire agreement between you and BERlogic GmbH in relation to your use of this website, and supersede all previous agreements in respect of your use of this website.",
+      "de-DE": "Diese Nutzungsbedingungen stellen die gesamte Vereinbarung zwischen Ihnen und der BERlogic GmbH in Bezug auf Ihre Nutzung dieser Website dar und ersetzen alle vorherigen Vereinbarungen in Bezug auf Ihre Nutzung dieser Website.",
+      "ru-RU": "Эти положения и условия составляют полное соглашение между вами и BERlogic GmbH относительно вашего использования этого веб-сайта и заменяют все предыдущие соглашения в отношении использования вами этого веб-сайта."
+    }
+  },
+    {
+    "Key": "Terms.ChapterSeventeen",
+    "Value": {
+      "en-US": "Law and jurisdiction",
+      "de-DE": "Recht und Gerichtsstand",
+      "ru-RU": "Право и юрисдикция"
+    }
+  },
+    {
+    "Key": "Terms.SentenceFiftyThree",
+    "Value": {
+      "en-US": "These terms and conditions will be governed by and construed in accordance with DS-GVO and BDSG, and any disputes relating to these terms and conditions will be subject to the exclusive jurisdiction of the courts of Berlin, Germany.",
+      "de-DE": "Diese Geschäftsbedingungen unterliegen den Bestimmungen von DS-GVO und BDSG, und alle Streitigkeiten im Zusammenhang mit diesen Bedingungen unterliegen der ausschließlichen Zuständigkeit der Berliner Gerichte.",
+      "ru-RU": "Эти положения и условия будут регулироваться и толковаться в соответствии с DS-GVO и BDSG, и любые споры, связанные с этими положениями и условиями, будут подлежать исключительной юрисдикции судов Берлина, Германия."
+    }
+  },
+    {
+    "Key": "Terms.ChapterEightteen",
+    "Value": {
+      "en-US": "About these website terms and conditions",
+      "de-DE": "Über diese Website-Bedingungen",
+      "ru-RU": "Об этих условиях сайта"
+    }
+  },
+    {
+    "Key": "Terms.SentenceFiftyFour",
+    "Value": {
+      "en-US": "We created these website terms and conditions with the help of a free website terms and conditions form developed by Contractology and available at",
+      "de-DE": "Wir haben diese Website-Bedingungen mit Hilfe eines kostenlosen Formulars für Website-Bedingungen erstellt, das von Contractology entwickelt wurde und unter erhältlich ist",
+      "ru-RU": "Мы создали эти условия веб-сайта с помощью бесплатной формы предложений на веб-сайте, разработанной компанией «Контрактология», и"
+    }
+  },
+    {
+    "Key": "Terms.SentenceFiftyFive",
+    "Value": {
+      "en-US": "Contractology supply a wide variety of commercial legal documents, such as",
+      "de-DE": "Contractology liefert eine Vielzahl von handelsrechtlichen Dokumenten, wie",
+      "ru-RU": "Контрактология предоставляет широкий спектр коммерческих юридических документов, таких как"
+    }
+  },
+    {
+    "Key": "Terms.SentenceFiftySix",
+    "Value": {
+      "en-US": "protection statements",
+      "de-DE": "Schutzerklärungen",
+      "ru-RU": "заявления о защите"
+    }
+  },
+    {
+    "Key": "Terms.ChapterNineteen",
+    "Value": {
+      "en-US": "Registrations and authorisations",
+      "de-DE": "Registrierungen und Genehmigungen",
+      "ru-RU": "Регистрация и авторизация"
+    }
+  },
+    {
+    "Key": "Terms.SentenceFiftySeven",
+    "Value": {
+      "en-US": "BERlogic GmbH is registered with HRB142271 BERLIN (CHARLOTTENBURG). You can find the online version of the register at https://www.online-handelsregister.de/handelsregisterauszug/be/Charlottenburg-Berlin/B/BERlogic+GmbH/1307786. BERlogic's GmbH registration number is C-1307786.",
+      "de-DE": "Die BERlogic GmbH ist bei HRB142271 BERLIN (CHARLOTTENBURG) eingetragen. Die Online-Version des Registers finden Sie unter https://www.online-handelsregister.de/handelsregisterauszug/be/Charlottenburg-Berlin/B/BERlogic+GmbH/1307786. Die Registrierungsnummer der BERlogic GmbH lautet C-1307786.",
+      "ru-RU": "BERlogic GmbH зарегистрирован в HRB142271 BERLIN (CHARLOTTENBURG). Вы можете найти онлайн-версию реестра на странице https://www.online-handelsregister.de/handelsregisterauszug/be/Charlottenburg-Berlin/B/BERlogic+GmbH/1307786. Регистрационный номер BERlogic's GmbH - C-1307786."
+    }
+  },
+    {
+    "Key": "Terms.SentenceFiftyEight",
+    "Value": {
+      "en-US": "BERlogic GmbH is subject to Gesetz betreffend die Gesellschaften mit beschränkter Haftung (GmbHG), which is supervised by Tsodykovskiy, Igor.",
+      "de-DE": "Die BERlogic GmbH unterliegt dem Gesetz betreffend die Gesellschaften mit beschränkter Haftung (GmbHG), das von Tsodykovskiy, Igor beaufsichtigt wird.",
+      "ru-RU": "BERlogic GmbH подчиняется Gesetz betreffend die Gesellschaften mit beschränkter Haftung (GmbHG), который находится под контролем Цодыковского, Игоря."
+    }
+  },
+    {
+    "Key": "Terms.SentenceFiftyNine",
+    "Value": {
+      "en-US": "BERlogic's GmbH professional title is BERlogic and it has been granted in Berlin, Germany. BERlogic GmbH is subject to the Gesellschaften mit beschränkter Haftung (GmbHG).",
+      "de-DE": "BERlogic's Berufsbezeichnung ist BERlogic und wurde in Berlin verliehen. Die BERlogic GmbH unterliegt den Gesellschaften mit beschränkter Haftung (GmbHG).",
+      "ru-RU": "Профессиональным званием BERlogic's GmbH является BERlogic, и он был предоставлен в Берлине, Германия. BERlogic GmbH подчиняется Gesellschaften mit beschränkter Haftung (GmbHG)."
+    }
+  },
+    {
+    "Key": "Terms.SentenceSixty",
+    "Value": {
+      "en-US": "BERlogic GmbH subscribes to the following code[s] of conduct: [CODE(S) OF CONDUCT]. [These codes/this code] can be consulted electronically at [URL(S)].",
+      "de-DE": "Die BERlogic GmbH hat den folgenden Verhaltenskodex [s]: [CODE (S) OF CONDUCT]. [Diese Codes / dieser Code] können elektronisch unter [URL (S)] abgerufen werden.",
+      "ru-RU": "BERlogic GmbH подписывается на следующий код [s] поведения: [CODE (S) ПОВЕДЕНИЯ]. [Эти коды / этот код] можно просмотреть в электронном виде по адресу [URL (S)]."
+    }
+  },
+    {
+    "Key": "Terms.SentenceSixtyOne",
+    "Value": {
+      "en-US": "BERlogic's GmbH TAX number is DE283001723.",
+      "de-DE": "Die Steuernummer der BERlogic GmbH lautet DE283001723.",
+      "ru-RU": "BERlogic's GmbH налоговый номер DE283001723."
+    }
+  },
+    {
+    "Key": "Terms.ChapterTwenty",
+    "Value": {
+      "en-US": "BERlogic's GmbH details",
+      "de-DE": "BERlogic's GmbH",
+      "ru-RU": "BERlogic's GmbH подробности"
+    }
+  },
+    {
+    "Key": "Terms.SentenceSixtyTwo",
+    "Value": {
+      "en-US": "The full name of BERlogic GmbH is BERlogic Gesellschaft mit beschränkter Haftung.",
+      "de-DE": "Der vollständige Name der BERlogic GmbH lautet BERlogic Gesellschaft mit beschränkter Haftung.",
+      "ru-RU": "Полное название BERlogic GmbH - BERlogic Gesellschaft mit beschränkter Haftung."
+    }
+  },
+    {
+    "Key": "Terms.SentenceSixtyThree",
+    "Value": {
+      "en-US": "BERlogic GmbH is registered in Amtsgericht Charlottenburg (Berlin, Germany) under registration number HRB 142271 B.",
+      "de-DE": "Die BERlogic GmbH ist beim Amtsgericht Charlottenburg (Berlin, Deutschland) unter der Nummer HRB 142271 B eingetragen.",
+      "ru-RU": "BERlogic GmbH зарегистрирован в Amtsgericht Charlottenburg (Берлин, Германия) под регистрационным номером HRB 142271 B."
+    }
+  },
+    {
+    "Key": "Terms.SentenceSixtyFour",
+    "Value": {
+      "en-US": "BERlogic's GmbH address is Lankwitzer Straße 39 , 12107 Berlin.",
+      "de-DE": "BERlogic's GmbH Adresse ist Lankwitzer Straße 39, 12107 Berlin.",
+      "ru-RU": "Адрес BERlogic's GmbH - Lankwitzer Straße 39, 12107 Berlin."
+    }
+  },
+    {
+    "Key": "Terms.SentenceSixtyFive",
+    "Value": {
+      "en-US": "You can contact BERlogic GmbH by email to infoweb@berlogic.de.",
+      "de-DE": "Sie können die BERlogic GmbH per E-Mail an infoweb@berlogic.de kontaktieren.",
+      "ru-RU": "Вы можете связаться с BERlogic GmbH по электронной почте infoweb@berlogic.de."
+    }
+  },
+    {
+    "Key": "By using this WEBSITE TERMS AND CONDITIONS template document, you agree to the",
+    "Value": {
+      "en-US": "By using this WEBSITE TERMS AND CONDITIONS template document, you agree to the",
+      "de-DE": "Durch die Verwendung dieses Vorlagendokuments der WEBSITE-BEDINGUNGEN stimmen Sie dem zu",
+      "ru-RU": "Используя этот шаблонный документ WEBITE TERMS AND CONDITIONS, вы соглашаетесь с"
+    }
+  },
+    {
+    "Key": "terms and conditions",
+    "Value": {
+      "en-US": "terms and conditions",
+      "de-DE": "Geschäftsbedingungen",
+      "ru-RU": "условия и положения"
+    }
+  },
+    {
+    "Key": "set out on",
+    "Value": {
+      "en-US": "set out on",
+      "de-DE": "machte sich auf",
+      "ru-RU": "установить на"
+    }
+  },
+    {
+    "Key": "You must retain the credit",
+    "Value": {
+      "en-US": "You must retain the credit",
+      "de-DE": "Sie müssen den Kredit behalten",
+      "ru-RU": "Вы должны сохранить кредит"
+    }
+  },
+    {
+    "Key": "set out in the section headed \"ABOUT THESE WEBSITE TERMS AND CONDITIONS\". Subject to the licensing restrictions, you should",
+    "Value": {
+      "en-US": "set out in the section headed \"ABOUT THESE WEBSITE TERMS AND CONDITIONS\". Subject to the licensing restrictions, you should",
+      "de-DE": "im Abschnitt \"ÜBER DIESE WEBSITE-BEDINGUNGEN\" beschrieben. Vorbehaltlich der Lizenzbeschränkungen sollten Sie dies tun",
+      "ru-RU": "изложенных в разделе, озаглавленном «О ЭТИХ УСЛОВИЯХ ВЕБ-САЙТА». При соблюдении лицензионных ограничений вы должны"
+    }
+  },
+    {
+    "Key": "edit the document, adapting it to the requirements of your jurisdiction, your business and your",
+    "Value": {
+      "en-US": "edit the document, adapting it to the requirements of your jurisdiction, your business and your",
+      "de-DE": "Bearbeiten Sie das Dokument und passen Sie es an die Anforderungen Ihrer Rechtsordnung, Ihres Unternehmens und Ihres Unternehmens an",
+      "ru-RU": "редактировать документ, адаптировать его к требованиям вашей юрисдикции, вашему бизнесу и"
+    }
+  },
+    {
+    "Key": "website. If you are not a lawyer, we recommend that you take professional legal advice in relation to the editing and",
+    "Value": {
+      "en-US": "website. If you are not a lawyer, we recommend that you take professional legal advice in relation to the editing and",
+      "de-DE": "Webseite. Wenn Sie kein Rechtsanwalt sind, empfehlen wir Ihnen, einen professionellen Rechtsberater in Bezug auf die Redaktion und den Rat einzuholen",
+      "ru-RU": "Веб-сайт. Если вы не являетесь адвокатом, мы рекомендуем вам обратиться за профессиональной юридической консультацией в отношении"
+    }
+  },
+    {
+    "Key": "use of the template.",
+    "Value": {
+      "en-US": "use of the template.",
+      "de-DE": "Verwendung der Vorlage.",
+      "ru-RU": "использования шаблона."
+    }
+  },
+    {
+    "Key": "Cancel",
+    "Value": {
+      "en-US": "Cancel",
+      "de-DE": "Stornieren",
+      "ru-RU": "Отменить"
+    }
+  },
+    {
+    "Key": "I Agree",
+    "Value": {
+      "en-US": "I Agree",
+      "de-DE": "Genau",
+      "ru-RU": "Согласен"
+    }
+  },
+    {
+    "Key": "Print",
+    "Value": {
+      "en-US": "Print",
+      "de-DE": "Drucken",
+      "ru-RU": "Распечатать"
+    }
+  },
+    {
+    "Key": "Please enter your login",
+    "Value": {
+      "en-US": "Please enter your login",
+      "de-DE": "Bitte geben Sie Ihren Login ein",
+      "ru-RU": "Введите свой логин"
+    }
+  },
+    {
+    "Key": "Please enter your email address",
+    "Value": {
+      "en-US": "Please enter your email address",
+      "de-DE": "Geben Sie bitte Ihre Email-Adresse ein",
+      "ru-RU": "Пожалуйста, введите свой адрес электронной почты"
+    }
+  },
+    {
+    "Key": "Please enter a VALID email address",
+    "Value": {
+      "en-US": "Please enter a VALID email address",
+      "de-DE": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+      "ru-RU": "Пожалуйста, введите действительный адрес электронной почты"
+    }
+  },
+    {
+    "Key": "Please enter your password",
+    "Value": {
+      "en-US": "Please enter your password",
+      "de-DE": "Bitte geben Sie Ihr Passwort ein",
+      "ru-RU": "Пожалуйста, введите пароль"
+    }
+  },
+    {
+    "Key": "Please enter your password one more time",
+    "Value": {
+      "en-US": "Please enter your password one more time",
+      "de-DE": "Bitte geben Sie Ihr Passwort noch einmal ein",
+      "ru-RU": "Введите пароль еще раз."
+    }
+  },
+    {
+    "Key": "Please enter the same password as above",
+    "Value": {
+      "en-US": "Please enter the same password as above",
+      "de-DE": "Bitte geben Sie dasselbe Passwort noch einmal ein",
+      "ru-RU": "Введите тот же пароль, что и выше."
+    }
+  },
+    {
+    "Key": "Please select your first name",
+    "Value": {
+      "en-US": "Please select your first name",
+      "de-DE": "Bitte wählen Sie Ihren Vornamen",
+      "ru-RU": "Выберите свое имя"
+    }
+  },
+    {
+    "Key": "Please select your last name",
+    "Value": {
+      "en-US": "Please select your last name",
+      "de-DE": "Bitte wählen Sie Ihren Nachnamen",
+      "ru-RU": "Выберите свою фамилию"
+    }
+  },
+    {
+    "Key": "Please select your gender",
+    "Value": {
+      "en-US": "Please select your gender",
+      "de-DE": "Bitte wählen Sie Ihr Geschlecht",
+      "ru-RU": "Пожалуйста, выберите Ваш пол"
+    }
+  },
+    {
+    "Key": "You must agree with Terms and Conditions",
+    "Value": {
+      "en-US": "You must agree with Terms and Conditions",
+      "de-DE": "Sie müssen den Allgemeinen Geschäftsbedingungen zustimmen",
+      "ru-RU": "Вы должны согласиться с Условиями использования"
+    }
+  }
+]

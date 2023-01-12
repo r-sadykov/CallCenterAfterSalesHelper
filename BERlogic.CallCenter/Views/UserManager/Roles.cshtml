@@ -1,0 +1,64 @@
+﻿@model BERlogic.CallCenter.Models.UserManagement.ViewModel.UserInRoleViewModel
+
+@{
+    Layout = "_Layout";
+}
+
+<div class="form">
+        <table id="users">
+            <thead>
+            <tr>
+                <td>#</td>
+                <td>User</td>
+                <td>Role</td>
+                <td>Choose Role</td>
+                <td></td>
+                <td></td>
+            </tr>
+            </thead>
+            <tbody>
+            @{ int i = 1;}
+            @foreach (var item in Model.Users)
+            {
+                <tr>
+                    <td>@i</td>
+                    <td>@item.FullName
+                        <input type="hidden" class="hidden" id="userHid" value="@item.UserId"/>
+                    </td>
+                    <td>@item.Role
+                        <input type="hidden" class="hidden" id="roleHid" value="@item.RoleId"/>
+                    </td>
+                    <td>@Html.DropDownListFor(m=>m.SelectedRole, new SelectList(Model.Roles, "Id", "Name"), "--Select--", htmlAttributes:new {@id="Roles", @class="select select2-arrow"})
+                        @Html.HiddenFor(m=>m.SelectedRole)
+                        </td>
+                    <td><a asp-action="SaveRolesForUser" asp-controller="UserManager" id="saveRole"><u>S</u>ave</a></td>
+                    <td><a asp-action="DeleteRolesForUser" asp-controller="UserManager" id="deleteRole" asp-route-userId="@item.UserId" asp-route-roleId="@item.RoleId"><u>D</u>elete</a></td>
+                </tr>
+                i++;
+            }
+            </tbody>
+        </table>
+</div>
+
+@section Scripts
+{
+    <script type="text/javascript">
+        $('#users').on('change',
+            '.select2-arrow',
+            function() {
+                var role = $(this).find(":selected").val();
+                var user = $(this).parents('tr').find('#userHid').val();
+                var oldRole = $(this).parents('tr').find('#roleHid').val();
+                var href = "/usermanager/saverolesforuser?";
+                var hrefUser = href + "userId=" + user + "&";
+                var hrefRole = hrefUser + "roleId=" + role+"&";
+                var hrefOldRole = hrefRole + "oldRoleId=" + oldRole;
+                $(this).parents('tr').find('#saveRole').attr("href", hrefOldRole);
+            });
+        $(function () {
+            $("#SelectedRole").on("change", function(){
+                $("#SelectedRoleText").val($(this).text());
+            });
+        });
+    </script>
+}

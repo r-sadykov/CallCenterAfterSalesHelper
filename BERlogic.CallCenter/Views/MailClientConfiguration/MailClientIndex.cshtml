@@ -1,0 +1,53 @@
+﻿@model BERlogic.CallCenter.Models.MailClientConfiguration
+@inject IViewLocalizer Localizer
+@{
+    Layout = "_Layout";
+}
+
+<div>
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <form class="form" method="post">
+    
+        @if (Model != null && Model.ConfigurationId != 0) {
+            <div>
+                <input type="hidden" asp-for="ConfigurationId" />
+            </div>
+        }
+        
+        <div class="form-group" >
+            <label class="label label-default" asp-for="ConfigurationName" ></label>
+            <div>
+                <span asp-validation-for="ConfigurationName" class="text-danger" ></span>
+            </div>
+            <input class="form-control input bg-color-lighten text-align-left" type="text" asp-for="ConfigurationName" />
+        </div>
+        <div class="form-group" >
+            <label class="label label-default" asp-for="SourceFolder" ></label>
+            <div>
+                <span asp-validation-for="SourceFolder" class="text-danger" ></span>
+            </div>
+            <input class="form-control input bg-color-lighten text-align-left" type="text" asp-for="SourceFolder" />
+        </div>
+        <div class="form-group" >
+            <label class="label label-default" asp-for="TargetFolder" ></label>
+            <div>
+                <span asp-validation-for="TargetFolder" class="text-danger" ></span>
+            </div>
+            <input class="form-control input bg-color-lighten text-align-left" type="text" asp-for="TargetFolder" />
+        </div>
+        <br />
+        <div>
+            <table>
+                <tr>
+                <td colspan="2">
+                    @if (Model != null && Model.ConfigurationId != 0) {
+                        <button type="submit" class="btn btn-primary" asp-controller="MailClientConfiguration" asp-action="EditMailClientConfiguration" >@Localizer["Save"]</button>
+                    } else {
+                        <button type="submit" class="btn btn-primary" asp-controller="MailClientConfiguration" asp-action="CreateMailClientConfiguration" >@Localizer["Create"]</button>
+                    }
+                </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</div>

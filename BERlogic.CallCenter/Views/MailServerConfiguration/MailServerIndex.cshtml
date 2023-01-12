@@ -1,0 +1,121 @@
+﻿@using BERlogic.CallCenter.Models.Enums
+@model BERlogic.CallCenter.ViewModels.MailServerConfigurationViewModel
+@inject IViewLocalizer Localizer
+@{
+    Layout = "_Layout";
+}
+
+<div>
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <form class="form" method="post">
+    
+        @if (Model != null && Model.MailServerConfiguration.ConfigurationId != 0) {
+            <div>
+                <input type="hidden" asp-for="MailServerConfiguration.ConfigurationId" />
+            </div>
+        }
+        
+        <div class="form-group" >
+            <label class="label label-default" asp-for="MailServerConfiguration.ConfigurationName" ></label>
+            <div>
+                <span asp-validation-for="MailServerConfiguration.ConfigurationName" class="text-danger" ></span>
+            </div>
+            <input class="form-control input bg-color-lighten text-align-left" type="text" asp-for="MailServerConfiguration.ConfigurationName" />
+        </div>
+        <div class="form-group" >
+            <label class="label label-default" asp-for="MailServerConfiguration.UserName" ></label>
+            <div>
+                <span asp-validation-for="MailServerConfiguration.UserName" class="text-danger" ></span>
+            </div>
+            <input class="form-control input bg-color-lighten text-align-left" type="text" asp-for="MailServerConfiguration.UserName" />
+        </div>
+        <div class="form-group" >
+            <label class="label label-default" asp-for="MailServerConfiguration.Address" ></label>
+            <div>
+                <span asp-validation-for="MailServerConfiguration.Address" class="text-danger" ></span>
+            </div>
+            <input class="form-control input bg-color-lighten text-align-left" type="text" asp-for="MailServerConfiguration.Address" />
+        </div>
+        <div class="form-group" >
+            <label class="label label-default" asp-for="MailServerConfiguration.Password" ></label>
+            <div>
+                <span asp-validation-for="MailServerConfiguration.Password" class="text-danger" ></span>
+            </div>
+            <input class="form-control input bg-color-lighten text-align-left" type="password" asp-for="MailServerConfiguration.Password" />
+        </div>
+        <div class="form-group" >
+            <label class="label label-default" asp-for="MailServerConfiguration.ServerNameOfIncomeMessages" ></label>
+            <div>
+                <span asp-validation-for="MailServerConfiguration.ServerNameOfIncomeMessages" class="text-danger" ></span>
+            </div>
+            <input class="form-control input bg-color-lighten text-align-left" type="text" asp-for="MailServerConfiguration.ServerNameOfIncomeMessages" />
+        </div>
+        <div class="form-group" >
+            <label class="label label-default " asp-for="MailServerConfiguration.ServerPortOfIncomeMessages" ></label>
+            <div>
+                <span asp-validation-for="MailServerConfiguration.ServerPortOfIncomeMessages" class="text-danger" ></span>
+            </div>
+            <input class="form-control input bg-color-lighten text-align-left" type="text" asp-for="MailServerConfiguration.ServerPortOfIncomeMessages" />
+        </div>
+        <div class="form-group" >
+            <label class="label label-default" asp-for="MailServerConfiguration.ServerNameOfOutcomeMessages" ></label>
+            <div>
+                <span asp-validation-for="MailServerConfiguration.ServerNameOfOutcomeMessages" class="text-danger" ></span>
+            </div>
+            <input class="form-control input bg-color-lighten text-align-left" type="text" asp-for="MailServerConfiguration.ServerNameOfOutcomeMessages" />
+        </div>
+        <div class="form-group" >
+            <label class="label label-default " asp-for="MailServerConfiguration.ServerPortOfOutcomeMessages" ></label>
+            <div>
+                <span asp-validation-for="MailServerConfiguration.ServerPortOfOutcomeMessages" class="text-danger" ></span>
+            </div>
+            <input class="form-control input bg-color-lighten text-align-left" type="text" asp-for="MailServerConfiguration.ServerPortOfOutcomeMessages" />
+        </div>
+        <div class="form-group" >
+            <label class="label label-default" asp-for="MailServerConfiguration.ServerSecureConnectionParameters" ></label>
+            <div>
+                <span asp-validation-for="MailServerConfiguration.ServerSecureConnectionParameters" class="text-danger" ></span>
+            </div>
+            <select class="form-control input bg-color-lighten text-align-left" type="text" asp-for="MailServerConfiguration.ServerSecureConnectionParameters" asp-items="Html.GetEnumSelectList<SecureConnectionParameters>()" ></select>
+        </div>
+        <div class="form-check" >
+            <label class="label label-default" asp-for="MailServerConfiguration.UseSecureAuthentication" ></label>
+            <br />
+            <input class="form-check-input" type="checkbox" asp-for="MailServerConfiguration.UseSecureAuthentication" />
+        </div>
+        <div class="form-check" >
+            <label class="label label-default" asp-for="MailServerConfiguration.UseNameAndPassword" ></label>
+            <br />
+            <input class="form-check-input" type="checkbox" asp-for="MailServerConfiguration.UseNameAndPassword" />
+        </div>
+        <div class="form-group" >
+            <label class="label label-default" asp-for="MailServerConfiguration.UsedNameForEmailConnection" ></label>
+            <div>
+                <span asp-validation-for="MailServerConfiguration.UsedNameForEmailConnection" class="text-danger" ></span>
+            </div>
+            <input class="form-control input bg-color-lighten text-align-left" type="text" asp-for="MailServerConfiguration.UsedNameForEmailConnection" />
+        </div>
+        <br />
+        <div>
+            <table>
+                <tr>
+                <td colspan="2">
+                    @if (Model != null && Model.MailServerConfiguration.ConfigurationId != 0) {
+                        <button type="submit" class="btn btn-primary" asp-controller="MailServerConfiguration" asp-action="EditMailServerConfiguration" >@Localizer["Save"]</button>
+                    } else {
+                        <button type="submit" class="btn btn-primary" asp-controller="MailServerConfiguration" asp-action="CreateMailServerConfiguration" >@Localizer["Create"]</button>
+                    }
+                </td>
+                </tr>
+                <tr>
+                    <td style="width: 250px">
+                        <input type="text" placeholder="@Localizer["Please enter mail for test message"]" class="form-control input bg-color-lighten text-align-left" asp-for="EMail" />
+                    </td>
+                    <td>
+                        <button type="submit" asp-controller="MailServerConfiguration" asp-action="TestMailServerConfiguration" class="btn btn-default" >@Localizer["Test"]</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,18 @@
+[
+  {
+    "Key": "Home",
+    "Value": {
+      "en-US": "Home",
+      "de-DE": "Haupt",
+      "ru-RU": "Главная"
+    }
+  },
+  {
+    "Key": "Dashboard",
+    "Value": {
+      "en-US": "Dashboard",
+      "de-DE": "Instrumententafel",
+      "ru-RU": "Доска"
+    }
+  }
+]

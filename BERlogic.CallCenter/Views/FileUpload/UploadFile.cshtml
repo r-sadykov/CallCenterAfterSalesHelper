@@ -1,0 +1,132 @@
+﻿@model BERlogic.CallCenter.ViewModels.FileUploadedViewModel
+@inject IViewLocalizer Localizer
+
+@{
+    ViewBag.Title = Localizer["Upload Full Report"];
+    Layout = "_Layout";
+}
+
+
+@section Scripts
+{
+    <script type="text/javascript">
+        ; (function (document, window, index) {
+            var inputs = document.querySelectorAll('.inputfile');
+            Array.prototype.forEach.call(inputs, function (input)
+            {
+                var label = input.nextElementSibling,
+                    labelVal = label.innerHTML;
+                input.addEventListener('change', function (e) {
+                    var fileName = '';
+                    if (this.files && this.files.length > 1)
+                        fileName = (this.getAttribute('data-multiple-caption') || '').replace('{count}', this.files.length);
+                    else
+                        fileName = e.target.value.split('\\').pop();
+                    if (fileName)
+                        label.querySelector('span').innerHTML = fileName;
+                    else
+                        label.innerHTML = labelVal;
+                });
+                // Firefox bug fix
+                input.addEventListener('focus', function () { input.classList.add('has-focus'); });
+                input.addEventListener('blur', function () { input.classList.remove('has-focus'); });
+            });
+        }( document, window, 0 ));
+    </script>
+    <script type="text/javascript">
+        (function () {
+            var fileInput = document.getElementById('files');
+            var fileListDisplay = document.getElementById('file-list-display');
+            var fileList = [];
+            var renderFileList;
+  
+  
+            fileInput.addEventListener('change', function (evnt) {
+                fileList = [];
+                for (var i = 0; i < fileInput.files.length; i++) {
+                    fileList.push(fileInput.files[i]);
+                }
+                renderFileList();
+            });
+  
+            renderFileList = function () {
+                fileListDisplay.innerHTML = '';
+                fileList.forEach(function (file, index) {
+                    var fileDisplayEl = document.createElement('tr');
+                    fileDisplayEl.innerHTML = '<td>'+ (index + 1) + '.</td><td>' + file.name+'</td>';
+                    fileListDisplay.appendChild(fileDisplayEl);
+                });
+            };
+        })();
+    </script>
+}
+
+<h2>@ViewBag.Title</h2>
+<hr/>
+
+<div class="content">
+    <div class="box2">        
+        <form class="form" asp-action="UploadFile" asp-controller="FileUpload" method="post" enctype="multipart/form-data">
+            <div class="form-group-sm">
+                <div class="row">
+                    <div class="col-sm-6">
+                    <input type="file" name="files" id="files" class="inputfile inputfile-4" data-multiple-caption="{count} files selected" multiple style="display: none"/>
+                    <label for="files">
+                        <figure>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17">
+                                <path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"/>
+                            </svg>
+                        </figure>
+                        <span>@Localizer["Choose a file"]&hellip;</span>
+                    </label>
+                </div>
+                    <div class="col-sm-6">
+                        <table id='file-list-display' class="table table-condensed table-borderless text-align-left table-responsive-sm" style="font-family: monospace; font-size: smaller"></table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <input type="submit" class="btn btn-primary" value="@Localizer["UPLOAD FILE(s)"]"/>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+@if (Model.Messages.Count > 0 && Model != null)
+{
+    <div class="row">
+        <table class="table table-condensed table-borderless">
+            <caption class="caption caption-left">@Localizer["Log:"]</caption>
+            <thead class="thead-dark">
+            <tr class="dt-header">
+                <td class="thead-dark">#</td>
+                <td>@Localizer["File Name"]</td>
+            </tr>
+            </thead>
+            @for (int i = 0; i < Model.Messages.Count; i++)
+            {
+                if (Model.Messages[i].Contains("fail"))
+                {
+                    <tr class="alert-danger alert">
+                        <td>@(i + 1)</td>
+                        <td>@Model.Messages[i]</td>
+                    </tr>
+                }
+                else
+                {
+                    <tr class="alert-success success">
+                        <td>@(i + 1)</td>
+                        <td>@Model.Messages[i]</td>
+                    </tr>
+                }
+
+            }
+        </table>
+    </div>
+}
+
+
+

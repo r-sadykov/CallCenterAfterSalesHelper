@@ -1,0 +1,98 @@
+[
+  {
+    "Key": "Error",
+    "Value": {
+      "en-US": "Error",
+      "de-DE": "Fehler",
+      "ru-RU": "Ошибка"
+    }
+  },
+    {
+    "Key": "Error.",
+    "Value": {
+      "en-US": "Error.",
+      "de-DE": "Fehler.",
+      "ru-RU": "Ошибка."
+    }
+  },
+    {
+    "Key": "An error occurred while processing your request.",
+    "Value": {
+      "en-US": "An error occurred while processing your request.",
+      "de-DE": "Während Ihrer Anfrage ist ein Fehler aufgetreten.",
+      "ru-RU": "Произошла ошибка при обработке вашего запроса."
+    }
+  },
+    {
+    "Key": "Request ID:",
+    "Value": {
+      "en-US": "Request ID:",
+      "de-DE": "Anfrage ID:",
+      "ru-RU": "Идентификатор запроса:"
+    }
+  },
+    {
+    "Key": "Development Mode",
+    "Value": {
+      "en-US": "Development Mode",
+      "de-DE": "Entwicklungsmodus",
+      "ru-RU": "Режим разработки"
+    }
+  },
+    {
+    "Key": "Swapping to",
+    "Value": {
+      "en-US": "Swapping to",
+      "de-DE": "Wechseln zu",
+      "ru-RU": "Переключение на"
+    }
+  },
+    {
+    "Key": "Development",
+    "Value": {
+      "en-US": "Development",
+      "de-DE": "Entwicklung",
+      "ru-RU": "Разработка"
+    }
+  },
+    {
+    "Key": "environment will display more detailed information about the error that occurred.",
+    "Value": {
+      "en-US": "environment will display more detailed information about the error that occurred.",
+      "de-DE": "Die Umgebung zeigt detailliertere Informationen zum aufgetretenen Fehler an.",
+      "ru-RU": "среду отобразит более подробную информацию об ошибке, которая произошла."
+    }
+  },
+    {
+    "Key": "Development environment should not be enabled in deployed applications",
+    "Value": {
+      "en-US": "Development environment should not be enabled in deployed applications",
+      "de-DE": "Die Entwicklungsumgebung sollte in bereitgestellten Anwendungen nicht aktiviert werden",
+      "ru-RU": "Среда разработки не должна быть включена в развернутых приложениях"
+    }
+  },
+    {
+    "Key": "as it can result in sensitive information from exceptions being displayed to end users. For local debugging, development environment can be enabled by setting the",
+    "Value": {
+      "en-US": "as it can result in sensitive information from exceptions being displayed to end users. For local debugging, development environment can be enabled by setting the",
+      "de-DE": "da dies dazu führen kann, dass sensible Informationen von Ausnahmen für Endbenutzer angezeigt werden. Für das lokale Debugging kann die Entwicklungsumgebung durch Setzen von aktiviert werden",
+      "ru-RU": "поскольку это может привести к тому, что конфиденциальная информация от исключений будет отображаться для конечных пользователей. Для локальной отладки среды разработки можно включить, установив"
+    }
+  },
+    {
+    "Key": "environment variable to",
+    "Value": {
+      "en-US": "environment variable to",
+      "de-DE": "Umgebungsvariable zu",
+      "ru-RU": "переменную среды"
+    }
+  },
+    {
+    "Key": "and restarting the application.",
+    "Value": {
+      "en-US": "and restarting the application.",
+      "de-DE": "und starten Sie die Anwendung erneut.",
+      "ru-RU": "и перезапустите приложение."
+    }
+  }
+]

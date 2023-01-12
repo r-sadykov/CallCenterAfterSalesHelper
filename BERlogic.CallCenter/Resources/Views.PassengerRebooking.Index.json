@@ -1,0 +1,106 @@
+[
+  {
+    "Key": "Find passenger:",
+    "Value": {
+      "en-US": "Find passenger:",
+      "de-DE": "Passagier finden:",
+      "ru-RU": "Найти пассажира:"
+    }
+  },
+  {
+    "Key": "place object to find",
+    "Value": {
+      "en-US": "place object to find",
+      "de-DE": "platziere das zu findende Objekt",
+      "ru-RU": "разместить объект поиска"
+    }
+  },
+  {
+    "Key": "Search Criterias:",
+    "Value": {
+      "en-US": "Search Criterias:",
+      "de-DE": "Suchkriterien:",
+      "ru-RU": "Критерий поиска:"
+    }
+  },
+  {
+    "Key": "Founded following objects:",
+    "Value": {
+      "en-US": "Founded following objects:",
+      "de-DE": "Folgende Objekte gefunden:",
+      "ru-RU": "Найдены следующие объекты:"
+    }
+  },
+  {
+    "Key": "Booking Number",
+    "Value": {
+      "en-US": "Booking Number",
+      "de-DE": "Buchungsnummer",
+      "ru-RU": "Номер заказа"
+    }
+  },
+  {
+    "Key": "PNR",
+    "Value": {
+      "en-US": "PNR",
+      "de-DE": "PNR",
+      "ru-RU": "PNR"
+    }
+  },
+  {
+    "Key": "Booking Date",
+    "Value": {
+      "en-US": "Booking Date",
+      "de-DE": "Buchungsdatum",
+      "ru-RU": "Дата бронирования"
+    }
+  },
+  {
+    "Key": "Customer",
+    "Value": {
+      "en-US": "Customer",
+      "de-DE": "Kunde",
+      "ru-RU": "Клиент"
+    }
+  },
+  {
+    "Key": "Passengers",
+    "Value": {
+      "en-US": "Passengers",
+      "de-DE": "Passagiere",
+      "ru-RU": "Пассажиры"
+    }
+  },
+  {
+    "Key": "R",
+    "Value": {
+      "en-US": "R",
+      "de-DE": "U",
+      "ru-RU": "П"
+    }
+  },
+  {
+    "Key": "ebooking",
+    "Value": {
+      "en-US": "ebooking",
+      "de-DE": "mbuchung",
+      "ru-RU": "еребронирование"
+    }
+  },
+    {
+    "Key": "N",
+    "Value": {
+      "en-US": "N",
+      "de-DE": "N",
+      "ru-RU": "Н"
+    }
+  },
+    {
+    "Key": "ew Search",
+    "Value": {
+      "en-US": "ew Search",
+      "de-DE": "eue Suche",
+      "ru-RU": "овый поиск"
+    }
+  },
+]

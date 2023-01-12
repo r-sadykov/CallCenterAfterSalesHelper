@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "globalize@1.4.0",
+      "destination": "wwwroot/js/globalize"
+    },
+    {
+      "library": "flagstrap@1.0",
+      "destination": "wwwroot/lib/"
+    },
+    {
+      "library": "dropzone@5.5.1",
+      "destination": "wwwroot/lib/dropzone/"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "Key": "Profile",
+    "Value": {
+      "en-US": "Profile",
+      "de-DE": "Profil",
+      "ru-RU": "Профиль"
+    }
+  },
+    {
+    "Key": "Send verification email",
+    "Value": {
+      "en-US": "Send verification email",
+      "de-DE": "Senden Sie E-Mail-Verifizierung",
+      "ru-RU": "Отправить письмо с подтверждением"
+    }
+  },
+    {
+    "Key": "Save",
+    "Value": {
+      "en-US": "Save",
+      "de-DE": "speichern",
+      "ru-RU": "Сохранить"
+    }
+  }
+]

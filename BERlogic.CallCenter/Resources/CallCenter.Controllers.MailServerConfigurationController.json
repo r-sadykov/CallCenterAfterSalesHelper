@@ -1,0 +1,66 @@
+[
+  {
+    "Key": "has been saved",
+    "Value": {
+      "en-US": "has been saved",
+      "de-DE": "wurde gespeichert",
+      "ru-RU": "сохранено"
+    }
+  },
+    {
+    "Key": "has been not saved",
+    "Value": {
+      "en-US": "has been not saved",
+      "de-DE": "wurde nicht gespeichert",
+      "ru-RU": "не было сохранено"
+    }
+  },
+  {
+    "Key": "has been changed",
+    "Value": {
+      "en-US": "has been changed",
+      "de-DE": "wurde geändert",
+      "ru-RU": "было изменено"
+    }
+  },
+    {
+    "Key": "was deleted",
+    "Value": {
+      "en-US": "was deleted",
+      "de-DE": "wurde gelöscht",
+      "ru-RU": "было удалено"
+    }
+  },
+    {
+    "Key": "Test Message from BERlogic CallCenter WebApp",
+    "Value": {
+      "en-US": "Test Message from BERlogic CallCenter WebApp",
+      "de-DE": "Kurzmitteilung von BERlogic Call Center Web App",
+      "ru-RU": "Текстовое сообщение из веб-приложения BERlogic Call Center"
+    }
+  },
+    {
+    "Key": "This is a test that client could receive mail from App",
+    "Value": {
+      "en-US": "This is a test that client could receive mail from App",
+      "de-DE": "Dies ist ein Test, den der Client E-Mails von App erhalten konnte",
+      "ru-RU": "Это тест на то, что клиент может получать почту из приложения"
+    }
+  },
+  {
+    "Key": "Mail sent successful",
+    "Value": {
+      "en-US": "Mail sent successful",
+      "de-DE": "Mail erfolgreich versendet",
+      "ru-RU": "Сообщение отправлено успешно"
+    }
+  },
+    {
+    "Key": "Sending mail was failed.<br/>Error is",
+    "Value": {
+      "en-US": "Sending mail was failed.<br/>Error is",
+      "de-DE": "Senden von E-Mail war fehlgeschlagen. <br/> Fehler ist",
+      "ru-RU": "Ошибка отправки сообщения. <br/> Ошибка:"
+    }
+  }
+]

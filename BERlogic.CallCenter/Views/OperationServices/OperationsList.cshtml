@@ -1,0 +1,313 @@
+﻿@using BERlogic.CallCenter.Models.Enums
+@model BERlogic.CallCenter.ViewModels.OperationServicesListViewModel
+@inject IViewLocalizer Localizer
+
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h2>@Localizer["Service Operations List:"]</h2>
+<hr />
+<div>
+    <form class="form" method="get">
+        <div class="form-group-sm col-sm-2">
+            <div class="form-group">
+                <div class="input-group date" id="datetimepicker3">
+                    <label class="label label-primary form-control" asp-for="StartSearchDate" id="StartSearchDate"></label>
+                    <input type="date" class="form-control" asp-for="StartSearchDate" value="@Model.StartSearchDate"/>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-time"></span>
+                    </span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group date" id="datetimepicker3">
+                    <label class="label label-primary form-control" asp-for="EndSearchDate"></label>
+                    <input type="date" class="form-control" asp-for="EndSearchDate" value="@Model.EndSearchDate"/>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-time"></span>
+                    </span>
+                </div>
+            </div>
+            <script type="text/javascript">
+                $(function() {
+                    $('#datetimepicker3').datetimepicker({
+                        format: 'LT'
+                    });
+                });
+            </script>
+            <div class="form-group">
+                <div class="input-group select">
+                    <label class="label label-primary form-control" asp-for="Operations"></label>
+                    <select class="form-control select" asp-for="Operations" asp-items="@Html.GetEnumSelectList(typeof(ServiceOperations))"></select>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group select">
+                    <label class="label label-primary form-control" asp-for="PageSizeList"></label>
+                    <select class="form-control select" asp-for="SelectedPageSize" asp-items="@(new SelectList(Model.PageSizeList, "SelectedPageSize"))"></select>
+                </div>
+            </div>
+            <button class="btn btn-circle" asp-controller="OperationServices" asp-action="OperationsList" asp-route-productPage="1" type="submit">
+                <i class="fa fa-2x fa-building"></i><span style="font-weight: bold; margin-left: 5px; padding: 2px; font-size: 1.5em">@Localizer["Accept Filter"]</span>
+            </button>
+        </div>
+    </form>
+</div>
+<div class="table-responsive">
+
+    <table class="table table-hover table-primary table-striped table-sm table-bordered">
+        <thead>
+            <tr style="background: darkred; color: white; font-weight: bolder; text-align: center;">
+                <td>#</td>
+                <td>
+                    @Localizer["Ändrerungdatum"]
+                </td>
+                <td>
+                    @Localizer["Referenznummer"]
+                </td>
+                <td>
+                    @Localizer["Buchungscode"]
+                </td>
+                <td>
+                    @Localizer["Buchungsdatum"]
+                </td>
+                <td>
+                   @Localizer["Kunde"]
+                </td>
+                <td>
+                    @Localizer["E-mail"]
+                </td>
+                <td>
+                    @Localizer["Zahlungsart"]
+                </td>
+                <td>
+                    @Localizer["Art löschen"]
+                </td>
+                <td>
+                    @Localizer["Agenturcode"]
+                </td>
+                <td>
+                    @Localizer["Agentenname"]
+                </td>
+                <td>
+                    @Localizer["Verkaufspunkt"]
+                </td>
+                <td>
+                    @Localizer["Servicearbeiten"]
+                </td>
+                <td>
+                    @Localizer["Flugroute"]
+                </td>
+                <td>
+                    @Localizer["Passagier(e)"]
+                </td>
+                <td>
+                    @Localizer["Preisdifferenz"]
+                </td>
+                <td>
+                    @Localizer["Umbuchungsgebühren"]
+                </td>
+                <td>
+                    @Localizer["Zwischensumme Airline"]
+                </td>
+                <td>
+                    @Localizer["Bearbeitungsgebühren BERlogic"]
+                </td>
+                <td>
+                    @Localizer["Flugpreis inkl. Gebühren"]
+                </td>
+                <td>
+                    @Localizer["Nicht erstattbare Taxen"]
+                </td>
+                <td>
+                    @Localizer["Zusatzleistung/Gepäck"]
+                </td>
+                <td>
+                    @Localizer["Stornogebühren der Airline"]
+                </td>
+                <td>
+                    @Localizer["Bereits bezahlte Gebühren-BERlogic"]
+                </td>
+                <td>
+                    @Localizer["Gutschrift"]
+                </td>
+                <td>
+                    @Localizer["Rechnungsbetrag EURO"]
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            @{ int index = 1; }
+            @foreach (var item in Model.Services)
+            {
+                <tr>
+                    <td>
+                        @(index + (Model.PagingInfo.CurrentPage - 1) * 10)
+                        <input type="hidden" asp-for="@item.Id" />
+                    </td>
+                    <td>
+                        @item.ChangeServiceDate.ToShortDateString()
+                    </td>
+                    <td>
+                        @item.BookingNumber
+                    </td>
+                    <td>
+                        @item.BookingCode
+                    </td>
+                    <td>
+                        @item.BookingDate.ToShortDateString()
+                    </td>
+                    <td>
+                        @item.CustomerFullName
+                    </td>
+                    <td>
+                        @item.CustomerEmail
+                    </td>
+                    <td>
+                        @item.PaymentMethod
+                    </td>
+                    <td>
+                        @item.ClearingType
+                    </td>
+                    <td>
+                        @item.AgencyCode
+                    </td>
+                    <td>
+                        @item.AgentName
+                    </td>
+                    <td>
+                        @item.Salespoint
+                    </td>
+                    <td>
+                        @item.ServiceOperations
+                    </td>
+                    <td>
+                        <table class="table table-secondary">
+                            <thead>
+                                <tr style="color: white; background: black; text-align: center">
+                                    <td>
+                                        @Localizer["Abflugdatum"]
+                                    </td>
+                                    <td>
+                                        @Localizer["Flug"]
+                                    </td>
+                                    <td>
+                                       @Localizer["Flugnr."]
+                                    </td>
+                                    <td>
+                                        @Localizer["Von"]
+                                    </td>
+                                    <td>
+                                        @Localizer["Nach"]
+                                    </td>
+                                    <td>
+                                        @Localizer["Ankuftzeit"]
+                                    </td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var route in item.LineRoutes)
+                                {
+                                    <tr>
+                                        <td>
+                                            @route.DepartureDate.ToShortDateString()
+                                        </td>
+                                        <td>
+                                            @route.FlightAirline
+                                        </td>
+                                        <td>
+                                            @route.FlightNumber
+                                        </td>
+                                        <td>
+                                            @route.DepartureAirport
+                                        </td>
+                                        <td>
+                                            @route.ArrivalAirport
+                                        </td>
+                                        <td>
+                                            @route.ArrivalTime.ToShortTimeString()
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </td>
+                    <td>
+                        <table class="table table-secondary">
+                            <thead>
+                                <tr style="color: white; background: black; text-align: center">
+                                    <td>@Localizer["Passagier(e) Name:"]</td>
+                                    <td>@Localizer["Gebühr:"]</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var passanger in item.PassangerModels)
+                                {
+                                    <tr>
+                                        <td>
+                                            @passanger.FullName
+                                        </td>
+                                        <td>
+                                            @passanger.PassangerFee.ToString("C")
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </td>
+                    <td>
+                        @item.PriceDifference
+                    </td>
+                    <td>
+                        @item.RebookingFee
+                    </td>
+                    <td>
+                        @item.AirlineFee
+                    </td>
+                    <td>
+                        @item.BerlogicFee
+                    </td>
+                    <td>
+                        @item.AirlineTotalPrice
+                    </td>
+                    <td>
+                        @item.NonRefundableTaxes
+                    </td>
+                    <td>
+                        @item.AdditionalServicesAndBaggage
+                    </td>
+                    <td>
+                        @item.CancellationAirlineFee
+                    </td>
+                    <td>
+                        @item.PrepaidBerlogicFee
+                    </td>
+                    <td>
+                        @item.Credit
+                    </td>
+                    <td>
+                        @item.TotalFee
+                    </td>
+                    <td>
+                        <a asp-controller="OperationServices" asp-action="DeleteOperation" asp-route-id="@item.Id" asp-route-returnUrl="@Context.Request.Host@Context.Request.Path@Context.Request.QueryString">
+                            <i class="fa fa-remove"><span style="margin-left: 10px">@Localizer["Delete"]</span></i>                         
+                        </a>
+                    </td>
+                </tr>
+                index++;
+            }
+        </tbody>
+    </table>
+    <br /><br />
+
+
+    <div>
+        <a class="btn btn-default pull-left m-1" style="margin-top: 40px" asp-action="SaveReportToExcel" asp-controller="OperationServices" asp-route-returnUrl="@Context.Request.Host@Context.Request.Path@Context.Request.QueryString">
+            <i class="fa fa-file-excel-o fa-2x"><span style="margin-left: 10px;">@Localizer["Save to Excel Report"]</span></i>
+        </a>
+        <div page-model="@Model.PagingInfo" page-action="PagedList" page-classes-enabled="true" page-class="btn" page-class-normal="btn-secondary" page-class-selected="btn-primary" class="btn-group pull-right m-1" style="margin-top: 50px" page-url-StartSearchDate="@Model.StartSearchDate" page-url-EndSearchDate="@Model.EndSearchDate" page-url-Operations="(int)@Model.Operations" page-url-SelectedPageSize="@Model.SelectedPageSize"></div>
+    </div>
+</div>

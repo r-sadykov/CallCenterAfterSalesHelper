@@ -1,0 +1,114 @@
+[
+  {
+    "Key": "Enable authenticator",
+    "Value": {
+      "en-US": "Enable authenticator",
+      "de-DE": "Aktivieren Sie den Authentifikator",
+      "ru-RU": "Включить аутентификатор"
+    }
+  },
+  {
+    "Key": "To use an authenticator app go through the following steps:",
+    "Value": {
+      "en-US": "To use an authenticator app go through the following steps:",
+      "de-DE": "Führen Sie die folgenden Schritte aus, um eine Authentifizierungsanwendung zu verwenden:",
+      "ru-RU": "Чтобы использовать приложение-аутентификатор, выполните следующие действия:"
+    }
+  },
+  {
+    "Key": "Download a two-factor authenticator app like Microsoft Authenticator for",
+    "Value": {
+      "en-US": "Download a two-factor authenticator app like Microsoft Authenticator for",
+      "de-DE": "Laden Sie eine Zwei-Faktor-Authentifizierungs-App wie Microsoft Authenticator für herunter",
+      "ru-RU": "Загрузите двухфакторное аутентификационное приложение, такое как Microsoft Authenticator для"
+    }
+  },
+  {
+    "Key": "and",
+    "Value": {
+      "en-US": "and",
+      "de-DE": "und",
+      "ru-RU": "и"
+    }
+  },
+  {
+    "Key": "or",
+    "Value": {
+      "en-US": "or",
+      "de-DE": "oder",
+      "ru-RU": "или"
+    }
+  },
+  {
+    "Key": "for",
+    "Value": {
+      "en-US": "for",
+      "de-DE": "für",
+      "ru-RU": "для"
+    }
+  },
+  {
+    "Key": "Scan the QR Code or enter this key",
+    "Value": {
+      "en-US": "Scan the QR Code or enter this key",
+      "de-DE": "Scannen Sie den QR-Code oder geben Sie diesen Schlüssel ein",
+      "ru-RU": "Сканируйте QR-код или введите этот ключ"
+    }
+  },
+  {
+    "Key": "into your two factor authenticator app. Spaces and casing do not matter.",
+    "Value": {
+      "en-US": "into your two factor authenticator app. Spaces and casing do not matter.",
+      "de-DE": "in Ihre Zwei-Faktor-Authentifizierungs-App. Räume und Gehäuse spielen keine Rolle.",
+      "ru-RU": "в ваш двухфакторный аутентификатор. Пространства и корпус не имеют значения."
+    }
+  },
+  {
+    "Key": "To enable QR code generation please read our",
+    "Value": {
+      "en-US": "To enable QR code generation please read our",
+      "de-DE": "Um die QR-Code-Generierung zu ermöglichen, lesen Sie bitte unsere",
+      "ru-RU": "Чтобы включить генерацию QR-кода, пожалуйста, прочитайте нашу"
+    }
+  },
+  {
+    "Key": "documentation",
+    "Value": {
+      "en-US": "documentation",
+      "de-DE": "Dokumentation",
+      "ru-RU": "документацию"
+    }
+  },
+  {
+    "Key": "Once you have scanned the QR code or input the key above, your two factor authentication app will provide you",
+    "Value": {
+      "en-US": "Once you have scanned the QR code or input the key above, your two factor authentication app will provide you",
+      "de-DE": "Nachdem Sie den QR-Code gescannt oder den oben angegebenen Schlüssel eingegeben haben, erhalten Sie von Ihrer Zwei-Faktor-Authentifizierungs-App",
+      "ru-RU": "После того, как вы сканируете QR-код или введите ключ выше, ваше двухфакторное приложение проверки подлинности предоставит вам"
+    }
+  },
+  {
+    "Key": "with a unique code. Enter the code in the confirmation box below.",
+    "Value": {
+      "en-US": "with a unique code. Enter the code in the confirmation box below.",
+      "de-DE": "mit einem eindeutigen Code. Geben Sie den Code in das Bestätigungsfeld ein.",
+      "ru-RU": "с уникальным кодом. Введите код в поле подтверждения ниже."
+    }
+  },
+  {
+    "Key": "Verification Code",
+    "Value": {
+      "en-US": "Verification Code",
+      "de-DE": "Verifizierungs-Schlüssel",
+      "ru-RU": "Код подтверждения"
+    }
+  },
+  {
+    "Key": "Verify",
+    "Value": {
+      "en-US": "Verify",
+      "de-DE": "Überprüfen",
+      "ru-RU": "Проверить"
+    }
+  }
+]

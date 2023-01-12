@@ -1,0 +1,58 @@
+[
+  {
+    "Key": "Found",
+    "Value": {
+      "en-US": "Found",
+      "de-DE": "Gefunden",
+      "ru-RU": "Найдено"
+    }
+  },
+    {
+    "Key": "objects",
+    "Value": {
+      "en-US": "objects",
+      "de-DE": "Objekte",
+      "ru-RU": "объект(ы)"
+    }
+  },
+    {
+    "Key": "Do not found any entry!",
+    "Value": {
+      "en-US": "Do not found any entry!",
+      "de-DE": "Kein Eintrag gefunden!",
+      "ru-RU": "Не найдено ни одной записи!"
+    }
+  },
+    {
+    "Key": "Information saved",
+    "Value": {
+      "en-US": "Information saved",
+      "de-DE": "Informationen gespeichert",
+      "ru-RU": "Информация сохранена"
+    }
+  },
+    {
+    "Key": "Information failed to save",
+    "Value": {
+      "en-US": "Information failed to save",
+      "de-DE": "Informationen konnten nicht gespeichert werden",
+      "ru-RU": "Не удалось сохранить информацию"
+    }
+  },
+    {
+    "Key": "EMail to customer were sent successful",
+    "Value": {
+      "en-US": "EMail to customer were sent successful",
+      "de-DE": "EMail an Kunden wurde erfolgreich gesendet",
+      "ru-RU": "Письмо клиенту отправлено успешно"
+    }
+  },
+    {
+    "Key": "EMail to customer were not sended",
+    "Value": {
+      "en-US": "EMail to customer were not sended",
+      "de-DE": "E-Mail an Kunden wurde nicht gesendet",
+      "ru-RU": "Не было отправлено письмо клиенту"
+    }
+  }
+]

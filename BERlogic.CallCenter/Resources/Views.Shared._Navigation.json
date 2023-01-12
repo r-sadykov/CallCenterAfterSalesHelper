@@ -1,0 +1,194 @@
+[
+  {
+    "Key": "Dashboard",
+    "Value": {
+      "en-US": "Dashboard",
+      "de-DE": "Instrumententafel",
+      "ru-RU": "Доска"
+    }
+  },
+    {
+    "Key": "Sales Statistics",
+    "Value": {
+      "en-US": "Sales Statistics",
+      "de-DE": "Verkaufsstatistik",
+      "ru-RU": "Статистика продаж"
+    }
+  },
+    {
+    "Key": "FTC Manager",
+    "Value": {
+      "en-US": "FTC Manager",
+      "de-DE": "FTC Manager",
+      "ru-RU": "Менеджер FTC"
+    }
+  },
+    {
+    "Key": "Manualy",
+    "Value": {
+      "en-US": "Manualy",
+      "de-DE": "Manuell",
+      "ru-RU": "Вручную"
+    }
+  },
+    {
+    "Key": "Automated",
+    "Value": {
+      "en-US": "Automated",
+      "de-DE": "Automatisiert",
+      "ru-RU": "Автоматически"
+    }
+  },
+    {
+    "Key": "Passenger Management",
+    "Value": {
+      "en-US": "Passenger Management",
+      "de-DE": "Passagiermanagement",
+      "ru-RU": "Управление PNR"
+    }
+  },
+    {
+    "Key": "Main Info",
+    "Value": {
+      "en-US": "Main Info",
+      "de-DE": "Hauptinfo",
+      "ru-RU": "Основная информация"
+    }
+  },
+    {
+    "Key": "Rebooking",
+    "Value": {
+      "en-US": "Rebooking",
+      "de-DE": "Umbuchung",
+      "ru-RU": "Перебронирование"
+    }
+  },
+    {
+    "Key": "Cancellation",
+    "Value": {
+      "en-US": "Cancellation",
+      "de-DE": "Stornierung",
+      "ru-RU": "Отмена"
+    }
+  },
+    {
+    "Key": "Additional Luggage",
+    "Value": {
+      "en-US": "Additional Luggage",
+      "de-DE": "Zusätzliches Gepäck",
+      "ru-RU": "Дополнительный багаж"
+    }
+  },
+    {
+    "Key": "Operations Statistics",
+    "Value": {
+      "en-US": "Operations Statistics",
+      "de-DE": "Betriebsstatistik",
+      "ru-RU": "Статистика операций"
+    }
+  },
+    {
+    "Key": "GWI Receipts Clearance",
+    "Value": {
+      "en-US": "GWI Receipts Clearance",
+      "de-DE": "GWI-Quittungsfreigabe",
+      "ru-RU": "Очистка счетов GWI"
+    }
+  },
+    {
+    "Key": "Upload Files",
+    "Value": {
+      "en-US": "Upload Files",
+      "de-DE": "Daten hochladen",
+      "ru-RU": "Загрузить файлы"
+    }
+  },
+    {
+    "Key": "Web Scraping",
+    "Value": {
+      "en-US": "Web Scraping",
+      "de-DE": "Web Scraping",
+      "ru-RU": "Веб-Cкребок"
+    }
+  },
+    {
+    "Key": "Configuration",
+    "Value": {
+      "en-US": "Configuration",
+      "de-DE": "Konfiguration",
+      "ru-RU": "Конфигурация"
+    }
+  },
+    {
+    "Key": "Database",
+    "Value": {
+      "en-US": "Database",
+      "de-DE": "Datenbank",
+      "ru-RU": "База данных"
+    }
+  },
+    {
+    "Key": "Mail Server",
+    "Value": {
+      "en-US": "Mail Server",
+      "de-DE": "Mail-Server",
+      "ru-RU": "Почтовый сервер"
+    }
+  },
+    {
+    "Key": "Mail Client",
+    "Value": {
+      "en-US": "Mail Client",
+      "de-DE": "E-Mail-Client",
+      "ru-RU": "Почтовый клиент"
+    }
+  },
+    {
+    "Key": "Mail Filters",
+    "Value": {
+      "en-US": "Mail Filters",
+      "de-DE": "Mail-Filter",
+      "ru-RU": "Почтовые фильтры"
+    }
+  },
+    {
+    "Key": "Users",
+    "Value": {
+      "en-US": "Users",
+      "de-DE": "Benutzer",
+      "ru-RU": "Пользователи"
+    }
+  },
+    {
+    "Key": "Roles",
+    "Value": {
+      "en-US": "Roles",
+      "de-DE": "Rollen",
+      "ru-RU": "Роли"
+    }
+  },
+    {
+    "Key": "Users activity",
+    "Value": {
+      "en-US": "Users activity",
+      "de-DE": "Benutzeraktivität",
+      "ru-RU": "Активность пользователей"
+    }
+  },
+    {
+    "Key": "Administration",
+    "Value": {
+      "en-US": "Administration",
+      "de-DE": "Verwaltung",
+      "ru-RU": "Администрация"
+    }
+  },
+    {
+    "Key": "Parse PDF",
+    "Value": {
+      "en-US": "Parse PDF",
+      "de-DE": "PDF analysieren",
+      "ru-RU": "Разбор PDF"
+    }
+  }
+]

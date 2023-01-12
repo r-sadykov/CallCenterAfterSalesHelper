@@ -1,0 +1,18 @@
+[
+  {
+    "Key": "Manage your account",
+    "Value": {
+      "en-US": "Manage your account",
+      "de-DE": "Verwalte Dein Konto",
+      "ru-RU": "Управление учетной записью"
+    }
+  },
+    {
+    "Key": "Change your account settings",
+    "Value": {
+      "en-US": "Change your account settings",
+      "de-DE": "Ändern Sie Ihre Kontoeinstellungen",
+      "ru-RU": "Изменение настроек учетной записи"
+    }
+  }
+]

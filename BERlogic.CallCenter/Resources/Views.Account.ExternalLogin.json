@@ -1,0 +1,42 @@
+[
+  {
+    "Key": "Register",
+    "Value": {
+      "en-US": "Register",
+      "de-DE": "Registrieren",
+      "ru-RU": "Регистрация"
+    }
+  },
+    {
+    "Key": "Associate your",
+    "Value": {
+      "en-US": "Associate your",
+      "de-DE": "Verknüpfen Sie Ihre",
+      "ru-RU": "Свяжите свой"
+    }
+  },
+    {
+    "Key": "account.",
+    "Value": {
+      "en-US": "account.",
+      "de-DE": "Konto.",
+      "ru-RU": "учетную запись."
+    }
+  },
+    {
+    "Key": "You've successfully authenticated with",
+    "Value": {
+      "en-US": "You've successfully authenticated with",
+      "de-DE": "Sie haben sich erfolgreich authentifiziert",
+      "ru-RU": "Вы успешно прошли аутентификацию с помощью"
+    }
+  },
+    {
+    "Key": "Please enter an email address for this site below and click the Register button to finish logging in.",
+    "Value": {
+      "en-US": "Please enter an email address for this site below and click the Register button to finish logging in.",
+      "de-DE": "Bitte geben Sie unten eine E-Mail-Adresse für diese Seite ein und klicken Sie auf die Schaltfläche Registrieren, um die Anmeldung abzuschließen.",
+      "ru-RU": "Введите адрес электронной почты для этого сайта ниже и нажмите кнопку «Регистрация», чтобы завершить вход в систему."
+    }
+  }
+]

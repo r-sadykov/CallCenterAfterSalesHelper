@@ -1,0 +1,115 @@
+[
+  {
+    "Key": "Unable to load user with ID",
+    "Value": {
+      "en-US": "Unable to load user with ID",
+      "de-DE": "Benutzer mit ID kann nicht geladen werden",
+      "ru-RU": "Не удалось загрузить пользователя с идентификатором"
+    }
+  },{
+    "Key": "Unexpected error occurred setting email for user with ID",
+    "Value": {
+      "en-US": "Unexpected error occurred setting email for user with ID",
+      "de-DE": "Ein unerwarteter Fehler ist beim Einstellen der E-Mail für Benutzer mit ID aufgetreten",
+      "ru-RU": "Произошла непредвиденная ошибка при настройке электронной почты для пользователя с идентификатором"
+    }
+  },{
+    "Key": "Unexpected error occurred setting phone number for user with ID",
+    "Value": {
+      "en-US": "Unexpected error occurred setting phone number for user with ID",
+      "de-DE": "Unerwarteter Fehler beim Festlegen der Telefonnummer für Benutzer mit ID aufgetreten",
+      "ru-RU": "Произошла непредвиденная ошибка при установке номера телефона для пользователя с идентификатором"
+    }
+  },{
+    "Key": "Your profile has been updated",
+    "Value": {
+      "en-US": "Your profile has been updated",
+      "de-DE": "Ihr Profil wurde aktualisiert",
+      "ru-RU": "Ваш профиль был обновлен"
+    }
+  },{
+    "Key": "Verification email sent. Please check your email.",
+    "Value": {
+      "en-US": "Verification email sent. Please check your email.",
+      "de-DE": "Bestätigungs-E-Mail gesendet. Bitte überprüfen Sie Ihre E-Mail.",
+      "ru-RU": "Отправлено электронное письмо с подтверждением. Проверьте свою электронную почту."
+    }
+  },{
+    "Key": "Your password has been changed.",
+    "Value": {
+      "en-US": "Your password has been changed.",
+      "de-DE": "Ihr Passwort wurde geändert.",
+      "ru-RU": "Ваш пароль был изменен."
+    }
+  },{
+    "Key": "Your password has been set.",
+    "Value": {
+      "en-US": "Your password has been set.",
+      "de-DE": "Ihr Passwort wurde eingestellt.",
+      "ru-RU": "Ваш пароль установлен."
+    }
+  },{
+    "Key": "Unexpected error occurred loading external login info for user with ID",
+    "Value": {
+      "en-US": "Unexpected error occurred loading external login info for user with ID",
+      "de-DE": "Unerwarteter Fehler beim Laden der externen Anmeldeinformationen für Benutzer mit ID",
+      "ru-RU": "Неожиданная ошибка при загрузке внешней информации входа для пользователя с идентификатором"
+    }
+  },{
+    "Key": "Unexpected error occurred adding external login for user with ID",
+    "Value": {
+      "en-US": "Unexpected error occurred adding external login for user with ID",
+      "de-DE": "Unerwarteter Fehler beim Hinzufügen einer externen Anmeldung für Benutzer mit ID",
+      "ru-RU": "Неожиданная ошибка при добавлении внешнего входа для пользователя с идентификатором"
+    }
+  },{
+    "Key": "The external login was added.",
+    "Value": {
+      "en-US": "The external login was added.",
+      "de-DE": "Das externe Login wurde hinzugefügt.",
+      "ru-RU": "Добавлен внешний логин."
+    }
+  },{
+    "Key": "Unexpected error occurred removing external login for user with ID",
+    "Value": {
+      "en-US": "Unexpected error occurred removing external login for user with ID",
+      "de-DE": "Unerwarteter Fehler beim Entfernen der externen Anmeldung für Benutzer mit ID aufgetreten",
+      "ru-RU": "Произошла непредвиденная ошибка при удалении внешнего входа для пользователя с идентификатором"
+    }
+  },{
+    "Key": "The external login was removed.",
+    "Value": {
+      "en-US": "The external login was removed.",
+      "de-DE": "Das externe Login wurde entfernt.",
+      "ru-RU": "Внешний вход был удален."
+    }
+  },{
+    "Key": "Unexpected error occured disabling 2FA for user with ID",
+    "Value": {
+      "en-US": "Unexpected error occured disabling 2FA for user with ID",
+      "de-DE": "Unerwarteter Fehler beim Deaktivieren von 2FA für Benutzer mit ID",
+      "ru-RU": "Непредвиденная ошибка состояла в отключении 2FA для пользователя с идентификатором"
+    }
+  },{
+    "Key": "Verification code is invalid.",
+    "Value": {
+      "en-US": "Verification code is invalid.",
+      "de-DE": "Der Bestätigungscode ist ungültig.",
+      "ru-RU": "Недопустимый код подтверждения."
+    }
+  },{
+    "Key": "Cannot generate recovery codes for user with ID",
+    "Value": {
+      "en-US": "Cannot generate recovery codes for user with ID",
+      "de-DE": "Es können keine Wiederherstellungscodes für Benutzer mit ID generiert werden",
+      "ru-RU": "Не удается создать коды восстановления для пользователя с идентификатором"
+    }
+  },{
+    "Key": "as they do not have 2FA enabled.",
+    "Value": {
+      "en-US": "as they do not have 2FA enabled.",
+      "de-DE": "da sie nicht 2FA aktiviert haben.",
+      "ru-RU": "так как они не имеют разрешения 2FA."
+    }
+  }
+ ]

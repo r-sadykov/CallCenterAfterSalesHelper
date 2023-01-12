@@ -1,0 +1,74 @@
+[
+  {
+    "Key": "Login.Header",
+    "Value": {
+      "en-US": "BERlogic CallCenter Web Application",
+      "de-DE": "BERlogic CallCenter-Webanwendung",
+      "ru-RU": "Веб-приложение BERlogic CallCenter"
+    }
+  },
+    {
+    "Key": "Login.Moto",
+    "Value": {
+      "en-US": "Simplify the process is way of progress",
+      "de-DE": "Vereinfachen Sie den Prozess ist der Weg des Fortschritts",
+      "ru-RU": "Упрощение процесса - это путь прогресса"
+    }
+  },
+    {
+    "Key": "Login.SignIn",
+    "Value": {
+      "en-US": "Sign In",
+      "de-DE": "Einloggen",
+      "ru-RU": "Войти в систему"
+    }
+  },
+    {
+    "Key": "Login.Email",
+    "Value": {
+      "en-US": "E-mail",
+      "de-DE": "Email",
+      "ru-RU": "Эл. почта"
+    }
+  },
+    {
+    "Key": "Login.Email.HelpMessage",
+    "Value": {
+      "en-US": "Please enter email address/username",
+      "de-DE": "Bitte geben Sie die E-Mail-Adresse / den Benutzernamen ein",
+      "ru-RU": "Введите адрес электронной почты / имя пользователя"
+    }
+  },
+    {
+    "Key": "Login.Password",
+    "Value": {
+      "en-US": "Password",
+      "de-DE": "Kennwort",
+      "ru-RU": "Пароль"
+    }
+  },
+    {
+    "Key": "Login.Password.HelpMessage",
+    "Value": {
+      "en-US": "Enter your password",
+      "de-DE": "Gib dein Passwort ein",
+      "ru-RU": "Введите ваш пароль"
+    }
+  },
+    {
+    "Key": "Login.Password.Reminder",
+    "Value": {
+      "en-US": "Forgot password?",
+      "de-DE": "Passwort vergessen?",
+      "ru-RU": "Забыли пароль?"
+    }
+  },
+    {
+    "Key": "Login.StaySignIn",
+    "Value": {
+      "en-US": "Stay signed in",
+      "de-DE": "Bleiben Sie angemeldet",
+      "ru-RU": "Оставайтесь в системе"
+    }
+  }
+]

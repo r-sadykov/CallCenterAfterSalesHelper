@@ -1,0 +1,42 @@
+[
+  {
+    "Key": "Choose a file",
+    "Value": {
+      "en-US": "Choose a file",
+      "de-DE": "Wähle eine Datei",
+      "ru-RU": "Выберите файл"
+    }
+  },
+    {
+    "Key": "UPLOAD FILE(s)",
+    "Value": {
+      "en-US": "UPLOAD FILE(s)",
+      "de-DE": "Daten hochladen",
+      "ru-RU": "Загрузить файл(ы)"
+    }
+  },
+    {
+    "Key": "Log:",
+    "Value": {
+      "en-US": "Log:",
+      "de-DE": "Log:",
+      "ru-RU": "Журнал:"
+    }
+  },
+    {
+    "Key": "File Name",
+    "Value": {
+      "en-US": "File Name",
+      "de-DE": "Dateiname",
+      "ru-RU": "Имя файла"
+    }
+  },
+    {
+    "Key": "Upload Full Report",
+    "Value": {
+      "en-US": "Upload Full Report",
+      "de-DE": "Vollständigen Bericht hochladen",
+      "ru-RU": "Загрузить Полный Отчет"
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "Key": "Hello",
+    "Value": {
+      "en-US": "Hello",
+      "de-DE": "Hallo",
+      "ru-RU": "Привет"
+    }
+  },
+    {
+    "Key": "Log out",
+    "Value": {
+      "en-US": "Log out",
+      "de-DE": "Ausloggen",
+      "ru-RU": "Выйти"
+    }
+  },
+    {
+    "Key": "Register",
+    "Value": {
+      "en-US": "Register",
+      "de-DE": "Anmelden",
+      "ru-RU": "Регистрироваться"
+    }
+  },
+    {
+    "Key": "Log in",
+    "Value": {
+      "en-US": "Log in",
+      "de-DE": "Einloggen",
+      "ru-RU": "Авторизоваться"
+    }
+  }
+]

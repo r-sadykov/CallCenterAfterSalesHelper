@@ -1,0 +1,271 @@
+﻿@using System.Globalization
+@model BERlogic.CallCenter.Models.FullReport
+@inject IViewLocalizer Localizer
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <a asp-controller="PassengerMainInfo" asp-action="Index">
+        <i class="fa fa-backward fa-2x"></i><span style="font-size: 2em"> @Localizer["Back"]</span>
+    </a>
+<br/><br/>
+</div>
+<div class="col-sm-3 form-group-sm">
+    <h3>@Localizer["Booking Info"]</h3>
+<div>
+    <div>
+        <label class="label label-info form-control" asp-for="Status"></label>
+        @switch (Model.Status)
+        {
+            case "FINISHED":
+                <input type="text" class="input form-control" style="background-color: lawngreen" readonly="readonly" asp-for="Status" />
+                break;
+            case "CANCELLED":
+                <input type="text" class="input form-control" style="background-color: lightcoral" readonly="readonly" asp-for="Status" />
+                break;
+            case "ERROR":
+                <input type="text" class="input form-control" style="background-color: lightcoral" readonly="readonly" asp-for="Status" />
+                break;
+            case "PRICE_FIXED":
+                <input type="text" class="input form-control" style="background-color: lightsalmon" readonly="readonly" asp-for="Status" />
+                break;
+            case "REFUNDED":
+                <input type="text" class="input form-control" style="background-color: lightblue" readonly="readonly" asp-for="Status" />
+                break;
+            case "VOIDED":
+                <input type="text" class="input form-control" style="background-color: lightgray" readonly="readonly" asp-for="Status" />
+                break;
+        }
+    </div>
+    <div>
+        <label class="label label-info form-control" asp-for="BookingNumber"></label>
+        <input type="text" class="input form-control" readonly="readonly" asp-for="BookingNumber" />
+    </div>
+    <div>
+        <label class="label label-info form-control" asp-for="FirstGdsBookingNumber"></label>
+        <input type="text" class="input form-control" readonly="readonly" asp-for="FirstGdsBookingNumber"/>
+    </div>
+    <div>
+        <label class="label label-info form-control" asp-for="Gds"></label>
+        <input type="text" class="input form-control" readonly="readonly" asp-for="Gds" />
+    </div>
+    <div>
+        <label class="label label-info form-control" asp-for="Ticket"></label>
+        @{
+            var tickets = Model.Ticket.Split(',');
+            string ticketBuilder = "";
+            foreach (var ticket in tickets)
+            {
+                ticketBuilder += ticket + Environment.NewLine;
+            }
+        }
+        <textarea class="input form-control" readonly="readonly">@ticketBuilder</textarea>
+    </div>
+    <div>
+        <label class="label label-info form-control" asp-for="FirstAirline"></label>
+        <input type="text" class="input form-control" readonly="readonly" asp-for="FirstAirline"/>
+    </div>
+    <div>
+        <label class="label label-info form-control" asp-for="BookingDate"></label>
+        <input type="text" class="input form-control" readonly="readonly" value="@Model.BookingDate.ToString("R")"/>
+    </div>
+    <div>
+        <label class="label label-info form-control" asp-for="Agent"></label>
+        <input type="text" class="input form-control" readonly="readonly" asp-for="Agent"/>
+    </div>
+    <div>
+        <label class="label label-info form-control" asp-for="BookingClass"></label>
+        @{
+            var classes = Model.BookingClass.Split(',');
+            string classesBuilder = "";
+            foreach (var ticket in classes)
+            {
+                classesBuilder += ticket + Environment.NewLine;
+            }
+        }
+        <textarea class="input form-control" readonly="readonly">@classesBuilder</textarea>
+    </div>
+    <div>
+        <label class="label label-info form-control" asp-for="DepartureDate"></label>
+        <input type="text" class="input form-control" readonly="readonly" value="@Model.DepartureDate.ToString("R")"/>
+    </div>
+    <div>
+        <label class="label label-info form-control" asp-for="CustomerEmail"></label>
+        <input type="email" class="input form-control" readonly="readonly" asp-for="CustomerEmail"/>
+    </div>
+    <div>
+        <label class="label label-info form-control" asp-for="CustomerPhone"></label>
+        <input type="tel" class="input form-control" readonly="readonly" asp-for="CustomerPhone"/>
+    </div>
+    <div>
+        <label class="label label-info form-control" asp-for="CustomerFullName"></label>
+        <input type="text" class="input form-control" readonly="readonly" asp-for="CustomerFullName"/>
+    </div>
+</div>
+</div>
+    <div class="col-sm-3 form-group-sm">
+        <h3>@Localizer["System Information"]</h3>
+        <div>
+            <div>
+                <label class="label label-info form-control" asp-for="SystemAgency"></label>
+                <input type="text" class="input form-control" readonly="readonly" asp-for="SystemAgency"/>
+            </div>
+            <div>
+                <label class="label label-info form-control" asp-for="DatevAgencyAccount"></label>
+                <input type="text" class="input form-control" readonly="readonly" asp-for="DatevAgencyAccount"/>
+            </div>
+            <div>
+                <label class="label label-info form-control" asp-for="NumberOfSegments"></label>
+                <input type="text" class="input form-control" readonly="readonly" asp-for="NumberOfSegments"/>
+            </div>
+            <div>
+                <label class="label label-info form-control" asp-for="ClearingType"></label>
+                <input type="text" class="input form-control" readonly="readonly" asp-for="ClearingType"/>
+            </div>
+            <div>
+                <label class="label label-info form-control" asp-for="FirstGdsBookingAlias"></label>
+                <input type="text" class="input form-control" readonly="readonly" asp-for="FirstGdsBookingAlias"/>
+            </div>
+            <div>
+                <label class="label label-info form-control" asp-for="FirstRoute"></label>
+                @{
+                    var routes = Model.FirstRoute.Split(',');
+                    string routeBuilder = "";
+                    foreach (var route in routes)
+                    {
+                        routeBuilder += route + Environment.NewLine;
+                    }
+                }
+                <textarea class="input form-control" readonly="readonly">@routeBuilder</textarea>
+            </div>
+            <div>
+                <label class="label label-info form-control" asp-for="SalesPoint"></label>
+                <input type="text" class="input form-control" readonly="readonly" asp-for="SalesPoint"/>
+            </div>
+            <div>
+                <label class="label label-info form-control" asp-for="FareBasis"></label>
+                @{
+                    var fares = Model.FareBasis.Split(',');
+                    string faresBuilder = "";
+                    foreach (var ticket in fares)
+                    {
+                        faresBuilder += ticket + Environment.NewLine;
+                    }
+                }
+                <textarea class="input form-control" readonly="readonly">@faresBuilder</textarea>
+            </div>
+            <div>
+                <label class="label label-info form-control" asp-for="PaymentMethod"></label>
+                <input type="text" class="input form-control" readonly="readonly" asp-for="PaymentMethod"/>
+            </div>
+            <div>
+                <label class="label label-info form-control" asp-for="ReturnDate"></label>
+                <input type="text" class="input form-control" readonly="readonly" value="@Model.ReturnDate.ToString("R")"/>
+            </div>
+
+        </div>
+    </div>
+<div class="col-sm-3  form-group-sm">
+    <h3>@Localizer["Customer Information"]</h3>
+    <div>
+        <div>
+            <label class="label label-info form-control" asp-for="CustomerFirstName"></label>
+            <input type="text" class="input form-control" readonly="readonly" asp-for="CustomerFirstName" />
+        </div>
+        <div>
+            <label class="label label-info form-control" asp-for="CustomerLastName"></label>
+            <input type="text" class="input form-control" readonly="readonly" asp-for="CustomerLastName"/>
+        </div>
+        <div>
+            <label class="label label-info form-control" asp-for="CustomerGender"></label>
+            <input type="text" class="input form-control" readonly="readonly" asp-for="CustomerGender"/>
+        </div>
+
+        <div>
+            <label class="label label-info form-control" asp-for="PassengerNames"></label>
+            @{
+                var names = Model.PassengerNames.Split(',');
+                string builder = "";
+                foreach (var name in names)
+                {
+                    builder += name + Environment.NewLine;
+                }
+            }
+            <textarea class="input form-control" readonly="readonly">@builder</textarea>
+        </div>
+        <div>
+            <label class="label label-info form-control" asp-for="PassengerCount"></label>
+            <input type="text" class="input form-control" readonly="readonly" asp-for="PassengerCount"/>
+        </div>
+        <div>
+            <label class="label label-info form-control" asp-for="CustomerCountry"></label>
+            <input type="text" class="input form-control" readonly="readonly" asp-for="CustomerCountry"/>
+        </div>
+        <div>
+            <label class="label label-info form-control" asp-for="CustomerCity"></label>
+            <input type="text" class="input form-control" readonly="readonly" asp-for="CustomerCity"/>
+        </div>
+        <div>
+            <label class="label label-info form-control" asp-for="CustomerAddress"></label>
+            <input type="text" class="input form-control" readonly="readonly" asp-for="CustomerAddress"/>
+        </div>
+        <div>
+            <label class="label label-info form-control" asp-for="CardType"></label>
+            <input type="text" class="input form-control" readonly="readonly" asp-for="CardType"/>
+        </div>
+        <div>
+            <label class="label label-info form-control" asp-for="CardHolder"></label>
+            <input type="text" class="input form-control" readonly="readonly" asp-for="CardHolder"/>
+        </div>
+    </div>
+</div>
+<div class="col-sm-3 form-group-sm">
+    <h3>@Localizer["Finance Information"]</h3>
+    <div>
+        <div>
+            <label class="label label-info form-control" asp-for="TotalPrice"></label>
+            <input type="text" class="input form-control" readonly="readonly" value="@Model.TotalPrice.ToString("C",CultureInfo.CreateSpecificCulture("de-DE"))" />
+        </div>
+        <div>
+            <label class="label label-info form-control" asp-for="Tariff"></label>
+            <input type="text" class="input form-control" readonly="readonly" value="@Model.Tariff.ToString("C",CultureInfo.CreateSpecificCulture("de-DE"))" />
+        </div>
+        <div>
+            <label class="label label-info form-control" asp-for="Tax"></label>
+            <input type="text" class="input form-control" readonly="readonly" value="@Model.Tax.ToString("C",CultureInfo.CreateSpecificCulture("de-DE"))" />
+        </div>
+        <div>
+            <label class="label label-info form-control" asp-for="SellingCurrency"></label>
+            <input type="text" class="input form-control" readonly="readonly" asp-for="SellingCurrency" />
+        </div>
+        <div>
+            <label class="label label-info form-control" asp-for="ExchangeRateToEuro"></label>
+            <input type="text" class="input form-control" readonly="readonly" value="@Model.ExchangeRateToEuro.ToString("##.00 RUB")" />
+        </div>
+        <div>
+            <label class="label label-info form-control" asp-for="Commission"></label>
+            <input type="text" class="input form-control" readonly="readonly" asp-for="Commission" />
+        </div>
+        <div>
+            <label class="label label-info form-control" asp-for="FullScFlex"></label>
+            <input type="text" class="input form-control" readonly="readonly" value="@Model.FullScFlex.ToString("C",CultureInfo.CreateSpecificCulture("de-DE"))" />
+        </div>
+        <div>
+            <label class="label label-info form-control" asp-for="PartnerFixSc"></label>
+            <input type="text" class="input form-control" readonly="readonly" value="@Model.PartnerFixSc.ToString("C",CultureInfo.CreateSpecificCulture("de-DE"))" />
+        </div>
+        <div>
+            <label class="label label-info form-control" asp-for="PartnerPartScFlex"></label>
+            <input type="text" class="input form-control" readonly="readonly" value="@Model.PartnerPartScFlex.ToString("C",CultureInfo.CreateSpecificCulture("de-DE"))" />
+        </div>
+        <div>
+            <label class="label label-info form-control" asp-for="BloFixSc"></label>
+            <input type="text" class="input form-control" readonly="readonly" value="@Model.BloFixSc.ToString("C",CultureInfo.CreateSpecificCulture("de-DE"))" />
+        </div>
+        <div>
+            <label class="label label-info form-control" asp-for="BloPartScFlex"></label>
+            <input type="text" class="input form-control" readonly="readonly" value="@Model.BloPartScFlex.ToString("C",CultureInfo.CreateSpecificCulture("de-DE"))" />
+        </div>
+    </div>
+</div>

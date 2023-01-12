@@ -1,0 +1,26 @@
+[
+  {
+    "Key": "Found",
+    "Value": {
+      "en-US": "Found",
+      "de-DE": "Gefunden",
+      "ru-RU": "Найдено"
+    }
+  },
+    {
+    "Key": "objects",
+    "Value": {
+      "en-US": "objects",
+      "de-DE": "Objekte",
+      "ru-RU": "объекты"
+    }
+  },
+    {
+    "Key": "Do not found any entry!",
+    "Value": {
+      "en-US": "Do not found any entry!",
+      "de-DE": "Kein Eintrag gefunden!",
+      "ru-RU": "Не найдено ни одной записи!"
+    }
+  }
+]

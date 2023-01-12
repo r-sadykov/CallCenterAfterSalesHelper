@@ -1,0 +1,18 @@
+[
+  {
+    "Key": "Save",
+    "Value": {
+      "en-US": "Save",
+      "de-DE": "Speichern",
+      "ru-RU": "Сохранить"
+    }
+  },
+    {
+    "Key": "Create",
+    "Value": {
+      "en-US": "Create",
+      "de-DE": "Erstellen",
+      "ru-RU": "Создать"
+    }
+  }
+]

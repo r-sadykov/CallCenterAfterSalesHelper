@@ -1,0 +1,266 @@
+[
+  {
+    "Key": "Back",
+    "Value": {
+      "en-US": "Back",
+      "de-DE": "Zurück",
+      "ru-RU": "Назад"
+    }
+  },
+    {
+    "Key": "Kundencenter",
+    "Value": {
+      "en-US": "Customer center",
+      "de-DE": "Kundencenter",
+      "ru-RU": "Клиентский центр"
+    }
+  },
+    {
+    "Key": "BERlogic GmbH • Lankwitzer Str. 39 • 12107 Berlin",
+    "Value": {
+      "en-US": "BERlogic GmbH • Lankwitzer Str. 39 • 12107 Berlin",
+      "de-DE": "BERlogic GmbH • Lankwitzer Str. 39 • 12107 Berlin",
+      "ru-RU": "BERlogic GmbH • Lankwitzer Str. 39 • 12107 Берлин"
+    }
+  },
+    {
+    "Key": "Bitte wenden Sie sich mit allen Fragen jederzeit an:",
+    "Value": {
+      "en-US": "Please contact us with any questions at any time:",
+      "de-DE": "Bitte wenden Sie sich mit allen Fragen jederzeit an:",
+      "ru-RU": "Пожалуйста, свяжитесь с нами по любым вопросам в любое время:"
+    }
+  },
+    {
+    "Key": "Tel:",
+    "Value": {
+      "en-US": "Tel:",
+      "de-DE": "Tel:",
+      "ru-RU": "Тел:"
+    }
+  },
+      {
+    "Key": "Mo-Fr: 09:00 Uhr - 17:00 Uhr (CET)",
+    "Value": {
+      "en-US": "Mon-Fri: 09:00 - 17:00 (CET)",
+      "de-DE": "Mo-Fr: 09:00 Uhr - 17:00 Uhr (CET)",
+      "ru-RU": "Пн-Пт: 09:00 - 17:00 (CET):"
+    }
+  },
+      {
+    "Key": "EMail:",
+    "Value": {
+      "en-US": "E-mail:",
+      "de-DE": "EMail:",
+      "ru-RU": "Электронная почта:"
+    }
+  },
+      {
+    "Key": "Website:",
+    "Value": {
+      "en-US": "Website:",
+      "de-DE": "Website:",
+      "ru-RU": "Веб-сайт:"
+    }
+  },
+  {
+    "Key": "Kunde:",
+    "Value": {
+      "en-US": "Customer:",
+      "de-DE": "Kunde:",
+      "ru-RU": "Клиент:"
+    }
+  },
+  {
+    "Key": "Buchungscode:",
+    "Value": {
+      "en-US": "Booking code:",
+      "de-DE": "Buchungscode:",
+      "ru-RU": "Код бронирования:"
+    }
+  },
+  {
+    "Key": "E-mail:",
+    "Value": {
+      "en-US": "E-mail:",
+      "de-DE": "E-mail:",
+      "ru-RU": "Электронная почта:"
+    }
+  },
+  {
+    "Key": "Referenznummer:",
+    "Value": {
+      "en-US": "Reference number:",
+      "de-DE": "Referenznummer:",
+      "ru-RU": "Ссылочный номер:"
+    }
+  },
+  {
+    "Key": "Zahlungsart:",
+    "Value": {
+      "en-US": "Payment:",
+      "de-DE": "Zahlungsart:",
+      "ru-RU": "Оплата:"
+    }
+  },
+  {
+    "Key": "Stornodatum:",
+    "Value": {
+      "en-US": "Cancellation date:",
+      "de-DE": "Stornodatum:",
+      "ru-RU": "Дата отмены:"
+    }
+  },
+  {
+    "Key": "Stornobestätigung",
+    "Value": {
+      "en-US": "Cancellation confirmation",
+      "de-DE": "Stornobestätigung",
+      "ru-RU": "Подтверждение отмены"
+    }
+  },
+  {
+    "Key": "Datum",
+    "Value": {
+      "en-US": "Date",
+      "de-DE": "Datum",
+      "ru-RU": "Дата"
+    }
+  },
+  {
+    "Key": "Flug",
+    "Value": {
+      "en-US": "Flight",
+      "de-DE": "Flug",
+      "ru-RU": "Рейс"
+    }
+  },
+  {
+    "Key": "FlugNr.",
+    "Value": {
+      "en-US": "Flight number",
+      "de-DE": "FlugNr.",
+      "ru-RU": "Рейс №"
+    }
+  },
+  {
+    "Key": "Von",
+    "Value": {
+      "en-US": "From",
+      "de-DE": "Von",
+      "ru-RU": "Из"
+    }
+  },
+  {
+    "Key": "Abflug",
+    "Value": {
+      "en-US": "Departure",
+      "de-DE": "Abflug",
+      "ru-RU": "Отправление"
+    }
+  },
+  {
+    "Key": "Nach",
+    "Value": {
+      "en-US": "To",
+      "de-DE": "Nach",
+      "ru-RU": "В"
+    }
+  },
+    {
+    "Key": "Ortsankunft",
+    "Value": {
+      "en-US": "Arrival",
+      "de-DE": "Ortsankunft",
+      "ru-RU": "Прибытие"
+    }
+  },
+    {
+    "Key": "Gemäß der Ihnen bekannten Tarifbedingungen berechnen wir folgendes:",
+    "Value": {
+      "en-US": "According to the tariff conditions known to you, we calculate the following:",
+      "de-DE": "Gemäß der Ihnen bekannten Tarifbedingungen berechnen wir folgendes:",
+      "ru-RU": "В соответствии с известными вам тарифными условиями мы вычисляем следующее:"
+    }
+  },
+    {
+    "Key": "Flugpreis",
+    "Value": {
+      "en-US": "Airfare",
+      "de-DE": "Flugpreis",
+      "ru-RU": "Стоимость авиабилета"
+    }
+  },
+    {
+    "Key": "Passagier(e)",
+    "Value": {
+      "en-US": "Passenger(s)",
+      "de-DE": "Passagier(e)",
+      "ru-RU": "Пассажир(ы)"
+    }
+  },
+    {
+    "Key": "Flugpreis inkl. Gebühren:",
+    "Value": {
+      "en-US": "Airfare incl. Fees:",
+      "de-DE": "Flugpreis inkl. Gebühren:",
+      "ru-RU": "Стоимость авиабилетов, включая пошлины:"
+    }
+  },
+    {
+    "Key": "Nicht erstattbare Taxen:",
+    "Value": {
+      "en-US": "Non-refundable taxes:",
+      "de-DE": "Nicht erstattbare Taxen:",
+      "ru-RU": "Невозмещаемые налоги:"
+    }
+  },
+    {
+    "Key": "Zusatzleistung/Gepäck:",
+    "Value": {
+      "en-US": "Additional services/Baggage:",
+      "de-DE": "Zusatzleistung/Gepäck:",
+      "ru-RU": "Дополнительная услуга/Багаж:"
+    }
+  },
+      {
+    "Key": "Stornogebühren der Airline:",
+    "Value": {
+      "en-US": "Cancellation fees of the airline:",
+      "de-DE": "Stornogebühren der Airline:",
+      "ru-RU": "Сбор за Аннулирование от авиакомпании:"
+    }
+  },
+    {
+    "Key": "Bearbeitungsgebühren BERlogic:",
+    "Value": {
+      "en-US": "Processing fees BERlogic:",
+      "de-DE": "Bearbeitungsgebühren BERlogic:",
+      "ru-RU": "Плата за обработку данных BERlogic:"
+    }
+  },
+      {
+    "Key": "Bereits bezahlte Gebühren-BERlogic:",
+    "Value": {
+      "en-US": "Already paid fees BERlogic:",
+      "de-DE": "Bereits bezahlte Gebühren-BERlogic:",
+      "ru-RU": "Уже оплаченные сборы BERlogic:"
+    }
+  },
+    {
+    "Key": "Gutschrift:",
+    "Value": {
+      "en-US": "Credit:",
+      "de-DE": "Gutschrift:",
+      "ru-RU": "Кредит:"
+    }
+  },
+      {
+    "Key": "Save Cancellation",
+    "Value": {
+      "en-US": "Save Cancellation",
+      "de-DE": "Stornierung speichern",
+      "ru-RU": "Сохранить аннулирование"
+    }
+  }
+]

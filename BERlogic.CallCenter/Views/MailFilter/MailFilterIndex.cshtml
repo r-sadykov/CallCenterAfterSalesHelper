@@ -1,0 +1,46 @@
+﻿@model BERlogic.CallCenter.Models.MailFilter
+@inject IViewLocalizer Localizer
+@{
+    Layout = "_Layout";
+}
+
+<div>
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <form class="form" method="post">
+    
+        @if (Model != null && Model.MailFiltersId != 0) {
+            <div>
+                <input type="hidden" asp-for="MailFiltersId" />
+            </div>
+        }
+        
+        <div class="form-group" >
+            <label class="label label-default" asp-for="MailAddress" ></label>
+            <div>
+                <span asp-validation-for="MailAddress" class="text-danger" ></span>
+            </div>
+            <input class="form-control input bg-color-lighten text-align-left" type="text" asp-for="MailAddress" />
+        </div>
+        <div class="form-group" >
+            <label class="label label-default" asp-for="MailThemes" ></label>
+            <div>
+                <span asp-validation-for="MailThemes" class="text-danger" ></span>
+            </div>
+            <input class="form-control input bg-color-lighten text-align-left" type="text" asp-for="MailThemes" />
+        </div>
+        <br />
+        <div>
+            <table>
+                <tr>
+                <td colspan="2">
+                    @if (Model != null && Model.MailFiltersId != 0) {
+                        <button type="submit" class="btn btn-primary" asp-controller="MailFilter" asp-action="EditFilter" >@Localizer["Save"]</button>
+                    } else {
+                        <button type="submit" class="btn btn-primary" asp-controller="MailFilter" asp-action="CreateFilter" >@Localizer["Create"]</button>
+                    }
+                </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</div>

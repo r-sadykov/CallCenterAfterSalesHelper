@@ -1,0 +1,34 @@
+[
+  {
+    "Key": "Profile",
+    "Value": {
+      "en-US": "Profile",
+      "de-DE": "Profil",
+      "ru-RU": "Профиль"
+    }
+  },
+    {
+    "Key": "Password",
+    "Value": {
+      "en-US": "Password",
+      "de-DE": "Passwort",
+      "ru-RU": "Пароль"
+    }
+  },
+    {
+    "Key": "External logins",
+    "Value": {
+      "en-US": "External logins",
+      "de-DE": "Externe Anmeldungen",
+      "ru-RU": "Внешние логины"
+    }
+  },
+    {
+    "Key": "Two-factor authentication",
+    "Value": {
+      "en-US": "Two-factor authentication",
+      "de-DE": "Zwei-Faktor-Authentifizierung",
+      "ru-RU": "Двухфакторная аутентификация"
+    }
+  }
+]

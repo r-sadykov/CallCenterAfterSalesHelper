@@ -1,0 +1,100 @@
+﻿@model BERlogic.CallCenter.ViewModels.GetPassengerDataViewModel
+@inject IViewLocalizer Localizer
+
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <div class="row">
+        <h2 class="title page-title font-weight-bold Bold">@Localizer["Find passenger:"]</h2>
+        <hr />
+        @if (TempData["message"] != null)
+        {
+            <div class="alert alert-success">@TempData["message"]</div>
+        }
+        @if (TempData["testError"] != null)
+        {
+            <div class="alert alert-danger">@Html.Raw(TempData["testError"])</div>
+        }
+        <form class="form" method="post" asp-controller="PassengerCancellation" asp-action="Index">
+            <div asp-validation-summary="ModelOnly" class="validation-summary-errors alert alert-danger"></div>
+            <div class="col-sm-3">
+                <div class="form-group">
+                    <label class="label label-info form-control" asp-for="InputField"></label>
+                    <input class="input form-control" asp-for="InputField" type="text" placeholder="@Localizer["place object to find"]" />
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fa fa-search fa-2x"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="col-sm-3 form-check form-check-inline">
+                <label class="label label-info form-control">@Localizer["Search Criterias:"]</label><br />
+                @foreach (var item in Model.SearchCriterias)
+                {
+                    <input class="form-check-input radio-inline" asp-for="SelectedItem" value="@item.Key" type="radio" />
+                    <label class="form-check-label label label-primary" asp-for="@item.Value">@item.Value</label>
+                    <input asp-for="@item.Value" type="hidden" />
+                    <br />
+                }
+            </div>
+        </form>
+    </div>
+    @if (Model.PassengersData != null && Model.PassengersData.Any())
+    {
+        <div class="row">
+            <h2>@Localizer["Founded following objects:"]</h2>
+            <hr />
+            <table class="table table-condensed">
+                <thead>
+                    <tr>
+                        <td>#</td>
+                        <td>@Localizer["Booking Number"]</td>
+                        <td>@Localizer["PNR"]</td>
+                        <td>@Localizer["Booking Date"]</td>
+                        <td>@Localizer["Customer"]</td>
+                        <td>@Localizer["Passengers"]</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int i = 0; i < Model.PassengersData.Count(); i++)
+                    {
+                        <tr>
+                            <td>@(i + 1)</td>
+                            <td>@Model.PassengersData.ToList()[i].BookingNumber</td>
+                            <td>@Model.PassengersData.ToList()[i].FirstGdsBookingNumber</td>
+                            <td>@Model.PassengersData.ToList()[i].BookingDate.ToString("R")</td>
+                            <td>@Model.PassengersData.ToList()[i].CustomerFullName</td>
+                            <td>
+                                @{
+
+                                    var names = Model.PassengersData.ToList()[i].PassengerNames.Split(',');
+                                    foreach (string name in names)
+                                    {
+                                        <span>@name</span><br />
+                                    }
+
+                            }
+
+                        </td>
+                        <td>
+                            <input type="hidden" name="model" id="model" value="@Model.PassengersData.ToList()[i]" />
+                            <a class="btn-link" asp-controller="PassengerCancellation" asp-action="Cancelling" asp-route-id="@Model.PassengersData.ToList()[i].Id"><u>@Localizer["C"]</u>@Localizer["ancellation"]</a>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="7">
+                            <a class="btn btn-default" asp-controller="PassengerCancellation" asp-action="Index"><u>@Localizer["N"]</u>@Localizer["ew Search"]</a>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    }
+</div>

@@ -1,0 +1,18 @@
+[
+  {
+    "Key": "Locked out",
+    "Value": {
+      "en-US": "Locked out",
+      "de-DE": "Ausgeschlossen",
+      "ru-RU": "Закрыто"
+    }
+  },
+    {
+    "Key": "This account has been locked out, please try again later.",
+    "Value": {
+      "en-US": "This account has been locked out, please try again later.",
+      "de-DE": "Dieser Account wurde gesperrt. Bitte versuchen Sie es später erneut.",
+      "ru-RU": "Эта учетная запись заблокирована, повторите попытку позже."
+    }
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "Key": "Msgs",
+    "Value": {
+      "en-US": "Msgs",
+      "de-DE": "msgs",
+      "ru-RU": "сообщ"
+    }
+  },
+    {
+    "Key": "notify",
+    "Value": {
+      "en-US": "notify",
+      "de-DE": "benachrichtigen",
+      "ru-RU": "уведомл."
+    }
+  },
+    {
+    "Key": "Tasks",
+    "Value": {
+      "en-US": "Tasks",
+      "de-DE": "Aufgaben",
+      "ru-RU": "Задачи"
+    }
+  },
+    {
+    "Key": "Click a button to show messages here",
+    "Value": {
+      "en-US": "Click a button to show messages here",
+      "de-DE": "Klicken Sie auf eine Schaltfläche, um die Nachrichten hier anzuzeigen",
+      "ru-RU": "Нажмите кнопку, чтобы показать сообщения здесь."
+    }
+  },
+    {
+    "Key": "This blank page message helps protect your privacy, or you can show the first message here automatically.",
+    "Value": {
+      "en-US": "This blank page message helps protect your privacy, or you can show the first message here automatically.",
+      "de-DE": "Diese leere Seitennachricht hilft, Ihre Privatsphäre zu schützen, oder Sie können die erste Nachricht hier automatisch anzeigen.",
+      "ru-RU": "Это сообщение пустой страницы помогает защитить вашу конфиденциальность или вы можете показать первое сообщение здесь автоматически."
+    }
+  },
+    {
+    "Key": "Last updated on:",
+    "Value": {
+      "en-US": "Last updated on:",
+      "de-DE": "Zuletzt aktualisiert am:",
+      "ru-RU": "Последнее обновление:"
+    }
+  },
+    {
+    "Key": "Setting",
+    "Value": {
+      "en-US": "Setting",
+      "de-DE": "Einstellung",
+      "ru-RU": "Настройка"
+    }
+  },
+    {
+    "Key": "Profile",
+    "Value": {
+      "en-US": "Profile",
+      "de-DE": "Profil",
+      "ru-RU": "Профиль"
+    }
+  },
+    {
+    "Key": "Shortcut",
+    "Value": {
+      "en-US": "Shortcut",
+      "de-DE": "Abkürzung",
+      "ru-RU": "Shortcut"
+    }
+  },
+    {
+    "Key": "Full Screen",
+    "Value": {
+      "en-US": "Full Screen",
+      "de-DE": "Vollbildschirm",
+      "ru-RU": "Полноэкранный"
+    }
+  },
+    {
+    "Key": "Logout",
+    "Value": {
+      "en-US": "Logout",
+      "de-DE": "Ausloggen",
+      "ru-RU": "Выйти"
+    }
+  },
+    {
+    "Key": "You can improve your security further after logging out by closing this opened browser",
+    "Value": {
+      "en-US": "You can improve your security further after logging out by closing this opened browser",
+      "de-DE": "Sie können Ihre Sicherheit nach dem Abmelden weiter verbessern, indem Sie diesen geöffneten Browser schließen",
+      "ru-RU": "Вы можете улучшить свою безопасность после выхода из системы, закрыв этот открытый браузер"
+    }
+  },
+    {
+    "Key": "Find reports and more",
+    "Value": {
+      "en-US": "Find reports and more",
+      "de-DE": "Finden Sie Berichte und mehr",
+      "ru-RU": "Найти отчеты и многое другое"
+    }
+  },
+  {
+    "Key": "Loading...",
+    "Value": {
+      "en-US": "Loading...",
+      "de-DE": "Laden...",
+      "ru-RU": "Загрузка ..."
+    }
+  },
+  {
+    "Key": "Sign Out",
+    "Value": {
+      "en-US": "Sign Out",
+      "de-DE": "Ausloggen",
+      "ru-RU": "Выход"
+    }
+  },
+  {
+    "Key": "Collapse Menu",
+    "Value": {
+      "en-US": "Collapse Menu",
+      "de-DE": "Menü ausblenden",
+      "ru-RU": "Свернуть меню"
+    }
+  }
+]

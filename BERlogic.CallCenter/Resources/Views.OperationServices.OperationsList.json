@@ -1,0 +1,264 @@
+[
+  {
+    "Key": "Service Operations List:",
+    "Value": {
+      "en-US": "Service Operations List:",
+      "de-DE": "Service Operations List:",
+      "ru-RU": "Список служебных операций:"
+    }
+  },
+    {
+    "Key": "Accept Filter",
+    "Value": {
+      "en-US": "Accept Filter",
+      "de-DE": "Filter akzeptieren",
+      "ru-RU": "Принять фильтр"
+    }
+  },  {
+    "Key": "Ändrerungdatum",
+    "Value": {
+      "en-US": "Change date",
+      "de-DE": "Ändrerungsdatum",
+      "ru-RU": "Дата изменения"
+    }
+  },  {
+    "Key": "Referenznummer",
+    "Value": {
+      "en-US": "Reference",
+      "de-DE": "Referenznummer",
+      "ru-RU": "Ссылка"
+    }
+  },  {
+    "Key": "Buchungscode",
+    "Value": {
+      "en-US": "Hello",
+      "de-DE": "Buchungscode",
+      "ru-RU": "Привет"
+    }
+  },  {
+    "Key": "Buchungsdatum",
+    "Value": {
+      "en-US": "Booking code",
+      "de-DE": "Buchungsdatum",
+      "ru-RU": "код бронирования"
+    }
+  },  {
+    "Key": "Kunde",
+    "Value": {
+      "en-US": "customer",
+      "de-DE": "Kunde",
+      "ru-RU": "клиент"
+    }
+  },  {
+    "Key": "E-mail",
+    "Value": {
+      "en-US": "E-mail",
+      "de-DE": "E-mail",
+      "ru-RU": "Электронная почта"
+    }
+  },  {
+    "Key": "Zahlungsart",
+    "Value": {
+      "en-US": "Payment",
+      "de-DE": "Zahlungsart",
+      "ru-RU": "оплата"
+    }
+  },  {
+    "Key": "Art löschen",
+    "Value": {
+      "en-US": "Clear type",
+      "de-DE": "Art löschen",
+      "ru-RU": "Тип Оплаты"
+    }
+  },  {
+    "Key": "Agenturcode",
+    "Value": {
+      "en-US": "Agency code",
+      "de-DE": "Agenturcode",
+      "ru-RU": "код агентства"
+    }
+  },  {
+    "Key": "Agentenname",
+    "Value": {
+      "en-US": "agent name",
+      "de-DE": "Agentenname",
+      "ru-RU": "имя агента"
+    }
+  },  {
+    "Key": "Verkaufspunkt",
+    "Value": {
+      "en-US": "Salespoint",
+      "de-DE": "Verkaufspunkt",
+      "ru-RU": "точка продажи"
+    }
+  },  {
+    "Key": "Servicearbeiten",
+    "Value": {
+      "en-US": "service work",
+      "de-DE": "Servicearbeiten",
+      "ru-RU": "Операция"
+    }
+  },  {
+    "Key": "Flugroute",
+    "Value": {
+      "en-US": "air route",
+      "de-DE": "Flugroute",
+      "ru-RU": "Маршрут"
+    }
+  },  {
+    "Key": "Passagier(e)",
+    "Value": {
+      "en-US": "Passenger(s)",
+      "de-DE": "Passagier(e)",
+      "ru-RU": "Пассажир(ы)"
+    }
+  },  {
+    "Key": "Preisdifferenz",
+    "Value": {
+      "en-US": "price difference",
+      "de-DE": "Preisdifferenz",
+      "ru-RU": "разница в ценах"
+    }
+  },  {
+    "Key": "Umbuchungsgebühren",
+    "Value": {
+      "en-US": "change fees",
+      "de-DE": "Umbuchungsgebühren",
+      "ru-RU": "сборы за изменения"
+    }
+  },  {
+    "Key": "Zwischensumme Airline",
+    "Value": {
+      "en-US": "Subtotal Airline",
+      "de-DE": "Zwischensumme Airline",
+      "ru-RU": "Итого по авиакомпании"
+    }
+  },
+  {
+    "Key": "Bearbeitungsgebühren BERlogic",
+    "Value": {
+      "en-US": "Processing fees BERlogic",
+      "de-DE": "Bearbeitungsgebühren BERlogic",
+      "ru-RU": "Плата за обработку BERlogic"
+    }
+  },{
+    "Key": "Flugpreis inkl. Gebühren",
+    "Value": {
+      "en-US": "Airfare incl. Fees",
+      "de-DE": "Flugpreis inkl. Gebühren",
+      "ru-RU": "Стоимость авиабилета, включая сборы"
+    }
+  },{
+    "Key": "Nicht erstattbare Taxen",
+    "Value": {
+      "en-US": "Non-refundable taxes",
+      "de-DE": "Nicht erstattbare Taxen",
+      "ru-RU": "Невозвращаемые налоги"
+    }
+  },{
+    "Key": "Zusatzleistung/Gepäck",
+    "Value": {
+      "en-US": "Additional services/Luggage",
+      "de-DE": "Zusatzleistung/Gepäck",
+      "ru-RU": "Дополнительные услуги/Багаж"
+    }
+  },{
+    "Key": "Stornogebühren der Airline",
+    "Value": {
+      "en-US": "Cancellation fees of the airline",
+      "de-DE": "Stornogebühren der Airline",
+      "ru-RU": "Сбор за аннулирование авиакомпании"
+    }
+  },{
+    "Key": "Bereits bezahlte Gebühren-BERlogic",
+    "Value": {
+      "en-US": "Already paid fees BERlogic",
+      "de-DE": "Bereits bezahlte Gebühren-BERlogic",
+      "ru-RU": "Уже оплаченные сборы BERlogic"
+    }
+  },{
+    "Key": "Gutschrift",
+    "Value": {
+      "en-US": "Credit",
+      "de-DE": "Gutschrift",
+      "ru-RU": "кредит"
+    }
+  },{
+    "Key": "Rechnungsbetrag EURO",
+    "Value": {
+      "en-US": "Invoice amount EURO",
+      "de-DE": "Rechnungsbetrag EURO",
+      "ru-RU": "Сумма счета EURO"
+    }
+  },{
+    "Key": "Abflugdatum",
+    "Value": {
+      "en-US": "departure date",
+      "de-DE": "Abflugdatum",
+      "ru-RU": "дата отправления"
+    }
+  },{
+    "Key": "Flug",
+    "Value": {
+      "en-US": "flight",
+      "de-DE": "Flug",
+      "ru-RU": "рейс"
+    }
+  },{
+    "Key": "Flugnr.",
+    "Value": {
+      "en-US": "Flight number",
+      "de-DE": "Flugnr.",
+      "ru-RU": "Рейс №"
+    }
+  },{
+    "Key": "Von",
+    "Value": {
+      "en-US": "From",
+      "de-DE": "Von",
+      "ru-RU": "из"
+    }
+  },{
+    "Key": "Nach",
+    "Value": {
+      "en-US": "To",
+      "de-DE": "Nach",
+      "ru-RU": "В"
+    }
+  },{
+    "Key": "Ankuftzeit",
+    "Value": {
+      "en-US": "arrival time",
+      "de-DE": "Ankuftzeit",
+      "ru-RU": "время прибытия"
+    }
+  },{
+    "Key": "Passagier(e) Name:",
+    "Value": {
+      "en-US": "Passenger(s) name:",
+      "de-DE": "Passagier(e) Name:",
+      "ru-RU": "Имя пассажира(ов):"
+    }
+  },{
+    "Key": "Gebühr:",
+    "Value": {
+      "en-US": "Fee:",
+      "de-DE": "Gebühr:",
+      "ru-RU": "плата:"
+    }
+  },{
+    "Key": "Delete",
+    "Value": {
+      "en-US": "Delete",
+      "de-DE": "Löschen",
+      "ru-RU": "удалить"
+    }
+  },{
+    "Key": "Save to Excel Report",
+    "Value": {
+      "en-US": "Save to Excel Report",
+      "de-DE": "In Excel-Bericht speichern",
+      "ru-RU": "Сохранить в отчете Excel"
+    }
+  }
+]
